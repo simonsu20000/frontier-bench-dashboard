@@ -1,0 +1,289 @@
+# Benchmark catalog. Featured benchmarks are curated here; every other Epoch
+# benchmark is added automatically (category from epoch_overrides, else "other").
+#
+# unit: pct (0-100) | elo | hours | score (raw, benchmark-specific)
+# epoch.scale: multiplier that maps the raw Epoch value to a 0-1 fraction (pct)
+#              or to the display unit (hours/elo/score). Defaults to Epoch's
+#              benchmark_metadata.scale, then auto-detection.
+
+categories:
+  reasoning:   {en: "Reasoning & Knowledge", zh: "推理与知识"}
+  math:        {en: "Mathematics",           zh: "数学"}
+  coding:      {en: "Coding",                zh: "编程"}
+  agentic:     {en: "Agentic & Long-horizon",zh: "智能体与长程任务"}
+  abstraction: {en: "Abstract Reasoning",    zh: "抽象推理"}
+  arena:       {en: "Human Preference Arena",zh: "人类偏好竞技场"}
+  general:     {en: "General / Mixed",       zh: "综合"}
+  multimodal:  {en: "Multimodal",            zh: "多模态"}
+  safety:      {en: "Security & Forecasting",zh: "安全与预测"}
+  legacy:      {en: "Legacy (saturated)",    zh: "经典（已饱和）"}
+  other:       {en: "Other",                 zh: "其他"}
+
+# Non-featured benchmarks worth promoting once they have enough frontier coverage.
+candidates: [arc-agi-3, webdev-arena, osworld-2, frontiercode, frontierswe, gdpval, vending-bench-2]
+
+benchmarks:
+  # ---------------- Reasoning & knowledge ----------------
+  - id: gpqa-diamond
+    name: GPQA Diamond
+    name_zh: GPQA Diamond
+    category: reasoning
+    unit: pct
+    featured: true
+    official_url: https://github.com/idavidrein/gpqa
+    epoch: {file: gpqa_diamond.csv, url: https://epoch.ai/benchmarks/gpqa-diamond}
+    description_en: 198 graduate-level, expert-written science questions that are "Google-proof". Independently re-run by Epoch AI.
+    description_zh: 198 道由领域专家编写、"搜索也难答"的研究生水平科学题，由 Epoch AI 独立复测。
+  - id: hle
+    name: Humanity's Last Exam
+    name_zh: Humanity's Last Exam
+    category: reasoning
+    unit: pct
+    featured: true
+    official_url: https://lastexam.ai/
+    epoch: {file: hle_external.csv, url: https://epoch.ai/benchmarks/hle}
+    description_en: 2,500 expert-written frontier questions across 100+ subjects (CAIS & Scale AI). Text-only accuracy.
+    description_zh: 由 CAIS 与 Scale AI 组织、覆盖 100+ 学科的 2,500 道专家级前沿题目，取纯文本准确率。
+  - id: simpleqa-verified
+    name: SimpleQA Verified
+    name_zh: SimpleQA Verified
+    category: reasoning
+    unit: pct
+    featured: true
+    official_url: https://www.kaggle.com/benchmarks/deepmind/simpleqa-verified
+    epoch: {file: simpleqa_verified.csv}
+    description_en: 1,000 verified short-answer factuality questions; measures parametric knowledge without tools. Re-run by Epoch AI.
+    description_zh: 1,000 道经核验的短答事实性问题，衡量无工具时的参数化知识，由 Epoch AI 复测。
+
+  # ---------------- Math ----------------
+  - id: frontiermath-tiers-1-3
+    name: FrontierMath (Tiers 1-3)
+    name_zh: FrontierMath（1-3 级）
+    category: math
+    unit: pct
+    featured: true
+    official_url: https://epoch.ai/frontiermath
+    epoch: {file: frontiermath_tiers_1_3_v2.csv}
+    description_en: Unpublished research-level math problems, tiers 1-3 (v2 private set). Run by Epoch AI.
+    description_zh: 未公开的研究级数学题（1-3 级，v2 私有集），由 Epoch AI 运行。
+  - id: frontiermath-tier-4
+    name: FrontierMath Tier 4
+    name_zh: FrontierMath 4 级
+    category: math
+    unit: pct
+    featured: true
+    official_url: https://epoch.ai/frontiermath
+    epoch: {file: frontiermath_tier_4_v2.csv}
+    description_en: The hardest FrontierMath tier - problems that take expert mathematicians days (v2). Run by Epoch AI.
+    description_zh: FrontierMath 最难的一级，专业数学家也需数天才能解出（v2），由 Epoch AI 运行。
+  - id: otis-mock-aime
+    name: OTIS Mock AIME 2024-2025
+    name_zh: OTIS 模拟 AIME 2024-2025
+    category: math
+    unit: pct
+    featured: true
+    official_url: https://epoch.ai/benchmarks/otis-mock-aime-2024-2025
+    epoch: {file: otis_mock_aime_2024_2025.csv, url: https://epoch.ai/benchmarks/otis-mock-aime-2024-2025}
+    description_en: Mock AIME competition problems from OTIS; a contamination-resistant stand-in for AIME. Run by Epoch AI.
+    description_zh: OTIS 出品的模拟 AIME 竞赛题，可抵抗数据污染的 AIME 替代，由 Epoch AI 运行。
+
+  # ---------------- Coding ----------------
+  - id: swe-bench-verified
+    name: SWE-bench Verified
+    name_zh: SWE-bench Verified
+    category: coding
+    unit: pct
+    featured: true
+    official_url: https://www.swebench.com/
+    epoch: {file: swe_bench_verified.csv, url: https://epoch.ai/benchmarks/swe-bench-verified}
+    description_en: 500 human-validated real GitHub issues. Epoch's fixed-scaffold run is authoritative; official leaderboard entries (any scaffold) shown as alternates.
+    description_zh: 500 个经人工核验的真实 GitHub issue。以 Epoch 固定脚手架复测为准，官方榜单（任意脚手架）作为备选记录展示。
+  - id: aider-polyglot
+    name: Aider Polyglot
+    name_zh: Aider Polyglot
+    category: coding
+    unit: pct
+    featured: true
+    official_url: https://aider.chat/docs/leaderboards/
+    epoch: {file: aider_polyglot_external.csv}
+    description_en: 225 hard Exercism problems in 6 languages solved through the aider coding agent (pass rate after two attempts).
+    description_zh: 通过 aider 编程助手解 6 种语言的 225 道高难 Exercism 题（两次尝试后的通过率）。
+  - id: livebench
+    name: LiveBench
+    name_zh: LiveBench
+    category: general
+    unit: pct
+    featured: true
+    official_url: https://livebench.ai/
+    epoch: {file: live_bench_external.csv, scale: 0.01}
+    description_en: Contamination-limited benchmark refreshed monthly; global average over reasoning, coding, math, data analysis, language and IF.
+    description_zh: 每月更新、限制数据污染的综合基准；取推理、编程、数学、数据分析、语言、指令遵循的全局平均。
+
+  # ---------------- Agentic / long-horizon ----------------
+  - id: terminal-bench
+    name: Terminal-Bench 2.0
+    name_zh: Terminal-Bench 2.0
+    category: agentic
+    unit: pct
+    featured: true
+    official_url: https://www.tbench.ai/leaderboard
+    epoch: {file: terminalbench_external.csv, url: https://epoch.ai/benchmarks/terminal-bench}
+    description_en: Hard end-to-end tasks in a real terminal; scores depend on the agent harness (shown as scaffold).
+    description_zh: 在真实终端中完成的高难端到端任务；分数与智能体框架相关（以 scaffold 标注）。
+  - id: metr-time-horizon
+    name: METR 50% Time Horizon
+    name_zh: METR 50% 任务时长
+    category: agentic
+    unit: hours
+    featured: true
+    official_url: https://metr.org/time-horizons/
+    epoch: {file: metr_time_horizons_external.csv, score_column: "Time horizon", scale: 0.0166666667, url: https://epoch.ai/benchmarks/metr-time-horizons}
+    description_en: Length (in human-expert hours) of software tasks a model completes with 50% success, from METR's evaluations.
+    description_zh: METR 评测得出的、模型有 50% 成功率完成的软件任务长度（以人类专家小时计）。
+  - id: osworld
+    name: OSWorld-Verified
+    name_zh: OSWorld-Verified
+    category: agentic
+    unit: pct
+    featured: true
+    official_url: https://os-world.github.io/
+    epoch: {file: os_world_external.csv, scale: 0.01}
+    description_en: 369 real computer-use tasks on Ubuntu/Windows/macOS; success rate of the best published agent configuration.
+    description_zh: 369 个跨 Ubuntu/Windows/macOS 的真实电脑操作任务，取最佳公开智能体配置的成功率。
+
+  # ---------------- Abstract reasoning ----------------
+  - id: arc-agi-2
+    name: ARC-AGI-2
+    name_zh: ARC-AGI-2
+    category: abstraction
+    unit: pct
+    featured: true
+    official_url: https://arcprize.org/leaderboard
+    epoch: {file: arc_agi_2_external.csv, url: https://epoch.ai/benchmarks/arc-agi-2}
+    description_en: Novel abstract visual puzzles (semi-private eval set) from the ARC Prize Foundation; verified results only.
+    description_zh: ARC Prize 基金会的全新抽象视觉谜题（半私有评测集），只收录经官方验证的结果。
+
+  # ---------------- Arena ----------------
+  - id: lmarena-text
+    name: LMArena Text (style control)
+    name_zh: LMArena 文本榜（风格控制）
+    category: arena
+    unit: elo
+    featured: true
+    official_url: https://lmarena.ai/leaderboard/text
+    description_en: Crowd-sourced blind pairwise votes converted to an Arena score (Bradley-Terry), with style control.
+    description_zh: 众包盲测两两对比投票折算的 Arena 分数（Bradley-Terry），启用风格控制。
+
+  # ---------------- Non-featured, curated ----------------
+  - id: arc-agi-1
+    name: ARC-AGI-1
+    name_zh: ARC-AGI-1
+    category: abstraction
+    official_url: https://arcprize.org/leaderboard
+    epoch: {file: arc_agi_external.csv}
+  - id: arc-agi-3
+    name: ARC-AGI-3
+    name_zh: ARC-AGI-3
+    category: abstraction
+    official_url: https://arcprize.org/leaderboard
+  - id: webdev-arena
+    name: WebDev Arena
+    name_zh: WebDev Arena
+    category: arena
+    unit: elo
+    official_url: https://lmarena.ai/leaderboard/webdev
+    epoch: {file: webdev_arena_external.csv, scale: 1.0}
+  - id: osworld-2
+    name: OSWorld 2.0
+    name_zh: OSWorld 2.0
+    category: agentic
+    official_url: https://osworld-v2.xlang.ai/
+    epoch: {file: osworld_2_external.csv}
+  - id: frontiercode
+    name: FrontierCode
+    name_zh: FrontierCode
+    category: coding
+    epoch: {file: frontiercode_external.csv}
+  - id: frontierswe
+    name: FrontierSWE
+    name_zh: FrontierSWE
+    category: coding
+    epoch: {file: frontierswe_external.csv, score_column: Score}
+  - id: deepswe
+    name: DeepSWE
+    name_zh: DeepSWE
+    category: coding
+    epoch: {file: deepswe_external.csv}
+  - id: gdpval
+    name: GDPval
+    name_zh: GDPval
+    category: agentic
+    epoch: {file: gdpval_external.csv}
+  - id: vending-bench-2
+    name: Vending-Bench 2
+    name_zh: Vending-Bench 2
+    category: agentic
+    unit: score
+    epoch: {file: vending_bench_2_external.csv, scale: 1.0}
+    description_en: Final bank balance (USD) after running a simulated vending business for a year.
+    description_zh: 经营模拟自动售货生意一年后的最终账户余额（美元）。
+
+# Category / unit assignments for Epoch benchmarks without a curated entry above.
+epoch_overrides:
+  "MATH level 5":           {category: math}
+  "FrontierMath-Erdos":     {category: math}
+  "ProofBench":             {category: math}
+  "Chess Puzzles":          {category: reasoning}
+  "Mystery Game Puzzles":   {category: reasoning}
+  "EBR-bench":              {category: reasoning}
+  "SimpleBench":            {category: reasoning}
+  "WeirdML":                {category: coding}
+  "SciCode":                {category: coding}
+  "MirrorCode":             {category: coding}
+  "CursorBench":            {category: coding}
+  "GSO-Bench":              {category: coding}
+  "AlgoTune":               {category: coding, unit: score}
+  "ALE-Bench":              {category: coding, unit: score}
+  "PostTrainBench":         {category: coding}
+  "APEX-Agents":            {category: agentic}
+  "The Agent Company":      {category: agentic}
+  "Remote Labor Index":     {category: agentic}
+  "GDP.pdf":                {category: agentic}
+  "DeepResearch Bench":     {category: agentic}
+  "Balrog":                 {category: agentic}
+  "Cybench":                {category: safety}
+  "ExploitBench":           {category: safety}
+  "ForecastBench":          {category: safety}
+  "BTF-3":                  {category: safety}
+  "CritPt":                 {category: reasoning}
+  "DTBench":                {category: reasoning}
+  "CL-bench":               {category: reasoning}
+  "CL-bench Life":          {category: reasoning}
+  "LMCA":                   {category: reasoning}
+  "Lech Mazur Writing":     {category: general}
+  "Fiction.LiveBench":      {category: general}
+  "Surface Evolver Bench":  {category: reasoning}
+  "Blueprint-Bench 2":      {category: multimodal}
+  "MindCube":               {category: multimodal}
+  "SpatialViz-Bench":       {category: multimodal}
+  "EnigmaEval":             {category: multimodal}
+  "GeoBench":               {category: multimodal}
+  "VideoMME":               {category: multimodal}
+  "VPCT":                   {category: multimodal}
+  "CadEval":                {category: multimodal}
+  "GBAEval":                {category: agentic}
+  "MMLU":                   {category: legacy}
+  "GSM8K":                  {category: legacy}
+  "BBH":                    {category: legacy}
+  "HellaSwag":              {category: legacy}
+  "Winogrande":             {category: legacy}
+  "PIQA":                   {category: legacy}
+  "BoolQ":                  {category: legacy}
+  "CSQA2":                  {category: legacy}
+  "OpenBookQA":             {category: legacy}
+  "ScienceQA":              {category: legacy}
+  "TriviaQA":               {category: legacy}
+  "LAMBADA":                {category: legacy}
+  "SuperGLUE":              {category: legacy}
+  "ANLI":                   {category: legacy}
+  "ARC AI2":                {category: legacy}

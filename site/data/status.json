@@ -1,0 +1,127 @@
+{
+ "generated_at": "2026-09-15T09:16:22Z",
+ "sources": [
+  {
+   "id": "epoch",
+   "name": "Epoch AI Benchmarking Hub",
+   "url": "https://epoch.ai/benchmarks",
+   "license": "CC BY 4.0",
+   "status": "ok",
+   "fetched_at": "2026-09-15T09:16:11Z",
+   "upstream_updated_at": "2026-09-15",
+   "records": 6168,
+   "consecutive_failures": 0,
+   "error": "",
+   "stale": false,
+   "stale_after_days": 10,
+   "not_modified": false
+  },
+  {
+   "id": "lmarena",
+   "name": "LMArena Text Arena",
+   "url": "https://lmarena.ai/leaderboard/text",
+   "license": "CC BY 4.0",
+   "status": "ok",
+   "fetched_at": "2026-09-15T09:16:13Z",
+   "upstream_updated_at": "2026-09-13",
+   "records": 402,
+   "consecutive_failures": 0,
+   "error": "",
+   "stale": false,
+   "stale_after_days": 7,
+   "not_modified": false
+  },
+  {
+   "id": "swebench",
+   "name": "SWE-bench leaderboard",
+   "url": "https://www.swebench.com/",
+   "license": "CC BY-NC 4.0",
+   "status": "ok",
+   "fetched_at": "2026-09-15T09:16:17Z",
+   "upstream_updated_at": "2026-02-26",
+   "records": 180,
+   "consecutive_failures": 0,
+   "error": "",
+   "stale": true,
+   "stale_after_days": 60,
+   "not_modified": false
+  },
+  {
+   "id": "arcprize",
+   "name": "ARC Prize leaderboard",
+   "url": "https://arcprize.org/leaderboard",
+   "license": "ARC Prize Foundation (attribution)",
+   "status": "ok",
+   "fetched_at": "2026-09-15T09:16:20Z",
+   "upstream_updated_at": "2026-09-04",
+   "records": 484,
+   "consecutive_failures": 0,
+   "error": "",
+   "stale": false,
+   "stale_after_days": 60,
+   "not_modified": false
+  },
+  {
+   "id": "livebench",
+   "name": "LiveBench leaderboard",
+   "url": "https://livebench.ai/",
+   "license": "LiveBench (attribution)",
+   "status": "ok",
+   "fetched_at": "2026-09-15T09:16:21Z",
+   "upstream_updated_at": "2026-06-25",
+   "records": 57,
+   "consecutive_failures": 0,
+   "error": "",
+   "stale": false,
+   "stale_after_days": 120,
+   "not_modified": false
+  },
+  {
+   "id": "aider",
+   "name": "Aider polyglot leaderboard",
+   "url": "https://aider.chat/docs/leaderboards/",
+   "license": "Apache-2.0 (aider repo)",
+   "status": "ok",
+   "fetched_at": "2026-09-15T09:16:22Z",
+   "upstream_updated_at": "2025-10-03",
+   "records": 69,
+   "consecutive_failures": 0,
+   "error": "",
+   "stale": true,
+   "stale_after_days": 120,
+   "not_modified": false
+  }
+ ],
+ "build": {
+  "records_in": 7360,
+  "kept": 6281,
+  "dropped": {
+   "vendor_reported": 905,
+   "superseded": 173,
+   "unclassified": 1
+  },
+  "provenance_counts": {
+   "vendor_reported": 905,
+   "third_party": 972,
+   "official_leaderboard": 3932,
+   "epoch_run": 1377,
+   "unclassified": 1
+  },
+  "unmatched_models": 199,
+  "ambiguous_models": 12,
+  "unknown_domains": 1
+ },
+ "http_log": [
+  "200 https://epoch.ai/data/benchmark_data.zip (2292859 bytes)",
+  "200 https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset/resolve/main/text_style_control/latest-00000-of-00001.parquet (589253 bytes)",
+  "200 https://raw.githubusercontent.com/swe-bench/swe-bench.github.io/master/data/leaderboards.json (4091442 bytes)",
+  "200 https://arcprize.org/media/data/leaderboard/v1.json (121488 bytes)",
+  "200 https://arcprize.org/media/data/leaderboard/v2.json (122928 bytes)",
+  "200 https://arcprize.org/media/data/leaderboard/v3.json (21914 bytes)",
+  "200 https://arcprize.org/media/data/models.json (114533 bytes)",
+  "200 https://api.github.com/repos/LiveBench/livebench.github.io/contents/public (27055 bytes)",
+  "200 https://livebench.ai/table_2026_06_25.csv (9577 bytes)",
+  "200 https://livebench.ai/categories_2026_06_25.json (725 bytes)",
+  "200 https://raw.githubusercontent.com/Aider-AI/aider/main/aider/website/_data/polyglot_leaderboard.yml (45725 bytes)"
+ ]
+}

@@ -1,0 +1,101 @@
+# Cross-source model aliases. Keys are either "<source_id>:<raw name>" (exact
+# spelling as the source uses it) or a bare raw name that applies to every
+# source. Values are canonical model ids (slug of Epoch's model_group).
+#
+# Only exact/alias matches are ever used. Fuzzy suggestions are written to
+# data/unmatched_report.json for a human to promote into this file.
+# Unknown targets are ignored (the name then goes through normal matching).
+aliases:
+  # ---- DeepSeek ----
+  "DeepSeek V3.2": deepseek-v3-2
+  "Deepseek V3.2": deepseek-v3-2
+  "deepseek-v3.2": deepseek-v3-2
+  "DeepSeek V3.2 Reasoner": deepseek-v3-2
+  "deepseek-v3.2-exp": deepseek-v3-2-exp
+  "DeepSeek-V3.2-Exp (Chat)": deepseek-v3-2-exp
+  "DeepSeek-V3.2-Exp (Reasoner)": deepseek-v3-2-exp
+  "DeepSeek R1": deepseek-r1
+  "Deepseek R1": deepseek-r1
+  "deepseek-r1": deepseek-r1
+  "DeepSeek R1 (0528)": deepseek-r1-may-2025
+  "Deepseek R1 (05/28)": deepseek-r1-may-2025
+  "DeepSeek V3 (0324)": deepseek-v3-mar-2025
+  "DeepSeek Chat V3 (prev)": deepseek-v3
+  "deepseek-v3": deepseek-v3
+  "DeepSeek Chat V2.5": deepseek-v2-5-sep-2024
+  "deepseek-v2.5": deepseek-v2-5-sep-2024
+  "deepseek-v4-pro-high-20260813": deepseek-v4-pro-0813
+  "deepseek-v4-pro-high-preview": deepseek-v4-pro
+  "deepseek-v4-flash-high-preview": deepseek-v4-flash
+  # ---- Moonshot ----
+  "Kimi K2": kimi-k2-jul-2025
+  "Kimi K2 Instruct": kimi-k2-jul-2025
+  "kimi-k2-0905-preview": kimi-k2-sep-2025
+  # ---- Z.ai ----
+  "GLM-4.5": glm-4-5
+  "GLM 4.5": glm-4-5
+  "glm-4.5": glm-4-5
+  "glm-4.7-flash": glm-4-7-flash
+  "glm-4.7-flash_none": glm-4-7-flash
+  # ---- OpenAI ----
+  "GPT 5.1 Codex": gpt-5-1-codex
+  "chatgpt-4o-latest-20250326": gpt-4o-mar-2025
+  "chatgpt-4o-latest (2025-03-29)": gpt-4o-mar-2025
+  "chatgpt-4o-latest (2025-02-15)": gpt-4o-jan-2025
+  "arcprize:GPT-6 Astra - Provider Adapter (High)": gpt-6-astra
+  "arcprize:GPT-6 Astra - Provider Adapter (Max)": gpt-6-astra
+  "arcprize:GPT-6 Astra - Provider Adapter (XHigh)": gpt-6-astra
+  "arcprize:GPT-6 Astra - Provider Adapter (Medium)": gpt-6-astra
+  "arcprize:GPT-6 Astra - Provider Adapter (Low)": gpt-6-astra
+  "arcprize:GPT-6 Astra - Provider Adapter (None)": gpt-6-astra
+  # ---- Anthropic ----
+  "swebench:Claude 3.5 Sonnet": claude-3-5-sonnet-october-2024
+  "arcprize:Opus 4.5 (Thinking, 64K)": claude-opus-4-5
+  "arcprize:Opus 4.5 (Thinking, 32K)": claude-opus-4-5
+  "arcprize:Opus 4.5 (Thinking, 16K)": claude-opus-4-5
+  "arcprize:Opus 4.5 (Thinking, 8K)": claude-opus-4-5
+  "arcprize:Opus 4.5 (Thinking, None)": claude-opus-4-5
+  "arcprize:Claude 3.7 (16K)": claude-3-7-sonnet
+  "arcprize:Claude 3.7 (8K)": claude-3-7-sonnet
+  "arcprize:Claude 3.7 (1K)": claude-3-7-sonnet
+  "arcprize:Claude 3.7": claude-3-7-sonnet
+  "livebench:claude-opus-4-6-thinking-auto-high-effort": claude-opus-4-6
+  "livebench:claude-sonnet-4-6-thinking-auto-medium-effort": claude-sonnet-4-6
+  # ---- Google ----
+  "Gemini 2.5 Pro": gemini-2-5-pro-jun-2025
+  "gemini-2.5-pro": gemini-2-5-pro-jun-2025
+  "Gemini 2.5 Flash": gemini-2-5-flash-jun-2025
+  "gemini-2.5-flash": gemini-2-5-flash-jun-2025
+  "Gemini 2.0 Flash": gemini-2-0-flash-dec-2024
+  "Gemini 2.0 Flash (Experimental)": gemini-2-0-flash-dec-2024
+  "Gemini 2.0 Flash (v20241212-experimental)": gemini-2-0-flash-dec-2024
+  "gemini-2.0-flash-exp": gemini-2-0-flash-dec-2024
+  "gemini-2.5-flash-lite-preview-09-2025-no-thinking": gemini-2-5-flash-lite-sep-2025
+  "gemini-3.1-flash-lite-preview": gemini-3-1-flash-lite
+  "arcprize:Gemini 3 Deep Think (Preview) ²": gemini-3-deep-think
+  # ---- xAI ----
+  "grok-4-fast-reasoning": grok-4-fast
+  "grok-3-preview-02-24": grok-3
+  "grok-2-2024-08-13": grok-2-aug-2024
+  "grok-4.20-beta1": grok-4-20
+  "grok-4.20-beta-0309-reasoning": grok-4-20
+  # ---- Alibaba ----
+  "qwen3.8-max": qwen3-8-max-0902
+  "qwen3.8-max_unknown": qwen3-8-max-0902
+  "qwen3.7-max-preview": qwen3-7-max
+  "qwen3-max-preview": qwen3-max
+  "qwen3-235b-a22b": qwen3-235b-a22b
+  "qwen3-235b-a22b-no-thinking": qwen3-235b-a22b
+  "qwen3-30b-a3b": qwen3-30b-a3b
+  "qwen-plus-0125": qwen-plus-jan-2025
+  "Qwen2.5-Coder-32B-Instruct": qwen2-5-coder-32b-instruct
+  "Qwen2.5 Coder 32B Instruct": qwen2-5-coder-32b-instruct
+  "Qwen2.5-Coder 32B Instruct": qwen2-5-coder-32b-instruct
+  "qwen2.5-coder-32b-instruct": qwen2-5-coder-32b-instruct
+  # ---- others ----
+  "minimax-m2.1-preview": minimax-m2-1
+  "livebench:nemotron-3-ultra-550b-a55b": nemotron-3-ultra
+  "arcprize:Claude 4.7 (High)": claude-opus-4-7
+  "arcprize:Claude 4.7 (Max)": claude-opus-4-7
+  "arcprize:Claude 4.7 (Low)": claude-opus-4-7
+  "arcprize:Claude 4.7 (Medium)": claude-opus-4-7

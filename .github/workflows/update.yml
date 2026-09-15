@@ -1,0 +1,124 @@
+name: Update data & deploy
+
+on:
+  schedule:
+    # every 4 hours (UTC 00/04/08/16/20:23) ...
+    - cron: "23 0,4,8,16,20 * * *"
+    # ... plus one run at 12:23 UTC (20:23 CST) that always commits, so the repo
+    # shows daily activity and GitHub never disables the schedule for inactivity.
+    - cron: "23 12 * * *"
+  workflow_dispatch:
+    inputs:
+      full_refresh:
+        description: "Ignore stored ETags and re-download every source"
+        type: boolean
+        default: false
+  push:
+    branches: [main]
+    paths:
+      - "site/**"
+      - "pipeline/**"
+      - "config/**"
+      - "pyproject.toml"
+      - "uv.lock"
+      - ".github/workflows/update.yml"
+      - "!site/data/**"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: update-and-deploy
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.decide.outputs.changed }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+
+      - name: Install dependencies
+        run: uv sync --frozen
+
+      # Last-good parses + ETags live in the Actions cache, not in git (they change daily).
+      - name: Restore source cache
+        uses: actions/cache/restore@v4
+        with:
+          path: data/raw
+          key: raw-${{ github.run_id }}
+          restore-keys: |
+            raw-
+
+      - name: Fetch sources and build site data
+        env:
+          AA_API_KEY: ${{ secrets.AA_API_KEY }}
+        run: |
+          set -o pipefail
+          uv run python -m pipeline.run ${{ inputs.full_refresh == true && '--no-etag' || '' }} 2>&1 | tee build.log
+
+      - name: Save source cache
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: data/raw
+          key: raw-${{ github.run_id }}
+
+      - name: Decide whether to publish
+        id: decide
+        run: |
+          git add -A site/data data   # data/raw is git-ignored (lives in the Actions cache)
+          if git diff --cached --quiet -- site/data/catalog.json site/data/scores.json site/data/summary.json; then
+            data_changed=false
+          else
+            data_changed=true
+          fi
+          force=false
+          if [ "${{ github.event_name }}" != "schedule" ] || [ "${{ github.event.schedule }}" = "23 12 * * *" ]; then
+            force=true
+          fi
+          echo "data_changed=$data_changed force=$force"
+          if [ "$data_changed" = true ] || [ "$force" = true ]; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit data
+        if: steps.decide.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --cached --quiet; then
+            echo "nothing to commit"
+          else
+            git commit -m "data: $(date -u +'%Y-%m-%d %H:%M UTC') [skip ci]"
+            git push
+          fi
+
+      - name: Upload site
+        if: steps.decide.outputs.changed == 'true'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: update
+    if: needs.update.outputs.changed == 'true'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/configure-pages@v5
+      - id: deployment
+        uses: actions/deploy-pages@v4

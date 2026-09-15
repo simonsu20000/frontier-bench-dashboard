@@ -1,0 +1,64 @@
+# Epoch AI bundle specifics.
+#
+# unmapped_files: files whose benchmark_metadata row has no source_file /
+# score_column (20 of them as of 2026-09). Keys are csv filenames in the zip.
+unmapped_files:
+  cursorbench_external.csv:        {benchmark: CursorBench,        score_column: Score}
+  gbaeval_external.csv:            {benchmark: GBAEval,            score_column: Overall score}
+  critpt_external.csv:             {benchmark: CritPt,             score_column: Accuracy}
+  bool_q_external.csv:             {benchmark: BoolQ,              score_column: Score}
+  common_sense_qa_2_external.csv:  {benchmark: CSQA2,              score_column: Score}
+  forecastbench_external.csv:      {benchmark: ForecastBench,      score_column: Overall score, scale: 0.01}
+  live_bench_external.csv:         {benchmark: LiveBench,          score_column: Global average, scale: 0.01}
+  video_mme_external.csv:          {benchmark: VideoMME,           score_column: "Overall (no subtitles)"}
+  frontiermath_erdos.csv:          {benchmark: FrontierMath-Erdos, score_column: "Best score (across scorers)"}
+  gdp_pdf_external.csv:            {benchmark: GDP.pdf,            score_column: GDP.pdf score}
+  frontierswe_external.csv:        {benchmark: FrontierSWE,        score_column: Score}
+  scicode_external.csv:            {benchmark: SciCode,            score_column: Score}
+  webdev_arena_external.csv:       {benchmark: WebDev Arena,       score_column: Arena Score, scale: 1.0}
+  blueprint_bench_2_external.csv:  {benchmark: Blueprint-Bench 2,  score_column: Score}
+  mindcube_external.csv:           {benchmark: MindCube,           score_column: Overall score}
+  spatialviz_bench_external.csv:   {benchmark: SpatialViz-Bench,   score_column: Overall score}
+  btf3_external.csv:               {benchmark: BTF-3,              score_column: Pooled score}
+  enigma_eval_external.csv:        {benchmark: EnigmaEval,         score_column: Accuracy}
+  algotune_external.csv:           {benchmark: AlgoTune,           score_column: Score, scale: 1.0}
+  ale_bench_external.csv:          {benchmark: ALE-Bench,          score_column: Performance, scale: 1.0}
+  vending_bench_2_external.csv:    {benchmark: Vending-Bench 2,    score_column: Score, scale: 1.0}
+
+# Provenance defaults for external files whose rows carry no Source link.
+# type: official_leaderboard | third_party. Rows WITH a link are classified by
+# domain in config/sources.yml instead.
+file_sources:
+  hle_external.csv:               {type: official_leaderboard, name: "HLE leaderboard (Scale AI / CAIS), via Epoch AI", url: "https://scale.com/leaderboard/humanitys_last_exam"}
+  arc_agi_2_external.csv:         {type: official_leaderboard, name: "ARC Prize leaderboard, via Epoch AI", url: "https://arcprize.org/leaderboard"}
+  arc_agi_external.csv:           {type: official_leaderboard, name: "ARC Prize leaderboard, via Epoch AI", url: "https://arcprize.org/leaderboard"}
+  terminalbench_external.csv:     {type: official_leaderboard, name: "Terminal-Bench leaderboard, via Epoch AI", url: "https://www.tbench.ai/leaderboard"}
+  metr_time_horizons_external.csv: {type: official_leaderboard, name: "METR time-horizon evaluations, via Epoch AI", url: "https://metr.org/time-horizons/"}
+  aider_polyglot_external.csv:    {type: official_leaderboard, name: "Aider polyglot leaderboard, via Epoch AI", url: "https://aider.chat/docs/leaderboards/"}
+  live_bench_external.csv:        {type: official_leaderboard, name: "LiveBench leaderboard, via Epoch AI", url: "https://livebench.ai/"}
+  osworld_2_external.csv:         {type: official_leaderboard, name: "OSWorld 2.0 leaderboard, via Epoch AI", url: "https://osworld-v2.xlang.ai/"}
+  os_world_external.csv:          {type: official_leaderboard, name: "OSWorld leaderboard, via Epoch AI", url: "https://os-world.github.io/"}
+  simplebench_external.csv:       {type: official_leaderboard, name: "SimpleBench leaderboard, via Epoch AI", url: "https://simple-bench.com/"}
+  webdev_arena_external.csv:      {type: official_leaderboard, name: "LMArena WebDev leaderboard, via Epoch AI", url: "https://lmarena.ai/leaderboard/webdev"}
+  scicode_external.csv:           {type: third_party, name: "Artificial Analysis SciCode evaluation, via Epoch AI", url: "https://artificialanalysis.ai/evaluations/scicode"}
+  weirdml_external.csv:           {type: official_leaderboard, name: "WeirdML leaderboard, via Epoch AI", url: "https://htihle.github.io/weirdml.html"}
+  gdpval_external.csv:            {type: third_party, name: "GDPval results, via Epoch AI", url: "https://epoch.ai/benchmarks/gdpval"}
+  vending_bench_2_external.csv:   {type: official_leaderboard, name: "Vending-Bench 2 leaderboard (Andon Labs), via Epoch AI", url: "https://andonlabs.com/evals/vending-bench"}
+  rli_external.csv:               {type: official_leaderboard, name: "Remote Labor Index (Scale AI / CAIS), via Epoch AI", url: "https://scale.com/leaderboard/rli"}
+  cursorbench_external.csv:       {type: third_party, name: "CursorBench, via Epoch AI", url: "https://epoch.ai/benchmarks/cursorbench"}
+  critpt_external.csv:            {type: official_leaderboard, name: "CritPt leaderboard, via Epoch AI", url: "https://critpt.com/"}
+  deepswe_external.csv:           {type: third_party, name: "DeepSWE, via Epoch AI", url: "https://epoch.ai/benchmarks/deepswe"}
+  frontiercode_external.csv:      {type: third_party, name: "FrontierCode, via Epoch AI", url: "https://epoch.ai/benchmarks/frontiercode"}
+  frontierswe_external.csv:       {type: third_party, name: "FrontierSWE, via Epoch AI", url: "https://epoch.ai/benchmarks/frontierswe"}
+  apex_agents_external.csv:       {type: official_leaderboard, name: "APEX-Agents leaderboard (Mercor), via Epoch AI", url: "https://epoch.ai/benchmarks/apex-agents"}
+  lmca_external.csv:              {type: third_party, name: "LMCA, via Epoch AI", url: "https://epoch.ai/benchmarks/lmca"}
+  dtbench_external.csv:           {type: third_party, name: "DTBench, via Epoch AI", url: "https://epoch.ai/benchmarks/dtbench"}
+  enigma_eval_external.csv:       {type: official_leaderboard, name: "EnigmaEval leaderboard (Scale AI), via Epoch AI", url: "https://scale.com/leaderboard/enigma_eval"}
+  forecastbench_external.csv:     {type: official_leaderboard, name: "ForecastBench leaderboard, via Epoch AI", url: "https://www.forecastbench.org/"}
+  algotune_external.csv:          {type: official_leaderboard, name: "AlgoTune leaderboard, via Epoch AI", url: "https://algotune.io/"}
+  ale_bench_external.csv:         {type: official_leaderboard, name: "ALE-Bench leaderboard, via Epoch AI", url: "https://sakana.ai/ale-bench/"}
+
+default_file_source: {type: third_party, name: "Epoch AI Benchmarking Hub (curated external result)", url: "https://epoch.ai/benchmarks"}
+
+# Where Epoch's own runs link to when no per-row log viewer URL exists.
+epoch_run_url: "https://epoch.ai/benchmarks"

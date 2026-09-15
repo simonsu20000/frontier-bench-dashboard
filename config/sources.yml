@@ -1,0 +1,208 @@
+# Provenance classification for rows that carry a source link.
+#
+# The dashboard only shows third-party scores. A row is classified as:
+#   official_leaderboard  - the benchmark maintainer's own leaderboard
+#   third_party           - an independent evaluator / paper
+#   vendor_reported       - published by the organisation that built the model (excluded)
+#   unclassified          - unknown domain (excluded; listed in data/unmatched_report.json)
+
+include_vendor_reported: false
+include_unclassified: false
+
+# domain -> display name. Subdomains match too (metr.org matches blog.metr.org).
+benchmark_hosts:
+  tbench.ai: Terminal-Bench leaderboard
+  arcprize.org: ARC Prize leaderboard
+  aider.chat: Aider leaderboards
+  livebench.ai: LiveBench leaderboard
+  metr.org: METR
+  lastexam.ai: Humanity's Last Exam
+  scale.com: Scale AI SEAL leaderboards
+  swebench.com: SWE-bench leaderboard
+  lmarena.ai: LMArena
+  os-world.github.io: OSWorld leaderboard
+  osworld-v2.xlang.ai: OSWorld 2.0 leaderboard
+  htihle.github.io: WeirdML leaderboard
+  scienceqa.github.io: ScienceQA leaderboard
+  fiction.live: Fiction.liveBench
+  video-mme.github.io: Video-MME leaderboard
+  surgehq.ai: Surge AI GDP.pdf leaderboard
+  cbrower.dev: VPCT leaderboard
+  balrogai.com: BALROG leaderboard
+  geobench.org: GeoBench leaderboard
+  cybench.github.io: Cybench leaderboard
+  willpatrick.xyz: CadEval dashboard
+  gso-bench.github.io: GSO leaderboard
+  drb.futuresearch.ai: DeepResearch Bench leaderboard
+  evals.futuresearch.ai: FutureSearch evals
+  simple-bench.com: SimpleBench leaderboard
+  forecastbench.org: ForecastBench leaderboard
+  algotune.io: AlgoTune leaderboard
+  critpt.com: CritPt leaderboard
+  andonlabs.com: Andon Labs evals
+  arena.ai: LMArena
+  conceptualreasoning.ai: DTBench leaderboard
+  deepswe.datacurve.ai: DeepSWE leaderboard (Datacurve)
+  cognition.com: FrontierCode leaderboard (Cognition)
+  yhenon.github.io: Surface Evolver Bench
+  gbaeval.com: GBAEval leaderboard
+  lmcouncil.ai: LM Council benchmarks
+  frontierswe.com: FrontierSWE leaderboard
+  the-agent-company.com: TheAgentCompany leaderboard
+  mind-cube.github.io: MindCube leaderboard
+  osworld-v2.xlang.ai: OSWorld 2.0 leaderboard
+
+# Independent evaluators, venues and aggregators.
+third_party_hosts:
+  epoch.ai: Epoch AI Benchmarking Hub
+  arxiv.org: arXiv paper
+  crfm.stanford.edu: Stanford HELM
+  jmlr.org: JMLR paper
+  proceedings.neurips.cc: NeurIPS paper
+  proceedings.mlr.press: PMLR paper
+  ojs.aaai.org: AAAI paper
+  aclanthology.org: ACL Anthology paper
+  openreview.net: OpenReview paper
+  paperswithcode.com: Papers with Code
+  static.aminer.cn: AMiner paper
+  artificialanalysis.ai: Artificial Analysis
+  vals.ai: Vals AI
+  github.com: GitHub repository
+  semanticscholar.org: Semantic Scholar
+  kaggle.com: Kaggle benchmark
+
+# Domains owned by model developers, mapped to the publishing organisation
+# (a key of org_brands). A row from such a domain is vendor_reported only when
+# the publisher is the model's own organisation; a lab evaluating other labs'
+# models counts as a third-party evaluation.
+vendor_hosts:
+  anthropic.com: Anthropic
+  openai.com: OpenAI
+  deepmind.google: Google DeepMind
+  blog.google: Google DeepMind
+  ai.google.dev: Google DeepMind
+  ai.google: Google DeepMind
+  research.google: Google DeepMind
+  storage.googleapis.com: Google DeepMind
+  x.ai: xAI
+  ai.meta.com: Meta AI
+  meta.com: Meta AI
+  llama.com: Meta AI
+  mistral.ai: Mistral AI
+  deepseek.com: DeepSeek
+  qwen.ai: Alibaba
+  qwenlm.github.io: Alibaba
+  alibabacloud.com: Alibaba
+  moonshot.cn: Moonshot
+  kimi.com: Moonshot
+  z.ai: Z.ai (Zhipu AI)
+  zhipuai.cn: Z.ai (Zhipu AI)
+  bigmodel.cn: Z.ai (Zhipu AI)
+  microsoft.com: Microsoft
+  nvidia.com: NVIDIA
+  aws.amazon.com: Amazon
+  amazon.science: Amazon
+  cohere.com: Cohere
+  ai21.com: AI21 Labs
+  01.ai: 01.AI
+  minimax.io: MiniMax
+  minimaxi.com: MiniMax
+  bytedance.com: ByteDance
+  seed.bytedance.com: ByteDance
+  stepfun.com: StepFun
+  baichuan-ai.com: Baichuan
+  xiaomimimo.com: Xiaomi Corp
+  inflection.ai: Inflection AI
+  databricks.com: Databricks
+  mosaicml.com: MosaicML
+  tii.ae: Technology Innovation Institute
+  cerebras.ai: Cerebras Systems
+  cursor.com: Cursor
+  poolside.ai: Poolside
+  thinkingmachines.ai: Thinking Machines
+
+# GitHub owners that are model developers, mapped to the organisation.
+vendor_github_owners:
+  openai: OpenAI
+  anthropics: Anthropic
+  google: Google DeepMind
+  google-deepmind: Google DeepMind
+  google-research: Google DeepMind
+  meta-llama: Meta AI
+  facebookresearch: Meta AI
+  deepseek-ai: DeepSeek
+  qwenlm: Alibaba
+  mistralai: Mistral AI
+  xai-org: xAI
+  moonshotai: Moonshot
+  zai-org: Z.ai (Zhipu AI)
+  thudm: Z.ai (Zhipu AI)
+  microsoft: Microsoft
+  nvidia: NVIDIA
+  cohere-ai: Cohere
+  01-ai: 01.AI
+  minimax-ai: MiniMax
+  bytedance-seed: ByteDance
+  stepfun-ai: StepFun
+  baichuan-inc: Baichuan
+  xiaomimimo: Xiaomi Corp
+  databricks: Databricks
+  mosaicml: MosaicML
+  tiiuae: Technology Innovation Institute
+  eleutherai: EleutherAI
+  bigscience-workshop: Hugging Face
+  ai21labs: AI21 Labs
+
+# Brand tokens per organisation. If a source title contains one of the tokens
+# for the model's own organisation, the row is treated as vendor-reported
+# (e.g. "Gemini 1.5 Report" for a Google DeepMind model).
+org_brands:
+  OpenAI: [openai, gpt, chatgpt, codex, o1, o3, o4]
+  Anthropic: [anthropic, claude]
+  Google DeepMind: [google, deepmind, gemini, gemma, palm, bard, flan, chinchilla, gopher, pathways]
+  Google: [google, deepmind, gemini, gemma, palm, bard, flan, pathways]
+  Google Research: [google, palm, flan, pathways]
+  DeepMind: [deepmind, chinchilla, gopher, gemini]
+  Meta AI: [meta, llama, facebook, opt]
+  DeepSeek: [deepseek]
+  Alibaba: [alibaba, qwen, qwq, tongyi]
+  Mistral AI: [mistral, mixtral, codestral, magistral, devstral]
+  xAI: [xai, grok]
+  Moonshot: [moonshot, kimi]
+  Z.ai (Zhipu AI): [zhipu, glm, z.ai, chatglm]
+  Microsoft: [microsoft, phi, orca]
+  Microsoft Research: [microsoft, phi, orca]
+  Amazon: [amazon, nova, titan]
+  Cohere: [cohere, command]
+  01.AI: [01.ai, yi]
+  MiniMax: [minimax]
+  ByteDance: [bytedance, doubao, seed]
+  StepFun: [stepfun]
+  Baichuan: [baichuan]
+  Xiaomi Corp: [xiaomi, mimo]
+  NVIDIA: [nvidia, nemotron]
+  Databricks: [databricks, dbrx]
+  MosaicML: [mosaicml, mpt]
+  Technology Innovation Institute: [falcon, tii]
+  Inflection AI: [inflection]
+  EleutherAI: [eleutherai, pythia, gpt-neox, gpt-j]
+  Hugging Face: [bloom, smollm, starcoder]
+  AI21 Labs: [ai21, jamba, jurassic]
+  Thinking Machines: [thinking machines, tinker]
+  Cursor: [cursor, composer]
+  Cognition: [cognition, devin, swe-1]
+  Poolside: [poolside]
+  Cerebras Systems: [cerebras]
+  Salesforce Research: [salesforce]
+
+# Generic vendor-publication cues in a source title (any organisation).
+vendor_title_patterns:
+  - technical report
+  - model card
+  - system card
+  - announcing
+  - introducing
+  - release notes
+  - launch
+  - announcement
+  - annoucement

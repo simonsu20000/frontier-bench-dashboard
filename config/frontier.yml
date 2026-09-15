@@ -1,0 +1,9 @@
+# Which models count as "frontier" (default view, heatmap rows).
+# A model is frontier if (released within window_months AND ECI rank <= eci_top_n)
+# OR it holds the top authoritative score on any featured benchmark.
+window_months: 18
+eci_top_n: 25
+max_models: 30          # heatmap cap; overflow sorted out by ECI then release date
+include: []             # canonical model ids forced in
+exclude: []             # canonical model ids forced out
+include_superseded_benchmarks: false
