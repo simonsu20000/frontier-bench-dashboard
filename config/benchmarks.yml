@@ -228,6 +228,25 @@ benchmarks:
     description_en: Final bank balance (USD) after running a simulated vending business for a year.
     description_zh: 经营模拟自动售货生意一年后的最终账户余额（美元）。
 
+  - id: aa-intelligence-index
+    name: Artificial Analysis Intelligence Index
+    name_zh: Artificial Analysis 智能指数
+    category: general
+    unit: score
+    official_url: https://artificialanalysis.ai/leaderboards/models
+    description_en: Composite index by Artificial Analysis over its own evaluation suite (only present when the optional API key is configured).
+    description_zh: Artificial Analysis 基于自有评测集计算的综合指数（仅在配置了可选 API key 时出现）。
+  - id: livecodebench
+    name: LiveCodeBench
+    name_zh: LiveCodeBench
+    category: coding
+    official_url: https://livecodebench.github.io/leaderboard.html
+  - id: mmlu-pro
+    name: MMLU-Pro
+    name_zh: MMLU-Pro
+    category: reasoning
+    official_url: https://github.com/TIGER-AI-Lab/MMLU-Pro
+
 # Category / unit assignments for Epoch benchmarks without a curated entry above.
 epoch_overrides:
   "MATH level 5":           {category: math}
