@@ -228,3 +228,29 @@ table.data tr.ext td .model { font-weight: 500; color: var(--text-2); }
   .search input { width: 100%; }
   .chart { height: 280px; }
 }
+
+/* ---------- radar ---------- */
+.chips { display: inline-flex; flex-wrap: wrap; gap: 4px; }
+.tag.vendor { background: var(--accent-wash); color: var(--text); }
+.tag.src { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 10.5px; }
+.tag.low { border: 1px dashed var(--border-strong); background: transparent; }
+.hbar { display: inline-flex; align-items: center; gap: 6px; min-width: 120px; }
+.hbar i { display: block; height: 8px; border-radius: 4px; background: var(--s2); min-width: 2px; max-width: 120px; }
+.hbar b { font-size: 12px; font-variant-numeric: tabular-nums; }
+.rank-delta { font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.rank-delta.up { color: var(--good-text); }
+.rank-delta.down { color: var(--serious); }
+.rank-delta.new { color: var(--s1); font-weight: 600; }
+.hard-card .bname a, .feed-card .bname a { font-weight: 650; }
+.hard-card .score-line { margin-top: 4px; display: flex; gap: 6px; align-items: baseline; flex-wrap: wrap; }
+.hard-card .kv-line { display: flex; gap: 8px; align-items: center; margin-top: 4px; }
+.feed-card { gap: 4px; }
+.feed-card.low { opacity: 0.85; }
+.feed-card .summary { margin: 4px 0; color: var(--text-2); font-size: 13px; }
+.feed-card .meta { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; font-size: 12px; }
+.feed-card .meta.links { color: var(--text-2); }
+.day-head { margin: 14px 0 8px; }
+ul.plain, ol.plain { margin: 6px 0 0; padding-left: 18px; }
+ul.plain li, ol.plain li { margin: 3px 0; }
+ul.docs { margin: 4px 0; padding-left: 16px; font-size: 12.5px; }
+.radar-strip .card h3 { margin-bottom: 4px; }

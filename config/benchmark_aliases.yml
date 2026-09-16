@@ -1,0 +1,84 @@
+# Benchmarks vendors cite that are NOT (yet) in the scored catalog, plus extra aliases
+# for catalog benchmarks. `strict: true` names are matched only as exact table cells
+# (never in prose) because the bare word is ambiguous.
+#
+#   - id: <key>            canonical key (catalog id when it exists there)
+#     name: <display>
+#     aliases: [...]       spellings as they appear in model cards / posts
+#     domain: <domain id from config/radar.yml>
+#     url: <official page>
+#     released: YYYY-MM-DD (optional)
+aliases:
+  # ---- extra spellings for catalog benchmarks ----
+  - {id: gpqa-diamond, name: GPQA Diamond, aliases: ["GPQA Diamond", "GPQA-Diamond", "GPQA (Diamond)", "GPQA"], strict_aliases: ["GPQA"]}
+  - {id: hle, name: "Humanity's Last Exam", aliases: ["Humanity's Last Exam", "Humanity’s Last Exam", "HLE", "HLE (no tools)", "HLE (with tools)"], strict_aliases: ["HLE"]}
+  - {id: swe-bench-verified, name: SWE-bench Verified, aliases: ["SWE-bench Verified", "SWE-Bench Verified", "SWE Bench Verified", "SWE-bench-Verified", "SWE Verified", "SWE-Verified"]}
+  - {id: terminal-bench, name: Terminal-Bench, aliases: ["Terminal-Bench", "TerminalBench", "Terminal Bench", "Terminal-Bench 2.0", "Terminal-Bench Hard", "TerminalBench-Hard"]}
+  - {id: arc-agi-2, name: ARC-AGI-2, aliases: ["ARC-AGI-2", "ARC AGI 2", "ARC-AGI 2"]}
+  - {id: arc-agi-1, name: ARC-AGI-1, aliases: ["ARC-AGI-1", "ARC-AGI 1", "ARC-AGI"]}
+  - {id: arc-agi-3, name: ARC-AGI-3, aliases: ["ARC-AGI-3", "ARC-AGI 3"]}
+  - {id: aider-polyglot, name: Aider Polyglot, aliases: ["Aider Polyglot", "Aider-Polyglot", "Aider polyglot"]}
+  - {id: livebench, name: LiveBench, aliases: ["LiveBench"]}
+  - {id: lmarena-text, name: LMArena Text, aliases: ["LMArena", "LM Arena", "Chatbot Arena", "Arena Elo", "Text Arena"], strict_aliases: ["Arena"]}
+  - {id: simpleqa-verified, name: SimpleQA Verified, aliases: ["SimpleQA Verified", "SimpleQA-Verified", "SimpleQA"]}
+  - {id: frontiermath-tiers-1-3, name: FrontierMath, aliases: ["FrontierMath", "Frontier Math", "FrontierMath Tier 1-3", "FrontierMath (Tiers 1-3)"]}
+  - {id: frontiermath-tier-4, name: FrontierMath Tier 4, aliases: ["FrontierMath Tier 4", "FrontierMath (Tier 4)", "FrontierMath-Tier4"]}
+  - {id: metr-time-horizon, name: METR Time Horizon, aliases: ["METR time horizon", "METR Time Horizons", "METR 50% time horizon"]}
+  - {id: osworld, name: OSWorld, aliases: ["OSWorld", "OSWorld-Verified", "OSWorld Verified", "OS-World"]}
+  - {id: osworld-2, name: OSWorld 2.0, aliases: ["OSWorld 2.0", "OSWorld-2", "OSWorld v2"]}
+  - {id: gdpval, name: GDPval, aliases: ["GDPval", "GDPVal"]}
+  - {id: vending-bench-2, name: Vending-Bench 2, aliases: ["Vending-Bench 2", "Vending Bench 2", "VendingBench 2", "Vending-Bench"]}
+  - {id: scicode, name: SciCode, aliases: ["SciCode"]}
+  - {id: otis-mock-aime, name: OTIS Mock AIME, aliases: ["OTIS Mock AIME", "Mock AIME"]}
+  - {id: cybench, name: Cybench, aliases: ["Cybench", "CyBench"]}
+  - {id: apex-agents, name: APEX-Agents, aliases: ["APEX-Agents", "APEX Agents"]}
+  - {id: remote-labor-index, name: Remote Labor Index, aliases: ["Remote Labor Index", "RLI"], strict_aliases: ["RLI"]}
+  - {id: critpt, name: CritPt, aliases: ["CritPt"]}
+  - {id: mmlu, name: MMLU, aliases: ["MMLU"], strict_aliases: ["MMLU"]}
+  - {id: mmlu-pro, name: MMLU-Pro, aliases: ["MMLU-Pro", "MMLU Pro", "MMLUPro"]}
+  - {id: livecodebench, name: LiveCodeBench, aliases: ["LiveCodeBench", "Live Code Bench", "LiveCodeBench v6", "LCB"], strict_aliases: ["LCB"]}
+  # ---- widely cited, not in the scored catalog ----
+  - {id: aime-2025, name: AIME 2025, aliases: ["AIME 2025", "AIME2025", "AIME'25", "AIME 25"], domain: math, url: "https://artofproblemsolving.com/wiki/index.php/AIME_Problems_and_Solutions", released: 2025-02-13}
+  - {id: aime-2026, name: AIME 2026, aliases: ["AIME 2026", "AIME2026", "AIME'26", "AIME 26"], domain: math, released: 2026-02-12}
+  - {id: aime, name: AIME, aliases: ["AIME", "AIME 2024", "AIME2024"], domain: math, strict_aliases: ["AIME"]}
+  - {id: hmmt, name: HMMT, aliases: ["HMMT", "HMMT 2025", "HMMT Feb 2025", "HMMT 2026", "HMMT February 2026"], domain: math, strict_aliases: ["HMMT"]}
+  - {id: usamo, name: USAMO, aliases: ["USAMO", "USAMO 2025", "USAMO 2026"], domain: math, strict_aliases: ["USAMO"]}
+  - {id: imo, name: IMO, aliases: ["IMO 2025", "IMO 2026", "IMO-ProofBench", "IMO Proof"], domain: math}
+  - {id: matharena, name: MathArena, aliases: ["MathArena", "MathArena Apex"], domain: math, url: "https://matharena.ai/"}
+  - {id: math-500, name: MATH-500, aliases: ["MATH-500", "MATH 500", "MATH500"], domain: math}
+  - {id: codeforces, name: Codeforces, aliases: ["Codeforces", "Codeforces Elo", "Codeforces rating"], domain: coding}
+  - {id: swe-bench-pro, name: SWE-bench Pro, aliases: ["SWE-bench Pro", "SWE-Bench Pro", "SWE Bench Pro", "SWEbench Pro"], domain: coding, url: "https://scale.com/leaderboard/swe_bench_pro_public", released: 2025-09-17}
+  - {id: swe-bench-multilingual, name: SWE-bench Multilingual, aliases: ["SWE-bench Multilingual", "SWE-Bench Multilingual", "SWE Multilingual"], domain: coding}
+  - {id: swe-lancer, name: SWE-Lancer, aliases: ["SWE-Lancer", "SWE Lancer"], domain: coding}
+  - {id: tau2-bench, name: τ²-bench, aliases: ["τ²-bench", "τ2-bench", "tau2-bench", "tau²-bench", "Tau2-Bench", "τ-bench", "tau-bench", "TAU-bench", "τ²-Bench Telecom", "tau2 bench"], domain: agentic, url: "https://github.com/sierra-research/tau2-bench", released: 2025-06-01}
+  - {id: browsecomp, name: BrowseComp, aliases: ["BrowseComp", "Browse Comp", "BrowseComp-ZH"], domain: agentic, url: "https://openai.com/index/browsecomp/", released: 2025-04-10}
+  - {id: bfcl, name: BFCL, aliases: ["BFCL", "Berkeley Function Calling Leaderboard", "BFCL v3", "BFCL v4"], domain: agentic, strict_aliases: ["BFCL"]}
+  - {id: mmmu, name: MMMU, aliases: ["MMMU"], domain: multimodal, strict_aliases: ["MMMU"]}
+  - {id: mmmu-pro, name: MMMU-Pro, aliases: ["MMMU-Pro", "MMMU Pro", "MMMU_Pro"], domain: multimodal}
+  - {id: video-mmmu, name: Video-MMMU, aliases: ["Video-MMMU", "VideoMMMU"], domain: multimodal}
+  - {id: mrcr, name: MRCR, aliases: ["MRCR", "OpenAI MRCR", "MRCR v2", "Graphwalks"], domain: general, strict_aliases: ["MRCR"]}
+  - {id: ifbench, name: IFBench, aliases: ["IFBench", "IF-Bench", "IFEval"], domain: general}
+  - {id: healthbench, name: HealthBench, aliases: ["HealthBench", "HealthBench Hard"], domain: science, url: "https://openai.com/index/healthbench/", released: 2025-05-12}
+  - {id: screenspot-pro, name: ScreenSpot-Pro, aliases: ["ScreenSpot-Pro", "ScreenSpot Pro"], domain: multimodal}
+  - {id: charxiv, name: CharXiv, aliases: ["CharXiv", "CharXiv-R", "CharXiv Reasoning"], domain: multimodal}
+  - {id: mmmlu, name: MMMLU, aliases: ["MMMLU", "Multilingual MMLU"], domain: general, strict_aliases: ["MMMLU"]}
+  - {id: paperbench, name: PaperBench, aliases: ["PaperBench"], domain: agentic}
+  - {id: mle-bench, name: MLE-bench, aliases: ["MLE-bench", "MLE Bench", "MLEBench"], domain: agentic}
+  - {id: webarena, name: WebArena, aliases: ["WebArena", "VisualWebArena", "WebArena-Lite"], domain: agentic}
+  - {id: gaia, name: GAIA, aliases: ["GAIA", "GAIA benchmark"], domain: agentic, strict_aliases: ["GAIA"]}
+  - {id: simplebench, name: SimpleBench, aliases: ["SimpleBench", "Simple Bench"], domain: reasoning}
+  - {id: multi-swe-bench, name: Multi-SWE-bench, aliases: ["Multi-SWE-bench", "Multi-SWE-Bench"], domain: coding}
+  - {id: zebralogic, name: ZebraLogic, aliases: ["ZebraLogic"], domain: reasoning}
+  - {id: drop, name: DROP, aliases: ["DROP"], domain: reasoning, strict_aliases: ["DROP"]}
+  - {id: gsm8k, name: GSM8K, aliases: ["GSM8K", "GSM-8K"], domain: math}
+  - {id: humaneval, name: HumanEval, aliases: ["HumanEval", "HumanEval+"], domain: coding}
+  - {id: mbpp, name: MBPP, aliases: ["MBPP", "MBPP+"], domain: coding, strict_aliases: ["MBPP"]}
+  - {id: bigcodebench, name: BigCodeBench, aliases: ["BigCodeBench"], domain: coding}
+  - {id: longbench, name: LongBench, aliases: ["LongBench", "LongBench v2", "LongBench-v2"], domain: general}
+  - {id: ruler, name: RULER, aliases: ["RULER"], domain: general, strict_aliases: ["RULER"]}
+  - {id: vibe-code-bench, name: Vibe Code Bench, aliases: ["Vibe Code Bench", "VibeCodeBench"], domain: coding}
+  - {id: finance-agent, name: Finance Agent, aliases: ["Finance Agent", "FinanceAgent", "Vals Finance Agent"], domain: agentic}
+  - {id: mcp-atlas, name: MCP Atlas, aliases: ["MCP Atlas", "MCP-Atlas"], domain: agentic}
+  - {id: toolathlon, name: Toolathlon, aliases: ["Toolathlon"], domain: agentic}
+  - {id: theagentcompany, name: TheAgentCompany, aliases: ["TheAgentCompany", "The Agent Company"], domain: agentic}
+  - {id: seal-showdown, name: SEAL Showdown, aliases: ["SEAL Showdown", "Scale SEAL"], domain: general}

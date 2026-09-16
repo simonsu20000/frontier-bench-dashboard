@@ -81,6 +81,9 @@ class Http:
             except (requests.RequestException, IOError) as e:  # includes ChunkedEncodingError / IncompleteRead
                 last_err = e
                 self.log.append(f"attempt {attempt} failed for {url}: {e}")
+                status = getattr(getattr(e, "response", None), "status_code", None)
+                if status is not None and 400 <= status < 500 and status != 429:
+                    break  # a definite client error (403/404/...) will not change on retry
                 if attempt < self.attempts:
                     time.sleep(2 * attempt)
         assert last_err is not None

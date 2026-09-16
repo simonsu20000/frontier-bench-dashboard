@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>cs.CL updates on arXiv.org</title>
+    <link>http://rss.arxiv.org/rss/cs.CL</link>
+    <description>cs.CL updates on the arXiv.org e-print archive.</description>
+    <atom:link href="http://rss.arxiv.org/rss/cs.CL" rel="self" type="application/rss+xml"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 16 Sep 2026 04:00:00 +0000</lastBuildDate>
+    <managingEditor>rss-help@arxiv.org</managingEditor>
+    <pubDate>Wed, 16 Sep 2026 00:00:00 -0400</pubDate>
+    <skipDays>
+      <day>Saturday</day>
+      <day>Sunday</day>
+    </skipDays>
+    <item>
+      <title>Few-Shot Degradation Is Not What It Seems: Behavioral Evidence, Representation Analysis, and a Random-Text Control Across 12 Models, 2 Tasks, and 2 Architectures</title>
+      <link>https://arxiv.org/abs/2609.15990</link>
+      <description>arXiv:2609.15990v1 Announce Type: new 
+Abstract: Few-shot prompting sometimes degrades language models instead of helping them, but why this happens is unknown. We evaluate 12 open-weight models on two Ukrainian tasks news classification and legal case outcome prediction and find that the effect is strongly task-dependent: the same models that gain +24 pp on news show only +3.4 pp on legal text, with two models degrading. To understand why, we look inside the models. Prior work measures how much hidden states shift between zero-shot and few-shot modes, but few-shot prompts are much longer, and that length difference alone moves representations. We propose a simple fix: replace demonstrations with length-matched random text to measure the shift caused by prompt length, then subtract it. The resulting metric content delta isolates how much the model's representations change because of what the demonstrations say, not how long they are. This changes the picture entirely: raw shift does not predict whether few-shot helps or hurts (r = 0.20), but content delta does (rho = +0.65, p = 0.043). Models that restructure representations more from demonstration content benefit more the opposite of the intuitive "distortion" explanation. Masking demonstrations in Llama 3.3 70B confirms the finding causally, recovering accuracy above the zero-shot baseline.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2609.15990v1</guid>
+      <category>cs.CL</category>
+      <category>cs.LG</category>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Volodymyr Ovcharov</dc:creator>
+    </item><item>
+      <title>The Functionalizer: Lossless Functional Decomposition for Subword Tokenization</title>
+      <link>https://arxiv.org/abs/2609.15991</link>
+      <description>arXiv:2609.15991v1 Announce Type: new 
+Abstract: Standard subword tokenizers either treat every orthographic variation of a word (such as hello, Hello, HELLO, and H\'ello) as unrelated vocabulary entries, which fragments the embedding space, or discard this variation through lossy normalization. We present the Functionalizer, a lossless pre-tokenizer framework that factors orthographic and structural variations into a compositional opcode/operand prefix stream before tokenization: a canonical base token (operand) prefixed by parametric transformation operators (opcodes) encoded in the Unicode Private Use Area. We introduce operators covering casing (CAPITALIZE), diacritics (13 dedicated opcodes), and character repetition (REPEAT, MULTIREPEAT), which are fully reversible. Across six natural language and code corpora, the Functionalizer enables complete corpus coverage with significantly smaller vocabularies under unconstrained conditions, reducing actual vocabulary slot requirements by up to 16%. When looking at sequence lengths, we observe a sharp domain-dependent tradeoff: it compresses indentation-heavy code sequences but inflates natural-language prose sequences. Preliminary downstream evaluations on 25M parameter GPT-2 scale models show that at this scale, the Functionalizer drastically improves code syntax validity and improves code character perplexity while maintaining similar text coherence on prose. These findings demonstrate that functional decomposition can be an effective mechanism for vocabulary-efficient, structurally aware language modeling, and motivate further validation at production scale.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2609.15991v1</guid>
+      <category>cs.CL</category>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Connor Makowski, Willem Guter</dc:creator>
+    </item><item>
+      <title>Optimal Model Activation Policies for Inference Networks of Large Language Models</title>
+      <link>https://arxiv.org/abs/2609.15992</link>
+      <description>arXiv:2609.15992v1 Announce Type: new 
+Abstract: Recent advances in large language models (LLMs) have rendered them necessary for Natural Language Processing (NLP) tasks, and their high inference cost motivates the study of cost-performance trade-offs. In practice, several expert LLMs are used in synergy for inference, either in an ensemble mode or in series, yet without a principled approach on how to best use the available models. An adaptive approach can route simple queries to cheaper LLMs and complex ones to more capable, costly models. However, a clear understanding on how to best leverage available expert models is missing. We introduce inference networks, a graph-based framework, where nodes denote different LLMs, and links denote conditional model activations. The inference network design problem is to determine the best topology, namely the best way to use the models that best addresses the cost-performance trade-off. We start from the basic topology of a series of LLM experts, each of which has a different cost and a different level of expertise, which is captured via model confidence. We formulate the problem of optimal activation of these models so as to minimize the expected inference cost subject to a target performance constraint. For this special class of inference networks, we prove that the optimal activation policy has a threshold structure: query the lowest-cost LLM first, and invoke the more expensive LLM only if the confidence falls below a defined threshold. For discriminative tasks, the optimal policy consists of a set of thresholds, one threshold for each class, while for generative tasks, it consists of a single threshold. We provide a structured method to compute the thresholds, and practical confidence estimation mechanisms for both task types. Experiments with open-source LLMs show substantial cost reductions while meeting the specified performance budget.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2609.15992v1</guid>
+      <category>cs.CL</category>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Foivos Charalampakos, Md Ibrahim Ibne Alam, Iordanis Koutsopoulos, Koushik Kar</dc:creator>
+    </item><item>
+      <title>Single Document Extractive Summarization using Domination in Hypergraph</title>
+      <link>https://arxiv.org/abs/2609.15993</link>
+      <description>arXiv:2609.15993v1 Announce Type: new 
+Abstract: Automatic Text Summarization (ATS) in Natural Language Processing has been an important task in Information Retrieval. It compresses a document to create a summary that captures all the relevant and important information conveyed in the document. This study explores Hypergraph for extractive text summarization of single documents. Objective: This study explores a novel method of leveraging the property of domination in hypergraphs to generate an extractive summary and compare its performance with state of the art graph based methods. Method: Our work aims to generate an extractive summary by creating a sentence hypergraph where each sentence represents a node and the edge is a keyword or a named entity that contains the sentences in which it occurs. We generate a hypergraph where each edge is a keyword or an important topic and the nodes are sentences containing those keywords. Then we apply a greedy algorithm to find the dominating set of the hypergraph which will contain sentences that will form the extractive summary.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2609.15993v1</guid>
+      <category>cs.CL</category>
+      <category>cs.LG</category>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Aamir Miyajiwala, Aabha Pingle, Sheetal Sonawane, Surajit Kr. Nath</dc:creator>
+    </item><item>
+      <title>Latent Undertow: How Ordinary Typos Break Probes</title>
+      <link>https://arxiv.org/abs/2609.15994</link>
+      <description>arXiv:2609.15994v1 Announce Type: new 
+Abstract: LLMs handle ordinary typing variation fluently: a typo or missing punctuation leaves both user intent and the model's response substantively unchanged. Yet probes that detect malicious prompts by reading the model's hidden states tell a different story: the same edit rotates the readout vector by 43--56 at the perturbed token, decaying below 15% within ~10 downstream tokens. Stacking ~3 common typos per message cuts a single-position prompt-injection probe's TPR@FPR$=1% by 12.0pp, a gap recalibration alone cannot close. Multi-position aggregation cures localized perturbations (&lt;= 0.5 loss) but only attenuates distributed ones, where even attention- and max-based aggregators still drop ~3.8pp. For single-position probes, we introduce a KV-cache fork: a short fixed suffix appended after the user message lets the probe read a few tokens downstream of the perturbation, exploiting its rapid spatial decay. This closes 95% of the gap (-0.6pp residual) -- an order of magnitude better than perturbation-augmented training (-3.7pp). The rotation-and-decay geometry replicates on Llama-3.1-8B, Qwen3-8B, and Gemma-4-E4B; probe evaluation is on Llama-3.1-8B. Code: https://github.com/eladd-ai/latent-undertow</description>
+      <guid isPermaLink="false">oai:arXiv.org:2609.15994v1</guid>
+      <category>cs.CL</category>
+      <category>cs.LG</category>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Elad David, Max Fomin, Amit LeVi</dc:creator>
+    </item><item>
+      <title>Bias Audits Detect Bias but Disagree on Ranking: Evidence from Ten Instruments and Ten Frontier Models</title>
+      <link>https://arxiv.org/abs/2609.15995</link>
+      <description>arXiv:2609.15995v1 Announce Type: new 
+Abstract: Emerging AI regulation mandates bias audits of high-risk systems, and audit scores are beginning to be used to rank models. Both uses assume different audit tools measure the same thing well enough to compare. We test that assumption directly, running ten extrinsic audit instruments over a shared panel of ten frontier models through one pooled inference gateway, first on occupational gender bias, then on age and socioeconomic status. Detection succeeds while ranking fails. Eight of ten tools detect bias with confidence intervals clear of zero; two widely cited direct-probe benchmarks are saturated because frontier models now answer neutrally. But cross-tool rank agreement is indistinguishable from chance (Kendall's W=0.07, p=0.83). A positive control with six deliberately weaker models separates two explanations: within-tool reliability recovers once the panel spans real capability gaps, yet cross-tool ranking never recovers, which points to the tools measuring different constructs rather than one construct noisily. Even the direction of bias splits by audit format: forced-choice decision tools mostly over-correct (toward women, and toward working-class candidates in 273 of 278 hiring decisions), while free generation and default coreference stay stereotype-congruent. The pattern replicates on socioeconomic status; an apparent ranking agreement on age dissolves under the paper's own tool-inclusion rules. The practical message: a single audit can detect bias and estimate its direction within its own operationalization, but no single audit supports ranking one model against another. All raw responses, code, and the analysis that recomputes every reported number from source are available at https://github.com/williamguey/bias-audit-agreement.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2609.15995v1</guid>
+      <category>cs.CL</category>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>William Guey, Pierrick Bougault, Wei Zhang, Vitor D. de Moura, Jos\'e O. Gomes</dc:creator>
+    </item>
+</channel>
+</rss>

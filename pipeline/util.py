@@ -61,6 +61,11 @@ def to_date(value) -> str:
             return datetime.strptime(s, pat).date().isoformat()
         except ValueError:
             continue
+    try:  # RFC 2822 (RSS pubDate): "Tue, 15 Sep 2026 17:05:57 +0000"
+        from email.utils import parsedate_to_datetime
+        return parsedate_to_datetime(s).date().isoformat()
+    except (TypeError, ValueError, IndexError):
+        pass
     m = re.search(r"(\d{4})-(\d{2})-(\d{2})", s)
     if m:
         return "-".join(m.groups())

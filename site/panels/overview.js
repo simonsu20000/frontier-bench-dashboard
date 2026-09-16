@@ -1,5 +1,5 @@
 import { t } from '../i18n.js';
-import { state, fmtScore, fmtCST, benchLabel, catLabel, modelLabel, model, bench, fmtNum } from '../data.js';
+import { state, fmtScore, fmtCST, benchLabel, catLabel, modelLabel, model, bench, fmtNum, loadRadar } from '../data.js';
 import { el, esc, sectionHead, benchLink, modelLink } from '../ui.js';
 import { barCI } from '../charts.js';
 
@@ -20,6 +20,20 @@ export async function render(root) {
     tile(t('kpi.sources'), `${k.sources_ok}/${k.sources_total}`, k.sources_stale ? t('kpi.sources_sub', { n: k.sources_stale }) : ''),
     tile(t('kpi.updated'), fmtCST(summary.generated_at)),
   )));
+
+  // Radar strip (new benchmarks, vendor attention, new & hard)
+  const radar = await loadRadar();
+  if (radar) {
+    const vn = v => (radar.vendors[v] || {}).name || v;
+    const nameOf = x => x.bid && bench(x.bid) ? benchLink(x.bid, benchLabel(x.bid)) : (x.url ? el('a', { href: x.url, target: '_blank', rel: 'noopener', text: x.name || x.key }) : el('span', { text: x.name || x.key }));
+    root.append(el('section', { class: 'section' }, sectionHead(t('ov.radar_title'), t('ov.radar_new', { n: radar.kpis.new_today, m: radar.kpis.new_7d })),
+      el('div', { class: 'grid cards radar-strip' },
+        el('div', { class: 'card' }, el('h3', { text: t('ov.radar_attention') }), el('ol', { class: 'plain' }, radar.attention.slice(0, 5).map(a => el('li', {}, nameOf(a), ' ', el('span', { class: 'muted small', text: a.vendors.map(vn).join(', ') }))))),
+        el('div', { class: 'card' }, el('h3', { text: t('ov.radar_hard') }), el('ol', { class: 'plain' }, radar.hard_new.slice(0, 3).map(h => el('li', {}, nameOf(h), ' ', el('span', { class: 'muted small', text: h.sota && h.bid && bench(h.bid) ? fmtScore(h.sota.score, bench(h.bid).unit) : (h.best_reported ? `${fmtNum(h.best_reported.score, 1)}%` : '') }))))),
+        el('div', { class: 'card' }, el('h3', { text: t('rd.feed_title') }), el('ul', { class: 'plain' }, radar.releases.filter(x => x.conf === 'high').slice(0, 5).map(x => el('li', {}, el('a', { href: x.url, target: '_blank', rel: 'noopener', text: x.name || x.title }), ' ', el('span', { class: 'muted small', text: x.date || '' })))),
+          el('a', { href: '#/radar', class: 'small', text: t('ov.radar_more') })),
+      )));
+  }
 
   // ECI chart
   const eciModels = catalog.models.filter(m => !m.ext && m.eci !== null && m.eci !== undefined && m.frontier)

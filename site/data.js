@@ -47,6 +47,12 @@ export async function loadScores() {
   return recs;
 }
 
+export async function loadRadar() {
+  if (state.radar !== undefined) return state.radar;
+  try { state.radar = await fetchJSON('radar.json'); } catch (_) { state.radar = null; }
+  return state.radar;
+}
+
 export const isExt = id => typeof id === 'string' && id.startsWith('ext:');
 export function isFrontier(mid) { const m = state.modelById.get(mid); return !!(m && m.frontier); }
 export function bench(id) { return state.benchById.get(id); }

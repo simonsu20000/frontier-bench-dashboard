@@ -54,6 +54,10 @@ class Source:
         raise NotImplementedError
 
 
+def _as_dict(r):
+    return r if isinstance(r, dict) else r.to_dict()
+
+
 def _json_default(o):
     if isinstance(o, (datetime, date)):
         return o.isoformat()
@@ -82,14 +86,18 @@ def _compute_stale(status: SourceStatus, today: date):
 
 
 def run_source(src: Source, http: Http | None, cache_dir: Path, offline: bool = False,
-               today: date | None = None) -> SourceResult:
-    """Fetch+parse with isolation: any failure falls back to the last good cache."""
+               today: date | None = None, codec=ScoreRecord.from_dict) -> SourceResult:
+    """Fetch+parse with isolation: any failure falls back to the last good cache.
+
+    `codec` rebuilds a cached record from its dict form (ScoreRecord by default;
+    radar feeds pass `dict` to cache plain candidate dicts).
+    """
     today = today or datetime.now(timezone.utc).date()
     cache_path = Path(cache_dir) / f"{src.id}.json"
     prev = _load_cache(cache_path)
     prev_status = SourceStatus(**{k: v for k, v in (prev or {}).get("status", {}).items() if k in SourceStatus.__dataclass_fields__}) \
         if prev else SourceStatus(id=src.id, name=src.name, url=src.url, license=src.license)
-    prev_records = [ScoreRecord.from_dict(d) for d in (prev or {}).get("records", [])]
+    prev_records = [codec(d) for d in (prev or {}).get("records", [])]
     prev_extras = (prev or {}).get("extras", {})
 
     def cached_result(status_value: str, error: str = "") -> SourceResult:
@@ -132,7 +140,7 @@ def run_source(src: Source, http: Http | None, cache_dir: Path, offline: bool = 
             note=str(extras.get("note", "") or ""),
         )
         _compute_stale(status, today)
-        payload = {"status": status.to_dict(), "records": [r.to_dict() for r in records],
+        payload = {"status": status.to_dict(), "records": [_as_dict(r) for r in records],
                    "extras": {k: v for k, v in extras.items()}}
         cache_path.parent.mkdir(parents=True, exist_ok=True)
         cache_path.write_text(json.dumps(payload, ensure_ascii=False, separators=(",", ":"), default=_json_default) + "\n",

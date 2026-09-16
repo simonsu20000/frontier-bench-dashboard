@@ -8,8 +8,9 @@ import * as leaderboards from './panels/leaderboards.js';
 import * as scorecard from './panels/scorecard.js';
 import * as matrix from './panels/matrix.js';
 import * as sources from './panels/sources.js';
+import * as radar from './panels/radar.js';
 
-const PANELS = { overview, benchmarks: leaderboards, models: scorecard, matrix, sources };
+const PANELS = { overview, benchmarks: leaderboards, models: scorecard, matrix, radar, sources };
 const main = document.getElementById('main');
 const errBox = document.getElementById('js-errors');
 

@@ -1,0 +1,92 @@
+# Benchmark radar: new-release feed, vendor attention, "new & hard" ranking.
+
+vendors:
+  - {id: openai,    name: OpenAI,           hf_authors: [openai],        github_orgs: [],              rss: ["https://openai.com/news/rss.xml"], note: "openai.com blocks scripted page fetches (403); titles only + Benchmark Radar registry"}
+  - {id: anthropic, name: Anthropic,        hf_authors: [],              github_orgs: [],              sitemap: "https://www.anthropic.com/sitemap.xml", sitemap_prefix: "https://www.anthropic.com/news/"}
+  - {id: google,    name: Google DeepMind,  hf_authors: [google],        github_orgs: [],              rss: ["https://deepmind.google/blog/rss.xml", "https://blog.google/products/gemini/rss/"]}
+  - {id: xai,       name: xAI,              hf_authors: [xai-org],       github_orgs: [],              note: "closed-model announcements not machine-readable (site 403)"}
+  - {id: meta,      name: Meta,             hf_authors: [meta-llama],    github_orgs: []}
+  - {id: mistral,   name: Mistral AI,       hf_authors: [mistralai],     github_orgs: [],              rss: ["https://mistral.ai/rss.xml"]}
+  - {id: deepseek,  name: DeepSeek,         hf_authors: [deepseek-ai],   github_orgs: [deepseek-ai]}
+  - {id: qwen,      name: Qwen (Alibaba),   hf_authors: [Qwen],          github_orgs: [QwenLM]}
+  - {id: moonshot,  name: Moonshot (Kimi),  hf_authors: [moonshotai],    github_orgs: [MoonshotAI]}
+  - {id: zai,       name: Z.ai (Zhipu),     hf_authors: [zai-org],       github_orgs: [zai-org]}
+  - {id: minimax,   name: MiniMax,          hf_authors: [MiniMaxAI],     github_orgs: [MiniMax-AI]}
+  - {id: bytedance, name: ByteDance Seed,   hf_authors: [ByteDance-Seed], github_orgs: [ByteDance-Seed]}
+
+# Map vendor ids to organisation names used in config/sources.yml org_brands (for launch-title detection)
+vendor_org_names:
+  openai: OpenAI
+  anthropic: Anthropic
+  google: Google DeepMind
+  xai: xAI
+  meta: Meta AI
+  mistral: Mistral AI
+  deepseek: DeepSeek
+  qwen: Alibaba
+  moonshot: Moonshot
+  zai: Z.ai (Zhipu AI)
+  minimax: MiniMax
+  bytedance: ByteDance
+
+# Benchmark Radar (academic aggregator) vendor labels -> our vendor ids
+radar_vendor_map:
+  OpenAI: openai
+  Anthropic: anthropic
+  Google: google
+  Google DeepMind: google
+  DeepMind: google
+  xAI: xai
+  Meta: meta
+  Meta AI: meta
+  Mistral: mistral
+  Mistral AI: mistral
+  DeepSeek: deepseek
+  Alibaba: qwen
+  Qwen: qwen
+  Moonshot: moonshot
+  Moonshot AI: moonshot
+  Zhipu: zai
+  Z.ai: zai
+  MiniMax: minimax
+  ByteDance: bytedance
+  ByteDance Seed: bytedance
+
+windows:
+  mention_days: 60          # vendor mentions counted for importance
+  doc_lookback_days: 60     # how far back vendor docs are fetched
+  release_days: 548         # "new" benchmark = released within 18 months
+  releases_shown_days: 30   # feed length on the page
+  feed_backfill_days: 3     # HF papers / Radar snapshots fetched for the last N days
+
+weights: {vendors: 0.55, docs: 0.15, coverage: 0.15, leaderboard: 0.05, recency: 0.10}
+caps:    {vendors: 6, docs: 12, coverage: 10}
+doc_weights: {hf: 1.0, github: 1.0, rss: 1.0, sitemap: 1.0, radar: 0.5}
+
+filter:
+  candidate_min: 4          # below: dropped
+  accept_min: 7             # at/above: published without LLM
+  per_day_publish: 30
+  llm_per_run: 40
+  learned_name_min_score: 7
+
+llm:
+  model: claude-haiku-4-5-20251001
+  batch: 8
+  max_requests: 20
+  max_tokens: 4096
+
+frontier_model_terms: ["GPT-5", "GPT-6", "GPT-4", "Claude", "Gemini", "o3", "o4", "DeepSeek", "Qwen", "Grok", "Kimi", "GLM", "Llama", "Mistral"]
+
+negative_terms: ["hardware", "FPGA", "GPU kernel", "compiler", "SQL engine", "database system", "wireless", "5G", "6G", "MRI", "CT scan",
+                 "image segmentation", "instance segmentation", "semantic segmentation", "federated learning", "protein", "genomic", "robot controller", "CPU", "memory bandwidth", "network throughput", "quantum circuit"]
+
+domains:
+  coding:     {en: Coding,                zh: 编程,       keywords: [code, coding, software, swe, repository, program, bug, commit, github, pull request, terminal]}
+  math:       {en: Mathematics,           zh: 数学,       keywords: [math, mathematical, theorem, proof, olympiad, aime, imo, arithmetic]}
+  agentic:    {en: Agents & tool use,     zh: 智能体与工具, keywords: [agent, agentic, tool use, tool-use, web, browsing, computer use, gui, long-horizon, workflow, mcp, function calling]}
+  multimodal: {en: Multimodal,            zh: 多模态,     keywords: [image, video, vision, visual, vlm, mllm, audio, speech, multimodal, chart, ocr, spatial]}
+  safety:     {en: Safety & security,     zh: 安全,       keywords: [safety, jailbreak, red team, cyber, ctf, exploit, bio, misuse, alignment, deception, forecast]}
+  science:    {en: Science & domain,      zh: 科学与专业领域, keywords: [biolog, chemi, physic, medic, clinic, legal, law, financ, scientific, health, accounting, geoscien]}
+  reasoning:  {en: Reasoning & knowledge, zh: 推理与知识,  keywords: [reason, logic, puzzle, qa, question answering, knowledge, commonsense, planning]}
+  general:    {en: General / chat,        zh: 综合,       keywords: [instruction, chat, multilingual, conversation, preference, writing, creative, long context, retrieval]}

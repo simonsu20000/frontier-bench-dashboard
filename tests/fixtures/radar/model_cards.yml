@@ -1,0 +1,263 @@
+schema_version: 1
+benchmarks:
+- id: hle
+  name: Humanity's Last Exam
+  aliases:
+  - HLE
+  - Humanity's Last Exam
+  - HLE-Full
+  - HLE-Verified
+  domain: reasoning
+  url: https://lastexam.ai/
+  released: 2025-01-23
+  caveat: Tool access and test-time compute budget move this score more than model
+    capability does, so two reported figures are rarely comparable. Cards increasingly
+    report no-tools and with-tools figures as separate numbers.
+- id: gpqa_diamond
+  name: GPQA Diamond
+  aliases:
+  - GPQA
+  - GPQA-Diamond
+  - GPQA Diamond
+  domain: science
+  url: https://arxiv.org/abs/2311.12022
+  released: 2023-11-20
+  caveat: 198 questions in the Diamond split, so run-to-run variance is wide and a
+    single reported number hides it. Approaching saturation at the 2026 frontier,
+    where reported scores cluster in the high 80s and 90s.
+- id: swe_bench_verified
+  name: SWE-bench Verified
+  aliases:
+  - SWE-bench Verified
+  - SWE-bench-Verified
+  - SWE Bench Verified
+  - SWE Verified
+  domain: coding_agent
+  url: https://openai.com/index/introducing-swe-bench-verified/
+  released: 2024-08-13
+  caveat: Scaffold, tool permissions and time limit are part of the result; vendors
+    run their own harnesses.
+- id: swe_bench_pro
+  name: SWE-bench Pro
+  aliases:
+  - SWE-bench Pro
+  - SWE Pro
+  - SWE-Bench Pro (Public)
+  domain: coding_agent
+  url: https://github.com/scaleapi/SWE-bench_Pro-os
+  released: 2025-09-23
+  caveat: Harness and split version must be recorded with any score.
+- id: swe_bench_multilingual
+  name: SWE-bench Multilingual
+  aliases:
+  - SWE-bench Multilingual
+  - SWE Multilingual
+  domain: coding_agent
+  url: https://www.swebench.com/multilingual.html
+  released: 2025-04-22
+  caveat: Per-language resolution rates differ widely, so an average hides which languages
+    the model actually handles.
+- id: terminal_bench
+  name: Terminal-Bench
+  aliases:
+  - Terminal-Bench
+  - Terminal Bench
+  - TerminalBench
+  - Terminal-Bench 2.0
+  - Terminal-Bench 2.1
+  - Terminal Bench 2
+  - TerminalBench Hard
+  - Terminal-Bench 3.0
+  - Terminal Bench 3
+  - Frontier-Bench
+  - FrontierBench
+  - Frontier-Bench v0.1
+  - FrontierSWE
+  domain: agent
+  url: https://www.tbench.ai/
+  released: 2025-05-19
+  caveat: 'Environment image, timeout and permitted commands change results independently
+    of the model. Version and harness both matter: 2.0 and 2.1 are different instruments,
+    and cards report Terminus, Claude Code and Codex harness numbers for the same
+    version. Frontier-Bench is this series'' next version rather than a separate benchmark:
+    frontierbench.ai now bills it as "Terminal-Bench 3.0 (formerly Frontier-Bench)",
+    built by the makers of Harbor and Terminal-Bench, so its mentions are counted
+    here. Merging it did not raise this count: all three cards that named Frontier-Bench
+    (Claude Opus 5, Claude Fable 5 and Mythos 5, Kimi K3) also report Terminal-Bench
+    in the same document, and the counting unit is the document, so each still adds
+    one. Being a new version, its task set is not comparable to a 2.x number. Not
+    to be confused with Cognition''s FrontierCode, a separate instrument recorded
+    separately despite the shared prefix.'
+- id: livecodebench
+  name: LiveCodeBench
+  aliases:
+  - LiveCodeBench
+  - LCB
+  domain: coding
+  url: https://livecodebench.github.io/
+  released: 2024-03-12
+  caveat: Time-sliced problem set. A score without its problem window is not comparable
+    to any other score.
+- id: aime
+  name: AIME
+  aliases:
+  - AIME
+  - AIME 2024
+  - AIME 2025
+  - AIME 2026
+  domain: math
+  url: https://maa.org/maa-invitational-competitions/
+  released: 2024-02-01
+  caveat: pass@k, majority vote and Python tool access each shift this by double digits.
+- id: mmmu
+  name: MMMU
+  aliases:
+  - MMMU
+  - MMMU-Pro
+  domain: multimodal
+  url: https://mmmu-benchmark.github.io/
+  released: 2023-11-27
+  caveat: Image preprocessing and chain-of-thought settings affect results.
+- id: mathvista
+  name: MathVista
+  aliases:
+  - MathVista
+  domain: multimodal
+  url: https://mathvista.github.io/
+  released: 2023-10-03
+  caveat: Mixes OCR quality with visual reasoning.
+- id: video_mme
+  name: Video-MME
+  aliases:
+  - Video-MME
+  - VideoMME
+  domain: multimodal
+  url: https://video-mme.github.io/
+  released: 2024-05-31
+  caveat: Frame sampling rate dominates long-video results.
+- id: tau_bench
+  name: tau-bench
+  aliases:
+  - tau-bench
+  - τ-bench
+  - tau2-bench
+  - TAU-bench
+  domain: tool_use
+  url: https://github.com/sierra-research/tau-bench
+  released: 2024-06-17
+  caveat: Depends on a simulated user and policy; the simulator model is part of the
+    measurement.
+- id: browsecomp
+  name: BrowseComp
+  aliases:
+  - BrowseComp
+  domain: agent
+  url: https://openai.com/index/browsecomp/
+  released: 2025-04-10
+  caveat: Live web. The result depends on what the internet contained on the day of
+    the run.
+- id: simpleqa
+  name: SimpleQA
+  aliases:
+  - SimpleQA
+  - SimpleQA Verified
+  domain: factuality
+  url: https://openai.com/index/introducing-simpleqa/
+  released: 2024-10-30
+  caveat: Knowledge cutoff must be recorded alongside the score.
+- id: longbench
+  name: LongBench
+  aliases:
+  - LongBench
+  - LongBench v2
+  domain: long_context
+  url: https://github.com/THUDM/LongBench
+  released: 2023-08-28
+  caveat: Nominal context length is not effective context length.
+model_cards:
+- id: openai_gpt_5_system_card
+  organization: OpenAI
+  model: GPT-5
+  document_type: system_card
+  published: 2025-08-07
+  url: https://openai.com/index/gpt-5-system-card/
+  retrieved_at: 2026-08-02
+  benchmarks:
+  - gpqa_diamond
+  - hle
+  - swe_bench_verified
+  - aime
+  - mmmu
+  - simpleqa
+  - browsecomp
+  - tau_bench
+  - livecodebench
+  - mrcr
+  - healthbench
+  - mle_bench
+- id: openai_o3_o4_mini_system_card
+  organization: OpenAI
+  model: o3 and o4-mini
+  document_type: system_card
+  published: 2025-04-16
+  url: https://openai.com/index/o3-o4-mini-system-card/
+  retrieved_at: 2026-08-02
+  benchmarks:
+  - gpqa_diamond
+  - aime
+  - swe_bench_verified
+  - mmmu
+  - browsecomp
+  - simpleqa
+  - arc_agi
+  - livecodebench
+- id: openai_gpt_4_1
+  organization: OpenAI
+  model: GPT-4.1
+  document_type: release_post
+  published: 2025-04-14
+  url: https://openai.com/index/gpt-4-1/
+  retrieved_at: 2026-08-02
+  benchmarks:
+  - swe_bench_verified
+  - gpqa_diamond
+  - aime
+  - mmlu
+  - mmmu
+  - video_mme
+  - mrcr
+  - ifeval
+  - aider_polyglot
+- id: anthropic_claude_4_system_card
+  organization: Anthropic
+  model: Claude Opus 4 and Sonnet 4
+  document_type: system_card
+  published: 2025-05-22
+  url: https://www.anthropic.com/news/claude-4
+  retrieved_at: 2026-08-02
+  benchmarks:
+  - swe_bench_verified
+  - terminal_bench
+  - gpqa_diamond
+  - aime
+  - mmmu
+  - tau_bench
+  - mmmlu
+  - mrcr
+- id: anthropic_claude_3_7_sonnet
+  organization: Anthropic
+  model: Claude 3.7 Sonnet
+  document_type: system_card
+  published: 2025-02-24
+  url: https://www.anthropic.com/news/claude-3-7-sonnet
+  retrieved_at: 2026-08-02
+  benchmarks:
+  - swe_bench_verified
+  - tau_bench
+  - gpqa_diamond
+  - aime
+  - mmlu_pro
+  - mmmu
+  - math_500
+  - ifeval
+source_documents: []

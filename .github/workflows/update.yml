@@ -13,6 +13,10 @@ on:
         description: "Ignore stored ETags and re-download every source"
         type: boolean
         default: false
+      radar_llm:
+        description: "Let Claude second-judge new-benchmark candidates (needs ANTHROPIC_API_KEY secret)"
+        type: boolean
+        default: true
   push:
     branches: [main]
     paths:
@@ -66,6 +70,19 @@ jobs:
           set -o pipefail
           uv run python -m pipeline.run ${{ inputs.full_refresh == true && '--no-etag' || '' }} 2>&1 | tee build.log
 
+      # Daily benchmark radar: new releases, vendor attention, new & hard. Runs on the
+      # 12:23 UTC schedule, on manual dispatch and on code pushes; never fails the build.
+      - name: Benchmark radar (daily)
+        if: github.event_name != 'schedule' || github.event.schedule == '23 12 * * *'
+        continue-on-error: true
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          set -o pipefail
+          uv run python -m pipeline.radar.run ${{ inputs.radar_llm == false && '--no-llm' || '' }} 2>&1 | tee -a build.log
+
       - name: Save source cache
         if: always()
         uses: actions/cache/save@v4
@@ -77,7 +94,7 @@ jobs:
         id: decide
         run: |
           git add -A site/data data   # data/raw is git-ignored (lives in the Actions cache)
-          if git diff --cached --quiet -- site/data/catalog.json site/data/scores.json site/data/summary.json; then
+          if git diff --cached --quiet -- site/data/catalog.json site/data/scores.json site/data/summary.json site/data/radar.json; then
             data_changed=false
           else
             data_changed=true

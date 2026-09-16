@@ -15,6 +15,12 @@ no advertising, no paid access.
 | [Aider](https://aider.chat/docs/leaderboards/) | `polyglot_leaderboard.yml` | Apache-2.0 (aider repository) | Aider polyglot leaderboard |
 | [Artificial Analysis](https://artificialanalysis.ai) (optional) | Data API, only when `AA_API_KEY` is configured | Artificial Analysis API terms | Artificial Analysis |
 
+The **radar** additionally reads metadata only (titles, abstracts, links, dates) from arXiv RSS
+(arXiv metadata terms), the Hugging Face Hub API (papers, datasets, spaces, model cards under their own
+licenses), [Benchmark Radar](https://benchmark-radar.org/) snapshots and its curated model-card registry
+(mixed upstream terms, attribution), GitHub repository READMEs (per-repo licenses) and vendor announcement
+pages (titles and benchmark mentions only, fair use). No article text is republished.
+
 Terminal-Bench, Humanity's Last Exam, METR time horizons, OSWorld and the other
 "external" benchmarks are taken from Epoch's curated files; each row links to the
 maintainer's page (tbench.ai, scale.com, metr.org, os-world.github.io, ...).
