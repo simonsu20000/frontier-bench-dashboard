@@ -75,9 +75,10 @@ def main(argv=None) -> int:
     merged = merge(cands)
     fcfg = cfg["filter"]
     scored = []
+    known_names = {r.get("name_norm") for r in state.releases if len(r.get("name_norm") or "") >= 4}
     for c in merged:
-        if state.has_release(c["key"]):
-            continue
+        if state.has_release(c["key"]) or (c.get("name_norm") and len(c["name_norm"]) >= 4 and c["name_norm"] in known_names):
+            continue  # already published (same key, or same paper under another key on an earlier day)
         c["best_reported"] = extract_best(c.get("abstract") or "")
         c["score"], c["reasons"] = score(c, cfg)
         if c["score"] >= int(fcfg["candidate_min"]):
@@ -95,7 +96,8 @@ def main(argv=None) -> int:
                 "judged_today": len(verdicts)}
 
     # ---------------- 3. accept releases ----------------
-    accepted = 0
+    # the publish cap is per calendar day, so a second run on the same day does not add a second batch
+    accepted = sum(1 for r in state.releases if r.get("first_seen") == today.isoformat())
     for c in scored:
         v = verdicts.get(c["key"])
         if v and not v.get("is_llm_benchmark") and v.get("confidence", 0) >= 0.6:
@@ -116,6 +118,7 @@ def main(argv=None) -> int:
         rec = {
             "key": c["key"], "first_seen": today.isoformat(), "date": c.get("date") or today.isoformat(),
             "name": (v or {}).get("canonical_name") or c.get("name") or extract_name(c.get("title", "")),
+            "name_norm": c.get("name_norm", ""),
             "title": c.get("title", ""), "url": c.get("url", ""), "code_url": c.get("code_url", ""), "hf_url": c.get("hf_url", ""),
             "kind": c.get("kind", "paper"), "sources": c.get("sources", []), "org": c.get("org", ""), "upvotes": c.get("upvotes", 0),
             "score": c["score"], "reasons": c.get("reasons", []),
@@ -129,7 +132,7 @@ def main(argv=None) -> int:
         if state.append_release(rec):
             accepted += 1
         state.seen["cands"][c["key"]] = today.isoformat()
-    print(f"releases: +{accepted} accepted (total {len(state.releases)})")
+    print(f"releases: {accepted} published today (total {len(state.releases)})")
 
     # ---------------- 4. vendor attention ----------------
     catalog = json.loads((ROOT / "site" / "data" / "catalog.json").read_text()) if (ROOT / "site" / "data" / "catalog.json").exists() else {"benchmarks": []}
