@@ -63,3 +63,4 @@
 {"benchmarks":["finance-agent"],"doc_date":"2026-09-09","doc_title":"Agents for financial services","doc_url":"https://www.anthropic.com/news/finance-agents","first_seen":"2026-09-16","source":"sitemap","vendor":"anthropic"}
 {"benchmarks":["gsm8k"],"doc_date":"2026-09-09","doc_title":"Releasing Claude Instant 1.2","doc_url":"https://www.anthropic.com/news/releasing-claude-instant-1-2","first_seen":"2026-09-17","source":"sitemap","vendor":"anthropic"}
 {"benchmarks":["gsm8k","humaneval"],"doc_date":"2026-09-09","doc_title":"Claude 2","doc_url":"https://www.anthropic.com/news/claude-2","first_seen":"2026-09-17","source":"sitemap","vendor":"anthropic"}
+{"benchmarks":["cursorbench","finance-agent","osworld","radar:legal_agent_benchmark","terminal-bench"],"doc_date":"2026-09-09","doc_title":"Introducing Claude Opus 4.8","doc_url":"https://www.anthropic.com/news/claude-opus-4-8","first_seen":"2026-09-18","source":"sitemap","vendor":"anthropic"}
