@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-21T05:07:25Z",
+ "generated_at": "2026-09-21T15:09:49Z",
  "sources": [
   {
    "id": "epoch",
@@ -7,7 +7,7 @@
    "url": "https://epoch.ai/benchmarks",
    "license": "CC BY 4.0",
    "status": "ok",
-   "fetched_at": "2026-09-21T05:07:20Z",
+   "fetched_at": "2026-09-21T15:09:46Z",
    "upstream_updated_at": "2026-09-21",
    "records": 6177,
    "consecutive_failures": 0,
@@ -22,7 +22,7 @@
    "url": "https://lmarena.ai/leaderboard/text",
    "license": "CC BY 4.0",
    "status": "ok",
-   "fetched_at": "2026-09-21T05:07:23Z",
+   "fetched_at": "2026-09-21T15:09:48Z",
    "upstream_updated_at": "2026-09-13",
    "records": 402,
    "consecutive_failures": 0,
@@ -37,7 +37,7 @@
    "url": "https://www.swebench.com/",
    "license": "CC BY-NC 4.0",
    "status": "ok",
-   "fetched_at": "2026-09-21T05:07:24Z",
+   "fetched_at": "2026-09-21T15:09:48Z",
    "upstream_updated_at": "2026-02-26",
    "records": 180,
    "consecutive_failures": 0,
@@ -52,7 +52,7 @@
    "url": "https://arcprize.org/leaderboard",
    "license": "ARC Prize Foundation (attribution)",
    "status": "ok",
-   "fetched_at": "2026-09-21T05:07:24Z",
+   "fetched_at": "2026-09-21T15:09:49Z",
    "upstream_updated_at": "2026-09-04",
    "records": 484,
    "consecutive_failures": 0,
@@ -66,12 +66,12 @@
    "name": "LiveBench leaderboard",
    "url": "https://livebench.ai/",
    "license": "LiveBench (attribution)",
-   "status": "ok",
+   "status": "cached",
    "fetched_at": "2026-09-21T05:07:25Z",
    "upstream_updated_at": "2026-06-25",
    "records": 58,
-   "consecutive_failures": 0,
-   "error": "",
+   "consecutive_failures": 1,
+   "error": "HTTPError: 403 Client Error: rate limit exceeded for url: https://api.github.com/repos/LiveBench/livebench.github.io/contents/public",
    "stale": false,
    "stale_after_days": 120,
    "not_modified": false
@@ -82,7 +82,7 @@
    "url": "https://aider.chat/docs/leaderboards/",
    "license": "Apache-2.0 (aider repo)",
    "status": "ok",
-   "fetched_at": "2026-09-21T05:07:25Z",
+   "fetched_at": "2026-09-21T15:09:49Z",
    "upstream_updated_at": "2025-10-03",
    "records": 69,
    "consecutive_failures": 0,
@@ -119,9 +119,7 @@
   "200 https://arcprize.org/media/data/leaderboard/v2.json (122928 bytes)",
   "200 https://arcprize.org/media/data/leaderboard/v3.json (21914 bytes)",
   "200 https://arcprize.org/media/data/models.json (114533 bytes)",
-  "200 https://api.github.com/repos/LiveBench/livebench.github.io/contents/public (27055 bytes)",
-  "200 https://livebench.ai/table_2026_06_25.csv (9729 bytes)",
-  "200 https://livebench.ai/categories_2026_06_25.json (725 bytes)",
+  "attempt 1 failed for https://api.github.com/repos/LiveBench/livebench.github.io/contents/public: 403 Client Error: rate limit exceeded for url: https://api.github.com/repos/LiveBench/livebench.github.io/contents/public",
   "304 https://raw.githubusercontent.com/Aider-AI/aider/main/aider/website/_data/polyglot_leaderboard.yml"
  ]
 }
