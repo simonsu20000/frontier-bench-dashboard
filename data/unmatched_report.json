@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T05:08:29Z",
+ "generated_at": "2026-09-22T13:28:32Z",
  "models": [
   {
    "source": "lmarena",
@@ -88,15 +88,15 @@
    ],
    "suggestions": [
     {
-     "model_id": "gpt-3-5-turbo-instruct",
-     "similarity": 0.75
-    },
-    {
-     "model_id": "gpt-3-5-turbo-jan-2024",
-     "similarity": 0.75
-    },
-    {
      "model_id": "gpt-3-5-turbo-jun-2023",
+     "similarity": 0.75
+    },
+    {
+     "model_id": "gpt-3-5-turbo-nov-2023",
+     "similarity": 0.75
+    },
+    {
+     "model_id": "gpt-3-5-turbo-mar-2023",
      "similarity": 0.75
     }
    ]
@@ -1375,7 +1375,7 @@
      "similarity": 0.5
     },
     {
-     "model_id": "gemini-1-5-pro-may-2024",
+     "model_id": "gemini-1-5-pro-feb-2024",
      "similarity": 0.5
     }
    ]
@@ -2183,11 +2183,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "claude-3-5-sonnet-october-2024",
+     "model_id": "claude-3-5-sonnet",
      "similarity": 0.667
     },
     {
-     "model_id": "claude-3-5-sonnet",
+     "model_id": "claude-3-5-sonnet-october-2024",
      "similarity": 0.667
     },
     {
@@ -2321,11 +2321,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "baichuan2-13b",
+     "model_id": "baichuan2-13b-chat",
      "similarity": 1.0
     },
     {
-     "model_id": "baichuan2-13b-chat",
+     "model_id": "baichuan2-13b",
      "similarity": 1.0
     }
    ]
@@ -2506,11 +2506,11 @@
      "similarity": 1.0
     },
     {
-     "model_id": "gpt-4o-mar-2025",
+     "model_id": "gpt-4o-nov-2024",
      "similarity": 1.0
     },
     {
-     "model_id": "gpt-4o-nov-2024",
+     "model_id": "gpt-4o-may-2024",
      "similarity": 1.0
     }
    ]
@@ -2644,11 +2644,11 @@
      "similarity": 1.0
     },
     {
-     "model_id": "gpt-4o-mar-2025",
+     "model_id": "gpt-4o-nov-2024",
      "similarity": 1.0
     },
     {
-     "model_id": "gpt-4o-nov-2024",
+     "model_id": "gpt-4o-may-2024",
      "similarity": 1.0
     }
    ]
@@ -2810,11 +2810,11 @@
      "similarity": 1.0
     },
     {
-     "model_id": "gemini-1-5-pro-sept-2024",
+     "model_id": "gemini-1-5-pro-feb-2024",
      "similarity": 1.0
     },
     {
-     "model_id": "gemini-1-5-pro-feb-2024",
+     "model_id": "gemini-1-5-pro-sept-2024",
      "similarity": 1.0
     }
    ]
@@ -2844,15 +2844,15 @@
    ],
    "suggestions": [
     {
-     "model_id": "gpt-3-5-turbo-instruct",
-     "similarity": 0.75
-    },
-    {
-     "model_id": "gpt-3-5-turbo-jan-2024",
-     "similarity": 0.75
-    },
-    {
      "model_id": "gpt-3-5-turbo-jun-2023",
+     "similarity": 0.75
+    },
+    {
+     "model_id": "gpt-3-5-turbo-nov-2023",
+     "similarity": 0.75
+    },
+    {
+     "model_id": "gpt-3-5-turbo-mar-2023",
      "similarity": 0.75
     }
    ]
