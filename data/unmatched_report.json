@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T19:46:52Z",
+ "generated_at": "2026-09-22T23:01:28Z",
  "models": [
   {
    "source": "lmarena",
@@ -88,15 +88,15 @@
    ],
    "suggestions": [
     {
-     "model_id": "gpt-3-5-turbo-jun-2023",
-     "similarity": 0.75
-    },
-    {
-     "model_id": "gpt-3-5-turbo-mar-2023",
-     "similarity": 0.75
-    },
-    {
      "model_id": "gpt-3-5-turbo-instruct",
+     "similarity": 0.75
+    },
+    {
+     "model_id": "gpt-3-5-turbo-nov-2023",
+     "similarity": 0.75
+    },
+    {
+     "model_id": "gpt-3-5-turbo-jun-2023",
      "similarity": 0.75
     }
    ]
@@ -240,11 +240,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "deepseek-v3-2",
+     "model_id": "deepseek-v3-2-exp",
      "similarity": 0.75
     },
     {
-     "model_id": "deepseek-v3-2-exp",
+     "model_id": "deepseek-v3-2",
      "similarity": 0.75
     },
     {
@@ -263,11 +263,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "deepseek-v3-2",
+     "model_id": "deepseek-v3-2-exp",
      "similarity": 0.75
     },
     {
-     "model_id": "deepseek-v3-2-exp",
+     "model_id": "deepseek-v3-2",
      "similarity": 0.75
     },
     {
@@ -457,11 +457,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "glm-4",
+     "model_id": "glm-4-0520",
      "similarity": 0.667
     },
     {
-     "model_id": "glm-4-0520",
+     "model_id": "glm-4",
      "similarity": 0.667
     },
     {
@@ -576,11 +576,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "glm-4",
+     "model_id": "glm-4-0520",
      "similarity": 0.667
     },
     {
-     "model_id": "glm-4-0520",
+     "model_id": "glm-4",
      "similarity": 0.667
     },
     {
@@ -732,11 +732,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "glm-4",
+     "model_id": "glm-4-0520",
      "similarity": 0.667
     },
     {
-     "model_id": "glm-4-0520",
+     "model_id": "glm-4",
      "similarity": 0.667
     },
     {
@@ -921,11 +921,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "glm-4",
+     "model_id": "glm-4-0520",
      "similarity": 0.667
     },
     {
-     "model_id": "glm-4-0520",
+     "model_id": "glm-4",
      "similarity": 0.667
     },
     {
@@ -1375,7 +1375,7 @@
      "similarity": 0.5
     },
     {
-     "model_id": "gemini-1-5-pro-may-2024",
+     "model_id": "gemini-1-5-pro-feb-2024",
      "similarity": 0.5
     }
    ]
@@ -2024,6 +2024,126 @@
   },
   {
    "source": "arcprize",
+   "name": "Claude Opus 5.5 (High)",
+   "count": 2,
+   "best_score": 98.5,
+   "benchmarks": [
+    "arc-agi-1",
+    "arc-agi-2"
+   ],
+   "suggestions": [
+    {
+     "model_id": "claude-opus-5",
+     "similarity": 1.0
+    },
+    {
+     "model_id": "claude-opus-4-5",
+     "similarity": 0.75
+    },
+    {
+     "model_id": "claude-3-opus",
+     "similarity": 0.5
+    }
+   ]
+  },
+  {
+   "source": "arcprize",
+   "name": "Claude Opus 5.5 (Max)",
+   "count": 2,
+   "best_score": 97.5,
+   "benchmarks": [
+    "arc-agi-1",
+    "arc-agi-2"
+   ],
+   "suggestions": [
+    {
+     "model_id": "claude-opus-5",
+     "similarity": 1.0
+    },
+    {
+     "model_id": "claude-opus-4-5",
+     "similarity": 0.75
+    },
+    {
+     "model_id": "claude-3-opus",
+     "similarity": 0.5
+    }
+   ]
+  },
+  {
+   "source": "arcprize",
+   "name": "Claude Opus 5.5 (Medium)",
+   "count": 2,
+   "best_score": 97.5,
+   "benchmarks": [
+    "arc-agi-1",
+    "arc-agi-2"
+   ],
+   "suggestions": [
+    {
+     "model_id": "claude-opus-5",
+     "similarity": 1.0
+    },
+    {
+     "model_id": "claude-opus-4-5",
+     "similarity": 0.75
+    },
+    {
+     "model_id": "claude-3-opus",
+     "similarity": 0.5
+    }
+   ]
+  },
+  {
+   "source": "arcprize",
+   "name": "Claude Opus 5.5 (XHigh)",
+   "count": 2,
+   "best_score": 97.5,
+   "benchmarks": [
+    "arc-agi-1",
+    "arc-agi-2"
+   ],
+   "suggestions": [
+    {
+     "model_id": "claude-opus-5",
+     "similarity": 1.0
+    },
+    {
+     "model_id": "claude-opus-4-5",
+     "similarity": 0.75
+    },
+    {
+     "model_id": "claude-3-opus",
+     "similarity": 0.5
+    }
+   ]
+  },
+  {
+   "source": "arcprize",
+   "name": "Claude Opus 5.5 (Low)",
+   "count": 2,
+   "best_score": 88.5,
+   "benchmarks": [
+    "arc-agi-1",
+    "arc-agi-2"
+   ],
+   "suggestions": [
+    {
+     "model_id": "claude-opus-5",
+     "similarity": 1.0
+    },
+    {
+     "model_id": "claude-opus-4-5",
+     "similarity": 0.75
+    },
+    {
+     "model_id": "claude-3-opus",
+     "similarity": 0.5
+    }
+   ]
+  },
+  {
+   "source": "arcprize",
    "name": "GPT-6 Luna (Max)",
    "count": 3,
    "best_score": 86.66666666666667,
@@ -2094,6 +2214,21 @@
     "livebench"
    ],
    "suggestions": []
+  },
+  {
+   "source": "livebench",
+   "name": "gpt-6-sol-max",
+   "count": 1,
+   "best_score": 79.24545238095239,
+   "benchmarks": [
+    "livebench"
+   ],
+   "suggestions": [
+    {
+     "model_id": "gpt-5-6-sol",
+     "similarity": 0.6
+    }
+   ]
   },
   {
    "source": "swebench",
@@ -2234,6 +2369,21 @@
     {
      "model_id": "gpt-6-astra",
      "similarity": 0.5
+    }
+   ]
+  },
+  {
+   "source": "livebench",
+   "name": "gpt-6-luna-max",
+   "count": 1,
+   "best_score": 72.02647619047619,
+   "benchmarks": [
+    "livebench"
+   ],
+   "suggestions": [
+    {
+     "model_id": "gpt-5-6-luna",
+     "similarity": 0.6
     }
    ]
   },
@@ -2447,11 +2597,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "baichuan2-13b-chat",
+     "model_id": "baichuan2-13b",
      "similarity": 1.0
     },
     {
-     "model_id": "baichuan2-13b",
+     "model_id": "baichuan2-13b-chat",
      "similarity": 1.0
     }
    ]
@@ -2628,11 +2778,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "gpt-4o-mar-2025",
+     "model_id": "gpt-4o-aug-2024",
      "similarity": 1.0
     },
     {
-     "model_id": "gpt-4o-jan-2025",
+     "model_id": "gpt-4o-mar-2025",
      "similarity": 1.0
     },
     {
@@ -2764,11 +2914,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "gpt-4-mar-2023",
+     "model_id": "gpt-4-jun-2023",
      "similarity": 1.0
     },
     {
-     "model_id": "gpt-4-jun-2023",
+     "model_id": "gpt-4-mar-2023",
      "similarity": 1.0
     },
     {
@@ -2787,11 +2937,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "gpt-4o-mar-2025",
+     "model_id": "gpt-4o-aug-2024",
      "similarity": 1.0
     },
     {
-     "model_id": "gpt-4o-jan-2025",
+     "model_id": "gpt-4o-mar-2025",
      "similarity": 1.0
     },
     {
@@ -3042,15 +3192,15 @@
    ],
    "suggestions": [
     {
-     "model_id": "gpt-3-5-turbo-jun-2023",
-     "similarity": 0.75
-    },
-    {
-     "model_id": "gpt-3-5-turbo-mar-2023",
-     "similarity": 0.75
-    },
-    {
      "model_id": "gpt-3-5-turbo-instruct",
+     "similarity": 0.75
+    },
+    {
+     "model_id": "gpt-3-5-turbo-nov-2023",
+     "similarity": 0.75
+    },
+    {
+     "model_id": "gpt-3-5-turbo-jun-2023",
      "similarity": 0.75
     }
    ]
