@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T17:04:03Z",
+ "generated_at": "2026-09-22T19:46:52Z",
  "models": [
   {
    "source": "lmarena",
@@ -88,11 +88,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "gpt-3-5-turbo-jan-2024",
+     "model_id": "gpt-3-5-turbo-jun-2023",
      "similarity": 0.75
     },
     {
-     "model_id": "gpt-3-5-turbo-jun-2023",
+     "model_id": "gpt-3-5-turbo-mar-2023",
      "similarity": 0.75
     },
     {
@@ -240,11 +240,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "deepseek-v3-2-exp",
+     "model_id": "deepseek-v3-2",
      "similarity": 0.75
     },
     {
-     "model_id": "deepseek-v3-2",
+     "model_id": "deepseek-v3-2-exp",
      "similarity": 0.75
     },
     {
@@ -263,11 +263,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "deepseek-v3-2-exp",
+     "model_id": "deepseek-v3-2",
      "similarity": 0.75
     },
     {
-     "model_id": "deepseek-v3-2",
+     "model_id": "deepseek-v3-2-exp",
      "similarity": 0.75
     },
     {
@@ -362,11 +362,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "deepinfra-qwen3-next-80b-a3b-instruct",
+     "model_id": "chutes-qwen3-next-80b-a3b-instruct",
      "similarity": 1.0
     },
     {
-     "model_id": "chutes-qwen3-next-80b-a3b-instruct",
+     "model_id": "deepinfra-qwen3-next-80b-a3b-instruct",
      "similarity": 1.0
     }
    ]
@@ -457,11 +457,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "glm-4-0520",
+     "model_id": "glm-4",
      "similarity": 0.667
     },
     {
-     "model_id": "glm-4",
+     "model_id": "glm-4-0520",
      "similarity": 0.667
     },
     {
@@ -505,11 +505,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "deepinfra-qwen3-next-80b-a3b-instruct",
+     "model_id": "chutes-qwen3-next-80b-a3b-instruct",
      "similarity": 0.8
     },
     {
-     "model_id": "chutes-qwen3-next-80b-a3b-instruct",
+     "model_id": "deepinfra-qwen3-next-80b-a3b-instruct",
      "similarity": 0.8
     },
     {
@@ -576,11 +576,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "glm-4-0520",
+     "model_id": "glm-4",
      "similarity": 0.667
     },
     {
-     "model_id": "glm-4",
+     "model_id": "glm-4-0520",
      "similarity": 0.667
     },
     {
@@ -732,11 +732,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "glm-4-0520",
+     "model_id": "glm-4",
      "similarity": 0.667
     },
     {
-     "model_id": "glm-4",
+     "model_id": "glm-4-0520",
      "similarity": 0.667
     },
     {
@@ -921,11 +921,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "glm-4-0520",
+     "model_id": "glm-4",
      "similarity": 0.667
     },
     {
-     "model_id": "glm-4",
+     "model_id": "glm-4-0520",
      "similarity": 0.667
     },
     {
@@ -1375,7 +1375,7 @@
      "similarity": 0.5
     },
     {
-     "model_id": "gemini-1-5-pro-feb-2024",
+     "model_id": "gemini-1-5-pro-may-2024",
      "similarity": 0.5
     }
    ]
@@ -2023,6 +2023,27 @@
    ]
   },
   {
+   "source": "arcprize",
+   "name": "GPT-6 Luna (Max)",
+   "count": 3,
+   "best_score": 86.66666666666667,
+   "benchmarks": [
+    "arc-agi-1",
+    "arc-agi-2",
+    "arc-agi-3"
+   ],
+   "suggestions": [
+    {
+     "model_id": "gpt-5-6-luna",
+     "similarity": 0.75
+    },
+    {
+     "model_id": "gpt-6-astra",
+     "similarity": 0.5
+    }
+   ]
+  },
+  {
    "source": "livebench",
    "name": "claude-opus-5-5-max-effort",
    "count": 1,
@@ -2157,11 +2178,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "deepseek-v4-flash-0731",
+     "model_id": "deepseek-v4-flash",
      "similarity": 0.75
     },
     {
-     "model_id": "deepseek-v4-flash",
+     "model_id": "deepseek-v4-flash-0731",
      "similarity": 0.75
     },
     {
@@ -2196,6 +2217,27 @@
    "suggestions": []
   },
   {
+   "source": "arcprize",
+   "name": "GPT-6 Luna (XHigh)",
+   "count": 3,
+   "best_score": 73.0,
+   "benchmarks": [
+    "arc-agi-1",
+    "arc-agi-2",
+    "arc-agi-3"
+   ],
+   "suggestions": [
+    {
+     "model_id": "gpt-5-6-luna",
+     "similarity": 0.75
+    },
+    {
+     "model_id": "gpt-6-astra",
+     "similarity": 0.5
+    }
+   ]
+  },
+  {
    "source": "swebench",
    "name": "Undisclosed",
    "count": 24,
@@ -2204,6 +2246,27 @@
     "swe-bench-verified"
    ],
    "suggestions": []
+  },
+  {
+   "source": "arcprize",
+   "name": "GPT-6 Luna (High)",
+   "count": 3,
+   "best_score": 70.33333333333333,
+   "benchmarks": [
+    "arc-agi-1",
+    "arc-agi-2",
+    "arc-agi-3"
+   ],
+   "suggestions": [
+    {
+     "model_id": "gpt-5-6-luna",
+     "similarity": 0.75
+    },
+    {
+     "model_id": "gpt-6-astra",
+     "similarity": 0.5
+    }
+   ]
   },
   {
    "source": "livebench",
@@ -2259,6 +2322,27 @@
    "suggestions": []
   },
   {
+   "source": "arcprize",
+   "name": "GPT-6 Luna (Medium)",
+   "count": 3,
+   "best_score": 61.0,
+   "benchmarks": [
+    "arc-agi-1",
+    "arc-agi-2",
+    "arc-agi-3"
+   ],
+   "suggestions": [
+    {
+     "model_id": "gpt-5-6-luna",
+     "similarity": 0.75
+    },
+    {
+     "model_id": "gpt-6-astra",
+     "similarity": 0.5
+    }
+   ]
+  },
+  {
    "source": "swebench",
    "name": "4x Scaled",
    "count": 1,
@@ -2278,11 +2362,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "qwen3-30b-a3b-instruct-jul-2025",
+     "model_id": "qwen3-30b-a3b",
      "similarity": 0.75
     },
     {
-     "model_id": "qwen3-30b-a3b",
+     "model_id": "qwen3-30b-a3b-instruct-jul-2025",
      "similarity": 0.75
     },
     {
@@ -2332,11 +2416,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "deepinfra-qwen3-next-80b-a3b-instruct",
+     "model_id": "chutes-qwen3-next-80b-a3b-instruct",
      "similarity": 1.0
     },
     {
-     "model_id": "chutes-qwen3-next-80b-a3b-instruct",
+     "model_id": "deepinfra-qwen3-next-80b-a3b-instruct",
      "similarity": 1.0
     }
    ]
@@ -2363,11 +2447,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "baichuan2-13b",
+     "model_id": "baichuan2-13b-chat",
      "similarity": 1.0
     },
     {
-     "model_id": "baichuan2-13b-chat",
+     "model_id": "baichuan2-13b",
      "similarity": 1.0
     }
    ]
@@ -2505,11 +2589,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "deepinfra-qwen3-next-80b-a3b-instruct",
+     "model_id": "chutes-qwen3-next-80b-a3b-instruct",
      "similarity": 1.0
     },
     {
-     "model_id": "chutes-qwen3-next-80b-a3b-instruct",
+     "model_id": "deepinfra-qwen3-next-80b-a3b-instruct",
      "similarity": 1.0
     }
    ]
@@ -2544,15 +2628,15 @@
    ],
    "suggestions": [
     {
-     "model_id": "gpt-4o-aug-2024",
-     "similarity": 1.0
-    },
-    {
-     "model_id": "gpt-4o-may-2024",
+     "model_id": "gpt-4o-mar-2025",
      "similarity": 1.0
     },
     {
      "model_id": "gpt-4o-jan-2025",
+     "similarity": 1.0
+    },
+    {
+     "model_id": "gpt-4o-nov-2024",
      "similarity": 1.0
     }
    ]
@@ -2572,6 +2656,27 @@
     },
     {
      "model_id": "devstral-small-2",
+     "similarity": 0.5
+    }
+   ]
+  },
+  {
+   "source": "arcprize",
+   "name": "GPT-6 Luna (Low)",
+   "count": 3,
+   "best_score": 37.666666666666664,
+   "benchmarks": [
+    "arc-agi-1",
+    "arc-agi-2",
+    "arc-agi-3"
+   ],
+   "suggestions": [
+    {
+     "model_id": "gpt-5-6-luna",
+     "similarity": 0.75
+    },
+    {
+     "model_id": "gpt-6-astra",
      "similarity": 0.5
     }
    ]
@@ -2682,15 +2787,15 @@
    ],
    "suggestions": [
     {
-     "model_id": "gpt-4o-aug-2024",
-     "similarity": 1.0
-    },
-    {
-     "model_id": "gpt-4o-may-2024",
+     "model_id": "gpt-4o-mar-2025",
      "similarity": 1.0
     },
     {
      "model_id": "gpt-4o-jan-2025",
+     "similarity": 1.0
+    },
+    {
+     "model_id": "gpt-4o-nov-2024",
      "similarity": 1.0
     }
    ]
@@ -2735,6 +2840,27 @@
     "swe-bench-verified"
    ],
    "suggestions": []
+  },
+  {
+   "source": "arcprize",
+   "name": "GPT-6 Luna (None)",
+   "count": 3,
+   "best_score": 8.833333333333334,
+   "benchmarks": [
+    "arc-agi-1",
+    "arc-agi-2",
+    "arc-agi-3"
+   ],
+   "suggestions": [
+    {
+     "model_id": "gpt-5-6-luna",
+     "similarity": 0.75
+    },
+    {
+     "model_id": "gpt-6-astra",
+     "similarity": 0.5
+    }
+   ]
   },
   {
    "source": "arcprize",
@@ -2863,6 +2989,21 @@
   },
   {
    "source": "arcprize",
+   "name": "GPT-6 Luna - Provider Adapter (Max)",
+   "count": 1,
+   "best_score": 0.5868386891554969,
+   "benchmarks": [
+    "arc-agi-3"
+   ],
+   "suggestions": [
+    {
+     "model_id": "gpt-5-6-luna",
+     "similarity": 0.5
+    }
+   ]
+  },
+  {
+   "source": "arcprize",
    "name": "Anthropic Opus 4.6 (Max)",
    "count": 1,
    "best_score": 0.51,
@@ -2877,6 +3018,21 @@
    ]
   },
   {
+   "source": "arcprize",
+   "name": "GPT-6 Luna - Provider Adapter (XHigh)",
+   "count": 1,
+   "best_score": 0.5072886313635385,
+   "benchmarks": [
+    "arc-agi-3"
+   ],
+   "suggestions": [
+    {
+     "model_id": "gpt-5-6-luna",
+     "similarity": 0.5
+    }
+   ]
+  },
+  {
    "source": "swebench",
    "name": "GPT-3.5",
    "count": 1,
@@ -2886,16 +3042,61 @@
    ],
    "suggestions": [
     {
-     "model_id": "gpt-3-5-turbo-jan-2024",
+     "model_id": "gpt-3-5-turbo-jun-2023",
      "similarity": 0.75
     },
     {
-     "model_id": "gpt-3-5-turbo-jun-2023",
+     "model_id": "gpt-3-5-turbo-mar-2023",
      "similarity": 0.75
     },
     {
      "model_id": "gpt-3-5-turbo-instruct",
      "similarity": 0.75
+    }
+   ]
+  },
+  {
+   "source": "arcprize",
+   "name": "GPT-6 Luna - Provider Adapter (High)",
+   "count": 1,
+   "best_score": 0.37847731587690087,
+   "benchmarks": [
+    "arc-agi-3"
+   ],
+   "suggestions": [
+    {
+     "model_id": "gpt-5-6-luna",
+     "similarity": 0.5
+    }
+   ]
+  },
+  {
+   "source": "arcprize",
+   "name": "GPT-6 Luna - Provider Adapter (Medium)",
+   "count": 1,
+   "best_score": 0.31612009238177263,
+   "benchmarks": [
+    "arc-agi-3"
+   ],
+   "suggestions": [
+    {
+     "model_id": "gpt-5-6-luna",
+     "similarity": 0.5
+    }
+   ]
+  },
+  {
+   "source": "arcprize",
+   "name": "GPT-6 Luna - Provider Adapter (Low)",
+   "count": 1,
+   "best_score": 0.2374807559887363,
+   "benchmarks": [
+    "arc-agi-3"
+   ],
+   "suggestions": [
+    {
+     "model_id": "gpt-5-6-luna",
+     "similarity": 0.5
     }
    ]
   },
@@ -2918,6 +3119,21 @@
     },
     {
      "model_id": "glm-4-7",
+     "similarity": 0.5
+    }
+   ]
+  },
+  {
+   "source": "arcprize",
+   "name": "GPT-6 Luna - Provider Adapter (None)",
+   "count": 1,
+   "best_score": 0.04644044435594966,
+   "benchmarks": [
+    "arc-agi-3"
+   ],
+   "suggestions": [
+    {
+     "model_id": "gpt-5-6-luna",
      "similarity": 0.5
     }
    ]
