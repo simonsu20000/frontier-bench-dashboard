@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T23:01:28Z",
+ "generated_at": "2026-09-23T04:53:17Z",
  "models": [
   {
    "source": "lmarena",
@@ -88,15 +88,15 @@
    ],
    "suggestions": [
     {
-     "model_id": "gpt-3-5-turbo-instruct",
-     "similarity": 0.75
-    },
-    {
      "model_id": "gpt-3-5-turbo-nov-2023",
      "similarity": 0.75
     },
     {
-     "model_id": "gpt-3-5-turbo-jun-2023",
+     "model_id": "gpt-3-5-turbo-instruct",
+     "similarity": 0.75
+    },
+    {
+     "model_id": "gpt-3-5-turbo-mar-2023",
      "similarity": 0.75
     }
    ]
@@ -240,11 +240,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "deepseek-v3-2-exp",
+     "model_id": "deepseek-v3-2",
      "similarity": 0.75
     },
     {
-     "model_id": "deepseek-v3-2",
+     "model_id": "deepseek-v3-2-exp",
      "similarity": 0.75
     },
     {
@@ -263,11 +263,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "deepseek-v3-2-exp",
+     "model_id": "deepseek-v3-2",
      "similarity": 0.75
     },
     {
-     "model_id": "deepseek-v3-2",
+     "model_id": "deepseek-v3-2-exp",
      "similarity": 0.75
     },
     {
@@ -1375,7 +1375,7 @@
      "similarity": 0.5
     },
     {
-     "model_id": "gemini-1-5-pro-feb-2024",
+     "model_id": "gemini-1-5-pro-may-2024",
      "similarity": 0.5
     }
    ]
@@ -2023,189 +2023,6 @@
    ]
   },
   {
-   "source": "arcprize",
-   "name": "Claude Opus 5.5 (High)",
-   "count": 2,
-   "best_score": 98.5,
-   "benchmarks": [
-    "arc-agi-1",
-    "arc-agi-2"
-   ],
-   "suggestions": [
-    {
-     "model_id": "claude-opus-5",
-     "similarity": 1.0
-    },
-    {
-     "model_id": "claude-opus-4-5",
-     "similarity": 0.75
-    },
-    {
-     "model_id": "claude-3-opus",
-     "similarity": 0.5
-    }
-   ]
-  },
-  {
-   "source": "arcprize",
-   "name": "Claude Opus 5.5 (Max)",
-   "count": 2,
-   "best_score": 97.5,
-   "benchmarks": [
-    "arc-agi-1",
-    "arc-agi-2"
-   ],
-   "suggestions": [
-    {
-     "model_id": "claude-opus-5",
-     "similarity": 1.0
-    },
-    {
-     "model_id": "claude-opus-4-5",
-     "similarity": 0.75
-    },
-    {
-     "model_id": "claude-3-opus",
-     "similarity": 0.5
-    }
-   ]
-  },
-  {
-   "source": "arcprize",
-   "name": "Claude Opus 5.5 (Medium)",
-   "count": 2,
-   "best_score": 97.5,
-   "benchmarks": [
-    "arc-agi-1",
-    "arc-agi-2"
-   ],
-   "suggestions": [
-    {
-     "model_id": "claude-opus-5",
-     "similarity": 1.0
-    },
-    {
-     "model_id": "claude-opus-4-5",
-     "similarity": 0.75
-    },
-    {
-     "model_id": "claude-3-opus",
-     "similarity": 0.5
-    }
-   ]
-  },
-  {
-   "source": "arcprize",
-   "name": "Claude Opus 5.5 (XHigh)",
-   "count": 2,
-   "best_score": 97.5,
-   "benchmarks": [
-    "arc-agi-1",
-    "arc-agi-2"
-   ],
-   "suggestions": [
-    {
-     "model_id": "claude-opus-5",
-     "similarity": 1.0
-    },
-    {
-     "model_id": "claude-opus-4-5",
-     "similarity": 0.75
-    },
-    {
-     "model_id": "claude-3-opus",
-     "similarity": 0.5
-    }
-   ]
-  },
-  {
-   "source": "arcprize",
-   "name": "Claude Opus 5.5 (Low)",
-   "count": 2,
-   "best_score": 88.5,
-   "benchmarks": [
-    "arc-agi-1",
-    "arc-agi-2"
-   ],
-   "suggestions": [
-    {
-     "model_id": "claude-opus-5",
-     "similarity": 1.0
-    },
-    {
-     "model_id": "claude-opus-4-5",
-     "similarity": 0.75
-    },
-    {
-     "model_id": "claude-3-opus",
-     "similarity": 0.5
-    }
-   ]
-  },
-  {
-   "source": "arcprize",
-   "name": "GPT-6 Luna (Max)",
-   "count": 3,
-   "best_score": 86.66666666666667,
-   "benchmarks": [
-    "arc-agi-1",
-    "arc-agi-2",
-    "arc-agi-3"
-   ],
-   "suggestions": [
-    {
-     "model_id": "gpt-5-6-luna",
-     "similarity": 0.75
-    },
-    {
-     "model_id": "gpt-6-astra",
-     "similarity": 0.5
-    }
-   ]
-  },
-  {
-   "source": "livebench",
-   "name": "claude-opus-5-5-max-effort",
-   "count": 1,
-   "best_score": 83.21657142857143,
-   "benchmarks": [
-    "livebench"
-   ],
-   "suggestions": [
-    {
-     "model_id": "claude-opus-5",
-     "similarity": 0.75
-    },
-    {
-     "model_id": "claude-opus-4-5",
-     "similarity": 0.6
-    }
-   ]
-  },
-  {
-   "source": "livebench",
-   "name": "claude-opus-5-5-xhigh-effort",
-   "count": 1,
-   "best_score": 82.05921428571428,
-   "benchmarks": [
-    "livebench"
-   ],
-   "suggestions": [
-    {
-     "model_id": "claude-opus-5",
-     "similarity": 1.0
-    },
-    {
-     "model_id": "claude-opus-4-5",
-     "similarity": 0.75
-    },
-    {
-     "model_id": "claude-3-opus",
-     "similarity": 0.5
-    }
-   ]
-  },
-  {
    "source": "livebench",
    "name": "smaug-agentic",
    "count": 1,
@@ -2214,21 +2031,6 @@
     "livebench"
    ],
    "suggestions": []
-  },
-  {
-   "source": "livebench",
-   "name": "gpt-6-sol-max",
-   "count": 1,
-   "best_score": 79.24545238095239,
-   "benchmarks": [
-    "livebench"
-   ],
-   "suggestions": [
-    {
-     "model_id": "gpt-5-6-sol",
-     "similarity": 0.6
-    }
-   ]
   },
   {
    "source": "swebench",
@@ -2313,11 +2115,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "deepseek-v4-flash",
+     "model_id": "deepseek-v4-flash-0731",
      "similarity": 0.75
     },
     {
-     "model_id": "deepseek-v4-flash-0731",
+     "model_id": "deepseek-v4-flash",
      "similarity": 0.75
     },
     {
@@ -2352,42 +2154,6 @@
    "suggestions": []
   },
   {
-   "source": "arcprize",
-   "name": "GPT-6 Luna (XHigh)",
-   "count": 3,
-   "best_score": 73.0,
-   "benchmarks": [
-    "arc-agi-1",
-    "arc-agi-2",
-    "arc-agi-3"
-   ],
-   "suggestions": [
-    {
-     "model_id": "gpt-5-6-luna",
-     "similarity": 0.75
-    },
-    {
-     "model_id": "gpt-6-astra",
-     "similarity": 0.5
-    }
-   ]
-  },
-  {
-   "source": "livebench",
-   "name": "gpt-6-luna-max",
-   "count": 1,
-   "best_score": 72.02647619047619,
-   "benchmarks": [
-    "livebench"
-   ],
-   "suggestions": [
-    {
-     "model_id": "gpt-5-6-luna",
-     "similarity": 0.6
-    }
-   ]
-  },
-  {
    "source": "swebench",
    "name": "Undisclosed",
    "count": 24,
@@ -2396,27 +2162,6 @@
     "swe-bench-verified"
    ],
    "suggestions": []
-  },
-  {
-   "source": "arcprize",
-   "name": "GPT-6 Luna (High)",
-   "count": 3,
-   "best_score": 70.33333333333333,
-   "benchmarks": [
-    "arc-agi-1",
-    "arc-agi-2",
-    "arc-agi-3"
-   ],
-   "suggestions": [
-    {
-     "model_id": "gpt-5-6-luna",
-     "similarity": 0.75
-    },
-    {
-     "model_id": "gpt-6-astra",
-     "similarity": 0.5
-    }
-   ]
   },
   {
    "source": "livebench",
@@ -2438,11 +2183,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "claude-3-5-sonnet-october-2024",
+     "model_id": "claude-3-5-sonnet",
      "similarity": 0.667
     },
     {
-     "model_id": "claude-3-5-sonnet",
+     "model_id": "claude-3-5-sonnet-october-2024",
      "similarity": 0.667
     },
     {
@@ -2470,27 +2215,6 @@
     "swe-bench-verified"
    ],
    "suggestions": []
-  },
-  {
-   "source": "arcprize",
-   "name": "GPT-6 Luna (Medium)",
-   "count": 3,
-   "best_score": 61.0,
-   "benchmarks": [
-    "arc-agi-1",
-    "arc-agi-2",
-    "arc-agi-3"
-   ],
-   "suggestions": [
-    {
-     "model_id": "gpt-5-6-luna",
-     "similarity": 0.75
-    },
-    {
-     "model_id": "gpt-6-astra",
-     "similarity": 0.5
-    }
-   ]
   },
   {
    "source": "swebench",
@@ -2778,15 +2502,15 @@
    ],
    "suggestions": [
     {
-     "model_id": "gpt-4o-aug-2024",
-     "similarity": 1.0
-    },
-    {
-     "model_id": "gpt-4o-mar-2025",
+     "model_id": "gpt-4o-jan-2025",
      "similarity": 1.0
     },
     {
      "model_id": "gpt-4o-nov-2024",
+     "similarity": 1.0
+    },
+    {
+     "model_id": "gpt-4o-may-2024",
      "similarity": 1.0
     }
    ]
@@ -2806,27 +2530,6 @@
     },
     {
      "model_id": "devstral-small-2",
-     "similarity": 0.5
-    }
-   ]
-  },
-  {
-   "source": "arcprize",
-   "name": "GPT-6 Luna (Low)",
-   "count": 3,
-   "best_score": 37.666666666666664,
-   "benchmarks": [
-    "arc-agi-1",
-    "arc-agi-2",
-    "arc-agi-3"
-   ],
-   "suggestions": [
-    {
-     "model_id": "gpt-5-6-luna",
-     "similarity": 0.75
-    },
-    {
-     "model_id": "gpt-6-astra",
      "similarity": 0.5
     }
    ]
@@ -2937,15 +2640,15 @@
    ],
    "suggestions": [
     {
-     "model_id": "gpt-4o-aug-2024",
-     "similarity": 1.0
-    },
-    {
-     "model_id": "gpt-4o-mar-2025",
+     "model_id": "gpt-4o-jan-2025",
      "similarity": 1.0
     },
     {
      "model_id": "gpt-4o-nov-2024",
+     "similarity": 1.0
+    },
+    {
+     "model_id": "gpt-4o-may-2024",
      "similarity": 1.0
     }
    ]
@@ -2990,27 +2693,6 @@
     "swe-bench-verified"
    ],
    "suggestions": []
-  },
-  {
-   "source": "arcprize",
-   "name": "GPT-6 Luna (None)",
-   "count": 3,
-   "best_score": 8.833333333333334,
-   "benchmarks": [
-    "arc-agi-1",
-    "arc-agi-2",
-    "arc-agi-3"
-   ],
-   "suggestions": [
-    {
-     "model_id": "gpt-5-6-luna",
-     "similarity": 0.75
-    },
-    {
-     "model_id": "gpt-6-astra",
-     "similarity": 0.5
-    }
-   ]
   },
   {
    "source": "arcprize",
@@ -3147,6 +2829,10 @@
    ],
    "suggestions": [
     {
+     "model_id": "gpt-6-luna",
+     "similarity": 0.6
+    },
+    {
      "model_id": "gpt-5-6-luna",
      "similarity": 0.5
     }
@@ -3177,6 +2863,10 @@
    ],
    "suggestions": [
     {
+     "model_id": "gpt-6-luna",
+     "similarity": 0.6
+    },
+    {
      "model_id": "gpt-5-6-luna",
      "similarity": 0.5
     }
@@ -3192,15 +2882,15 @@
    ],
    "suggestions": [
     {
-     "model_id": "gpt-3-5-turbo-instruct",
-     "similarity": 0.75
-    },
-    {
      "model_id": "gpt-3-5-turbo-nov-2023",
      "similarity": 0.75
     },
     {
-     "model_id": "gpt-3-5-turbo-jun-2023",
+     "model_id": "gpt-3-5-turbo-instruct",
+     "similarity": 0.75
+    },
+    {
+     "model_id": "gpt-3-5-turbo-mar-2023",
      "similarity": 0.75
     }
    ]
@@ -3214,6 +2904,10 @@
     "arc-agi-3"
    ],
    "suggestions": [
+    {
+     "model_id": "gpt-6-luna",
+     "similarity": 0.6
+    },
     {
      "model_id": "gpt-5-6-luna",
      "similarity": 0.5
@@ -3230,6 +2924,10 @@
    ],
    "suggestions": [
     {
+     "model_id": "gpt-6-luna",
+     "similarity": 0.6
+    },
+    {
      "model_id": "gpt-5-6-luna",
      "similarity": 0.5
     }
@@ -3244,6 +2942,10 @@
     "arc-agi-3"
    ],
    "suggestions": [
+    {
+     "model_id": "gpt-6-luna",
+     "similarity": 0.6
+    },
     {
      "model_id": "gpt-5-6-luna",
      "similarity": 0.5
@@ -3282,6 +2984,10 @@
     "arc-agi-3"
    ],
    "suggestions": [
+    {
+     "model_id": "gpt-6-luna",
+     "similarity": 0.6
+    },
     {
      "model_id": "gpt-5-6-luna",
      "similarity": 0.5
