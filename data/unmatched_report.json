@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-25T17:19:44Z",
+ "generated_at": "2026-09-25T20:03:31Z",
  "models": [
   {
    "source": "lmarena",
@@ -88,15 +88,15 @@
    ],
    "suggestions": [
     {
+     "model_id": "gpt-3-5-turbo-jan-2024",
+     "similarity": 0.75
+    },
+    {
+     "model_id": "gpt-3-5-turbo-nov-2023",
+     "similarity": 0.75
+    },
+    {
      "model_id": "gpt-3-5-turbo-mar-2023",
-     "similarity": 0.75
-    },
-    {
-     "model_id": "gpt-3-5-turbo-jun-2023",
-     "similarity": 0.75
-    },
-    {
-     "model_id": "gpt-3-5-turbo-instruct",
      "similarity": 0.75
     }
    ]
@@ -2183,11 +2183,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "claude-3-5-sonnet",
+     "model_id": "claude-3-5-sonnet-october-2024",
      "similarity": 0.667
     },
     {
-     "model_id": "claude-3-5-sonnet-october-2024",
+     "model_id": "claude-3-5-sonnet",
      "similarity": 0.667
     },
     {
@@ -2502,7 +2502,7 @@
    ],
    "suggestions": [
     {
-     "model_id": "gpt-4o-mar-2025",
+     "model_id": "gpt-4o-aug-2024",
      "similarity": 1.0
     },
     {
@@ -2510,7 +2510,7 @@
      "similarity": 1.0
     },
     {
-     "model_id": "gpt-4o-may-2024",
+     "model_id": "gpt-4o-jan-2025",
      "similarity": 1.0
     }
    ]
@@ -2678,7 +2678,7 @@
    ],
    "suggestions": [
     {
-     "model_id": "gpt-4o-mar-2025",
+     "model_id": "gpt-4o-aug-2024",
      "similarity": 1.0
     },
     {
@@ -2686,7 +2686,7 @@
      "similarity": 1.0
     },
     {
-     "model_id": "gpt-4o-may-2024",
+     "model_id": "gpt-4o-jan-2025",
      "similarity": 1.0
     }
    ]
@@ -2939,15 +2939,15 @@
    ],
    "suggestions": [
     {
+     "model_id": "gpt-3-5-turbo-jan-2024",
+     "similarity": 0.75
+    },
+    {
+     "model_id": "gpt-3-5-turbo-nov-2023",
+     "similarity": 0.75
+    },
+    {
      "model_id": "gpt-3-5-turbo-mar-2023",
-     "similarity": 0.75
-    },
-    {
-     "model_id": "gpt-3-5-turbo-jun-2023",
-     "similarity": 0.75
-    },
-    {
-     "model_id": "gpt-3-5-turbo-instruct",
      "similarity": 0.75
     }
    ]
