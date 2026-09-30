@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T18:02:05Z",
+ "generated_at": "2026-09-30T20:52:20Z",
  "models": [
   {
    "source": "lmarena",
@@ -122,15 +122,15 @@
    ],
    "suggestions": [
     {
-     "model_id": "gpt-3-5-turbo-instruct",
-     "similarity": 0.75
-    },
-    {
-     "model_id": "gpt-3-5-turbo-jun-2023",
+     "model_id": "gpt-3-5-turbo-nov-2023",
      "similarity": 0.75
     },
     {
      "model_id": "gpt-3-5-turbo-jan-2024",
+     "similarity": 0.75
+    },
+    {
+     "model_id": "gpt-3-5-turbo-mar-2023",
      "similarity": 0.75
     }
    ]
@@ -212,11 +212,11 @@
      "similarity": 0.75
     },
     {
-     "model_id": "kimi-k2-sep-2025",
+     "model_id": "kimi-k2-jul-2025",
      "similarity": 0.5
     },
     {
-     "model_id": "kimi-k2-jul-2025",
+     "model_id": "kimi-k2-sep-2025",
      "similarity": 0.5
     }
    ]
@@ -2057,6 +2057,101 @@
    ]
   },
   {
+   "source": "arcprize",
+   "name": "GPT-6.1 Sol - Provider Adapter (XHigh)",
+   "count": 1,
+   "best_score": 96.37493342875182,
+   "benchmarks": [
+    "arc-agi-3"
+   ],
+   "suggestions": [
+    {
+     "model_id": "gpt-6-1-sol",
+     "similarity": 0.667
+    },
+    {
+     "model_id": "gpt-6-sol",
+     "similarity": 0.5
+    }
+   ]
+  },
+  {
+   "source": "arcprize",
+   "name": "GPT-6.1 Sol - Provider Adapter (Max)",
+   "count": 1,
+   "best_score": 96.17739071933946,
+   "benchmarks": [
+    "arc-agi-3"
+   ],
+   "suggestions": [
+    {
+     "model_id": "gpt-6-1-sol",
+     "similarity": 0.667
+    },
+    {
+     "model_id": "gpt-6-sol",
+     "similarity": 0.5
+    }
+   ]
+  },
+  {
+   "source": "arcprize",
+   "name": "GPT-6.1 Sol - Provider Adapter (High)",
+   "count": 1,
+   "best_score": 94.99362560053225,
+   "benchmarks": [
+    "arc-agi-3"
+   ],
+   "suggestions": [
+    {
+     "model_id": "gpt-6-1-sol",
+     "similarity": 0.667
+    },
+    {
+     "model_id": "gpt-6-sol",
+     "similarity": 0.5
+    }
+   ]
+  },
+  {
+   "source": "arcprize",
+   "name": "GPT-6.1 Sol - Provider Adapter (Medium)",
+   "count": 1,
+   "best_score": 91.02346102095301,
+   "benchmarks": [
+    "arc-agi-3"
+   ],
+   "suggestions": [
+    {
+     "model_id": "gpt-6-1-sol",
+     "similarity": 0.667
+    },
+    {
+     "model_id": "gpt-6-sol",
+     "similarity": 0.5
+    }
+   ]
+  },
+  {
+   "source": "arcprize",
+   "name": "GPT-6.1 Sol - Provider Adapter (Low)",
+   "count": 1,
+   "best_score": 82.7870673049169,
+   "benchmarks": [
+    "arc-agi-3"
+   ],
+   "suggestions": [
+    {
+     "model_id": "gpt-6-1-sol",
+     "similarity": 0.667
+    },
+    {
+     "model_id": "gpt-6-sol",
+     "similarity": 0.5
+    }
+   ]
+  },
+  {
    "source": "livebench",
    "name": "smaug-agentic",
    "count": 1,
@@ -2149,11 +2244,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "deepseek-v4-flash-0731",
+     "model_id": "deepseek-v4-flash",
      "similarity": 0.75
     },
     {
-     "model_id": "deepseek-v4-flash",
+     "model_id": "deepseek-v4-flash-0731",
      "similarity": 0.75
     },
     {
@@ -2207,11 +2302,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "claude-3-5-sonnet",
+     "model_id": "claude-3-5-sonnet-october-2024",
      "similarity": 0.667
     },
     {
-     "model_id": "claude-3-5-sonnet-october-2024",
+     "model_id": "claude-3-5-sonnet",
      "similarity": 0.667
     },
     {
@@ -2260,11 +2355,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "qwen3-30b-a3b",
+     "model_id": "qwen3-30b-a3b-instruct-jul-2025",
      "similarity": 0.75
     },
     {
-     "model_id": "qwen3-30b-a3b-instruct-jul-2025",
+     "model_id": "qwen3-30b-a3b",
      "similarity": 0.75
     },
     {
@@ -2345,11 +2440,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "baichuan2-13b",
+     "model_id": "baichuan2-13b-chat",
      "similarity": 1.0
     },
     {
-     "model_id": "baichuan2-13b-chat",
+     "model_id": "baichuan2-13b",
      "similarity": 1.0
     }
    ]
@@ -2526,15 +2621,15 @@
    ],
    "suggestions": [
     {
+     "model_id": "gpt-4o-aug-2024",
+     "similarity": 1.0
+    },
+    {
      "model_id": "gpt-4o-nov-2024",
      "similarity": 1.0
     },
     {
      "model_id": "gpt-4o-jan-2025",
-     "similarity": 1.0
-    },
-    {
-     "model_id": "gpt-4o-aug-2024",
      "similarity": 1.0
     }
    ]
@@ -2702,11 +2797,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "gpt-4-jun-2023",
+     "model_id": "gpt-4-mar-2023",
      "similarity": 1.0
     },
     {
-     "model_id": "gpt-4-mar-2023",
+     "model_id": "gpt-4-jun-2023",
      "similarity": 1.0
     },
     {
@@ -2725,15 +2820,15 @@
    ],
    "suggestions": [
     {
+     "model_id": "gpt-4o-aug-2024",
+     "similarity": 1.0
+    },
+    {
      "model_id": "gpt-4o-nov-2024",
      "similarity": 1.0
     },
     {
      "model_id": "gpt-4o-jan-2025",
-     "similarity": 1.0
-    },
-    {
-     "model_id": "gpt-4o-aug-2024",
      "similarity": 1.0
     }
    ]
@@ -3029,11 +3124,11 @@
      "similarity": 1.0
     },
     {
-     "model_id": "gemini-1-5-pro-sept-2024",
+     "model_id": "gemini-1-5-pro-feb-2024",
      "similarity": 1.0
     },
     {
-     "model_id": "gemini-1-5-pro-feb-2024",
+     "model_id": "gemini-1-5-pro-sept-2024",
      "similarity": 1.0
     }
    ]
@@ -3101,15 +3196,15 @@
    ],
    "suggestions": [
     {
-     "model_id": "gpt-3-5-turbo-instruct",
-     "similarity": 0.75
-    },
-    {
-     "model_id": "gpt-3-5-turbo-jun-2023",
+     "model_id": "gpt-3-5-turbo-nov-2023",
      "similarity": 0.75
     },
     {
      "model_id": "gpt-3-5-turbo-jan-2024",
+     "similarity": 0.75
+    },
+    {
+     "model_id": "gpt-3-5-turbo-mar-2023",
      "similarity": 0.75
     }
    ]
