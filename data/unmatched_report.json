@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T14:59:11Z",
+ "generated_at": "2026-09-30T18:02:05Z",
  "models": [
   {
    "source": "lmarena",
@@ -122,15 +122,15 @@
    ],
    "suggestions": [
     {
-     "model_id": "gpt-3-5-turbo-nov-2023",
-     "similarity": 0.75
-    },
-    {
-     "model_id": "gpt-3-5-turbo-mar-2023",
-     "similarity": 0.75
-    },
-    {
      "model_id": "gpt-3-5-turbo-instruct",
+     "similarity": 0.75
+    },
+    {
+     "model_id": "gpt-3-5-turbo-jun-2023",
+     "similarity": 0.75
+    },
+    {
+     "model_id": "gpt-3-5-turbo-jan-2024",
      "similarity": 0.75
     }
    ]
@@ -212,11 +212,11 @@
      "similarity": 0.75
     },
     {
-     "model_id": "kimi-k2-jul-2025",
+     "model_id": "kimi-k2-sep-2025",
      "similarity": 0.5
     },
     {
-     "model_id": "kimi-k2-sep-2025",
+     "model_id": "kimi-k2-jul-2025",
      "similarity": 0.5
     }
    ]
@@ -264,11 +264,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "deepseek-v3-2-exp",
+     "model_id": "deepseek-v3-2",
      "similarity": 0.75
     },
     {
-     "model_id": "deepseek-v3-2",
+     "model_id": "deepseek-v3-2-exp",
      "similarity": 0.75
     },
     {
@@ -297,11 +297,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "deepseek-v3-2-exp",
+     "model_id": "deepseek-v3-2",
      "similarity": 0.75
     },
     {
-     "model_id": "deepseek-v3-2",
+     "model_id": "deepseek-v3-2-exp",
      "similarity": 0.75
     },
     {
@@ -330,11 +330,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "qwen3-235b-a22b-instruct-jul-2025",
+     "model_id": "qwen3-235b-a22b",
      "similarity": 0.75
     },
     {
-     "model_id": "qwen3-235b-a22b",
+     "model_id": "qwen3-235b-a22b-instruct-jul-2025",
      "similarity": 0.75
     },
     {
@@ -419,11 +419,11 @@
      "similarity": 0.8
     },
     {
-     "model_id": "qwen3-235b-a22b-instruct-jul-2025",
+     "model_id": "qwen3-235b-a22b",
      "similarity": 0.6
     },
     {
-     "model_id": "qwen3-235b-a22b",
+     "model_id": "qwen3-235b-a22b-instruct-jul-2025",
      "similarity": 0.6
     }
    ]
@@ -2058,44 +2058,6 @@
   },
   {
    "source": "livebench",
-   "name": "gpt-6.1-sol-max",
-   "count": 1,
-   "best_score": 81.61566666666667,
-   "benchmarks": [
-    "livebench"
-   ],
-   "suggestions": [
-    {
-     "model_id": "gpt-6-sol",
-     "similarity": 0.6
-    },
-    {
-     "model_id": "gpt-5-6-sol",
-     "similarity": 0.5
-    }
-   ]
-  },
-  {
-   "source": "livebench",
-   "name": "gpt-6.1-sol-xhigh",
-   "count": 1,
-   "best_score": 81.11019047619048,
-   "benchmarks": [
-    "livebench"
-   ],
-   "suggestions": [
-    {
-     "model_id": "gpt-6-sol",
-     "similarity": 0.75
-    },
-    {
-     "model_id": "gpt-5-6-sol",
-     "similarity": 0.6
-    }
-   ]
-  },
-  {
-   "source": "livebench",
    "name": "smaug-agentic",
    "count": 1,
    "best_score": 79.5082738095238,
@@ -2298,11 +2260,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "qwen3-30b-a3b-instruct-jul-2025",
+     "model_id": "qwen3-30b-a3b",
      "similarity": 0.75
     },
     {
-     "model_id": "qwen3-30b-a3b",
+     "model_id": "qwen3-30b-a3b-instruct-jul-2025",
      "similarity": 0.75
     },
     {
@@ -2572,7 +2534,7 @@
      "similarity": 1.0
     },
     {
-     "model_id": "gpt-4o-mar-2025",
+     "model_id": "gpt-4o-aug-2024",
      "similarity": 1.0
     }
    ]
@@ -2723,6 +2685,10 @@
     {
      "model_id": "gpt-5-6-sol",
      "similarity": 0.5
+    },
+    {
+     "model_id": "gpt-6-1-sol",
+     "similarity": 0.5
     }
    ]
   },
@@ -2767,7 +2733,7 @@
      "similarity": 1.0
     },
     {
-     "model_id": "gpt-4o-mar-2025",
+     "model_id": "gpt-4o-aug-2024",
      "similarity": 1.0
     }
    ]
@@ -2848,6 +2814,10 @@
     {
      "model_id": "gpt-5-6-sol",
      "similarity": 0.5
+    },
+    {
+     "model_id": "gpt-6-1-sol",
+     "similarity": 0.5
     }
    ]
   },
@@ -2907,6 +2877,10 @@
     {
      "model_id": "gpt-5-6-sol",
      "similarity": 0.5
+    },
+    {
+     "model_id": "gpt-6-1-sol",
+     "similarity": 0.5
     }
    ]
   },
@@ -2946,6 +2920,10 @@
     {
      "model_id": "gpt-5-6-sol",
      "similarity": 0.5
+    },
+    {
+     "model_id": "gpt-6-1-sol",
+     "similarity": 0.5
     }
    ]
   },
@@ -2964,6 +2942,10 @@
     },
     {
      "model_id": "gpt-5-6-sol",
+     "similarity": 0.5
+    },
+    {
+     "model_id": "gpt-6-1-sol",
      "similarity": 0.5
     }
    ]
@@ -3006,6 +2988,10 @@
     },
     {
      "model_id": "gpt-5-6-sol",
+     "similarity": 0.5
+    },
+    {
+     "model_id": "gpt-6-1-sol",
      "similarity": 0.5
     }
    ]
@@ -3115,15 +3101,15 @@
    ],
    "suggestions": [
     {
-     "model_id": "gpt-3-5-turbo-nov-2023",
-     "similarity": 0.75
-    },
-    {
-     "model_id": "gpt-3-5-turbo-mar-2023",
-     "similarity": 0.75
-    },
-    {
      "model_id": "gpt-3-5-turbo-instruct",
+     "similarity": 0.75
+    },
+    {
+     "model_id": "gpt-3-5-turbo-jun-2023",
+     "similarity": 0.75
+    },
+    {
+     "model_id": "gpt-3-5-turbo-jan-2024",
      "similarity": 0.75
     }
    ]
