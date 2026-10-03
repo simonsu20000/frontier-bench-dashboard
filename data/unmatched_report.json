@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-03T16:31:29Z",
+ "generated_at": "2026-10-03T19:18:20Z",
  "models": [
   {
    "source": "lmarena",
@@ -132,15 +132,15 @@
    ],
    "suggestions": [
     {
-     "model_id": "gpt-3-5-turbo-mar-2023",
-     "similarity": 0.75
-    },
-    {
-     "model_id": "gpt-3-5-turbo-nov-2023",
+     "model_id": "gpt-3-5-turbo-jun-2023",
      "similarity": 0.75
     },
     {
      "model_id": "gpt-3-5-turbo-instruct",
+     "similarity": 0.75
+    },
+    {
+     "model_id": "gpt-3-5-turbo-jan-2024",
      "similarity": 0.75
     }
    ]
@@ -222,11 +222,11 @@
      "similarity": 0.75
     },
     {
-     "model_id": "kimi-k2-jul-2025",
+     "model_id": "kimi-k2-sep-2025",
      "similarity": 0.5
     },
     {
-     "model_id": "kimi-k2-sep-2025",
+     "model_id": "kimi-k2-jul-2025",
      "similarity": 0.5
     }
    ]
@@ -284,11 +284,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "deepseek-v3-2",
+     "model_id": "deepseek-v3-2-exp",
      "similarity": 0.75
     },
     {
-     "model_id": "deepseek-v3-2-exp",
+     "model_id": "deepseek-v3-2",
      "similarity": 0.75
     },
     {
@@ -307,11 +307,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "deepseek-v3-2",
+     "model_id": "deepseek-v3-2-exp",
      "similarity": 0.75
     },
     {
-     "model_id": "deepseek-v3-2-exp",
+     "model_id": "deepseek-v3-2",
      "similarity": 0.75
     },
     {
@@ -2365,11 +2365,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "qwen3-30b-a3b",
+     "model_id": "qwen3-30b-a3b-instruct-jul-2025",
      "similarity": 0.75
     },
     {
-     "model_id": "qwen3-30b-a3b-instruct-jul-2025",
+     "model_id": "qwen3-30b-a3b",
      "similarity": 0.75
     },
     {
@@ -2635,11 +2635,11 @@
      "similarity": 1.0
     },
     {
-     "model_id": "gpt-4o-aug-2024",
+     "model_id": "gpt-4o-jan-2025",
      "similarity": 1.0
     },
     {
-     "model_id": "gpt-4o-nov-2024",
+     "model_id": "gpt-4o-mar-2025",
      "similarity": 1.0
     }
    ]
@@ -2834,11 +2834,11 @@
      "similarity": 1.0
     },
     {
-     "model_id": "gpt-4o-aug-2024",
+     "model_id": "gpt-4o-jan-2025",
      "similarity": 1.0
     },
     {
-     "model_id": "gpt-4o-nov-2024",
+     "model_id": "gpt-4o-mar-2025",
      "similarity": 1.0
     }
    ]
@@ -3206,15 +3206,15 @@
    ],
    "suggestions": [
     {
-     "model_id": "gpt-3-5-turbo-mar-2023",
-     "similarity": 0.75
-    },
-    {
-     "model_id": "gpt-3-5-turbo-nov-2023",
+     "model_id": "gpt-3-5-turbo-jun-2023",
      "similarity": 0.75
     },
     {
      "model_id": "gpt-3-5-turbo-instruct",
+     "similarity": 0.75
+    },
+    {
+     "model_id": "gpt-3-5-turbo-jan-2024",
      "similarity": 0.75
     }
    ]
