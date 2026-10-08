@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T06:18:08Z",
+ "generated_at": "2026-10-08T15:42:44Z",
  "sources": [
   {
    "id": "epoch",
@@ -7,9 +7,9 @@
    "url": "https://epoch.ai/benchmarks",
    "license": "CC BY 4.0",
    "status": "ok",
-   "fetched_at": "2026-10-08T06:18:04Z",
+   "fetched_at": "2026-10-08T15:42:40Z",
    "upstream_updated_at": "2026-10-08",
-   "records": 6604,
+   "records": 6606,
    "consecutive_failures": 0,
    "error": "",
    "stale": false,
@@ -22,7 +22,7 @@
    "url": "https://lmarena.ai/leaderboard/text",
    "license": "CC BY 4.0",
    "status": "ok",
-   "fetched_at": "2026-10-08T06:18:06Z",
+   "fetched_at": "2026-10-08T15:42:42Z",
    "upstream_updated_at": "2026-10-02",
    "records": 413,
    "consecutive_failures": 0,
@@ -37,7 +37,7 @@
    "url": "https://www.swebench.com/",
    "license": "CC BY-NC 4.0",
    "status": "ok",
-   "fetched_at": "2026-10-08T06:18:06Z",
+   "fetched_at": "2026-10-08T15:42:42Z",
    "upstream_updated_at": "2026-02-26",
    "records": 180,
    "consecutive_failures": 0,
@@ -52,7 +52,7 @@
    "url": "https://arcprize.org/leaderboard",
    "license": "ARC Prize Foundation (attribution)",
    "status": "ok",
-   "fetched_at": "2026-10-08T06:18:07Z",
+   "fetched_at": "2026-10-08T15:42:42Z",
    "upstream_updated_at": "2026-10-05",
    "records": 613,
    "consecutive_failures": 0,
@@ -67,7 +67,7 @@
    "url": "https://livebench.ai/",
    "license": "LiveBench (attribution)",
    "status": "ok",
-   "fetched_at": "2026-10-08T06:18:08Z",
+   "fetched_at": "2026-10-08T15:42:43Z",
    "upstream_updated_at": "2026-06-25",
    "records": 69,
    "consecutive_failures": 0,
@@ -82,7 +82,7 @@
    "url": "https://aider.chat/docs/leaderboards/",
    "license": "Apache-2.0 (aider repo)",
    "status": "ok",
-   "fetched_at": "2026-10-08T06:18:08Z",
+   "fetched_at": "2026-10-08T15:42:43Z",
    "upstream_updated_at": "2025-10-03",
    "records": 69,
    "consecutive_failures": 0,
@@ -93,8 +93,8 @@
   }
  ],
  "build": {
-  "records_in": 7948,
-  "kept": 6869,
+  "records_in": 7950,
+  "kept": 6871,
   "dropped": {
    "vendor_reported": 905,
    "superseded": 173,
@@ -104,7 +104,7 @@
    "vendor_reported": 905,
    "third_party": 1026,
    "official_leaderboard": 4385,
-   "epoch_run": 1458,
+   "epoch_run": 1460,
    "unclassified": 1
   },
   "unmatched_models": 221,
@@ -112,7 +112,7 @@
   "unknown_domains": 1
  },
  "http_log": [
-  "200 https://epoch.ai/data/benchmark_data.zip (2378109 bytes)",
+  "200 https://epoch.ai/data/benchmark_data.zip (2378201 bytes)",
   "200 https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset/resolve/main/text_style_control/latest-00000-of-00001.parquet (606130 bytes)",
   "304 https://raw.githubusercontent.com/swe-bench/swe-bench.github.io/master/data/leaderboards.json",
   "200 https://arcprize.org/media/data/leaderboard/v1.json (143609 bytes)",

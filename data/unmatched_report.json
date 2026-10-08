@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T06:18:08Z",
+ "generated_at": "2026-10-08T15:42:44Z",
  "models": [
   {
    "source": "lmarena",
@@ -88,15 +88,15 @@
    ],
    "suggestions": [
     {
-     "model_id": "gpt-3-5-turbo-jun-2023",
-     "similarity": 0.75
-    },
-    {
      "model_id": "gpt-3-5-turbo-instruct",
      "similarity": 0.75
     },
     {
      "model_id": "gpt-3-5-turbo-nov-2023",
+     "similarity": 0.75
+    },
+    {
+     "model_id": "gpt-3-5-turbo-mar-2023",
      "similarity": 0.75
     }
    ]
@@ -2281,11 +2281,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "claude-3-5-sonnet",
+     "model_id": "claude-3-5-sonnet-october-2024",
      "similarity": 0.667
     },
     {
-     "model_id": "claude-3-5-sonnet-october-2024",
+     "model_id": "claude-3-5-sonnet",
      "similarity": 0.667
     },
     {
@@ -2334,11 +2334,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "qwen3-30b-a3b-instruct-jul-2025",
+     "model_id": "qwen3-30b-a3b",
      "similarity": 0.75
     },
     {
-     "model_id": "qwen3-30b-a3b",
+     "model_id": "qwen3-30b-a3b-instruct-jul-2025",
      "similarity": 0.75
     },
     {
@@ -2600,15 +2600,15 @@
    ],
    "suggestions": [
     {
-     "model_id": "gpt-4o-jan-2025",
-     "similarity": 1.0
-    },
-    {
-     "model_id": "gpt-4o-aug-2024",
+     "model_id": "gpt-4o-nov-2024",
      "similarity": 1.0
     },
     {
      "model_id": "gpt-4o-mar-2025",
+     "similarity": 1.0
+    },
+    {
+     "model_id": "gpt-4o-jan-2025",
      "similarity": 1.0
     }
    ]
@@ -2776,11 +2776,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "gpt-4-jun-2023",
+     "model_id": "gpt-4-mar-2023",
      "similarity": 1.0
     },
     {
-     "model_id": "gpt-4-mar-2023",
+     "model_id": "gpt-4-jun-2023",
      "similarity": 1.0
     },
     {
@@ -2799,15 +2799,15 @@
    ],
    "suggestions": [
     {
-     "model_id": "gpt-4o-jan-2025",
-     "similarity": 1.0
-    },
-    {
-     "model_id": "gpt-4o-aug-2024",
+     "model_id": "gpt-4o-nov-2024",
      "similarity": 1.0
     },
     {
      "model_id": "gpt-4o-mar-2025",
+     "similarity": 1.0
+    },
+    {
+     "model_id": "gpt-4o-jan-2025",
      "similarity": 1.0
     }
    ]
@@ -3235,15 +3235,15 @@
    ],
    "suggestions": [
     {
-     "model_id": "gpt-3-5-turbo-jun-2023",
-     "similarity": 0.75
-    },
-    {
      "model_id": "gpt-3-5-turbo-instruct",
      "similarity": 0.75
     },
     {
      "model_id": "gpt-3-5-turbo-nov-2023",
+     "similarity": 0.75
+    },
+    {
+     "model_id": "gpt-3-5-turbo-mar-2023",
      "similarity": 0.75
     }
    ]
