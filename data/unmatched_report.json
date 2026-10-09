@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-10-08T21:23:03Z",
+ "generated_at": "2026-10-09T06:20:06Z",
  "models": [
   {
    "source": "lmarena",
    "name": "grok-4.20-multi-agent-beta-0309",
    "count": 1,
-   "best_score": 1470.5684624057517,
+   "best_score": 1470.4854002153693,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -15,7 +15,7 @@
    "source": "lmarena",
    "name": "ernie-5.1",
    "count": 1,
-   "best_score": 1467.5838026849342,
+   "best_score": 1467.2414000988065,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -38,7 +38,7 @@
    "source": "lmarena",
    "name": "qwen3.5-max-preview",
    "count": 1,
-   "best_score": 1464.663059171916,
+   "best_score": 1464.660784747894,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -57,7 +57,7 @@
    "source": "lmarena",
    "name": "dola-seed-2.0-pro",
    "count": 1,
-   "best_score": 1456.4972258676796,
+   "best_score": 1456.325969656065,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -72,7 +72,7 @@
    "source": "lmarena",
    "name": "hy3",
    "count": 1,
-   "best_score": 1455.9834488321558,
+   "best_score": 1454.2199635254347,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -82,21 +82,21 @@
    "source": "lmarena",
    "name": "gpt-5.3-chat-latest",
    "count": 1,
-   "best_score": 1450.03668594396,
+   "best_score": 1450.092373027252,
    "benchmarks": [
     "lmarena-text"
    ],
    "suggestions": [
     {
-     "model_id": "gpt-3-5-turbo-jan-2024",
-     "similarity": 0.75
-    },
-    {
-     "model_id": "gpt-3-5-turbo-instruct",
-     "similarity": 0.75
-    },
-    {
      "model_id": "gpt-3-5-turbo-jun-2023",
+     "similarity": 0.75
+    },
+    {
+     "model_id": "gpt-3-5-turbo-mar-2023",
+     "similarity": 0.75
+    },
+    {
+     "model_id": "gpt-3-5-turbo-nov-2023",
      "similarity": 0.75
     }
    ]
@@ -105,7 +105,7 @@
    "source": "lmarena",
    "name": "ernie-5.0-preview-1203",
    "count": 1,
-   "best_score": 1448.8333369378383,
+   "best_score": 1448.845310085077,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -115,7 +115,7 @@
    "source": "lmarena",
    "name": "ernie-5.0-0110",
    "count": 1,
-   "best_score": 1446.3846531356646,
+   "best_score": 1446.3310790989235,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -125,7 +125,7 @@
    "source": "lmarena",
    "name": "longcat-flash-chat-2602-exp",
    "count": 1,
-   "best_score": 1436.6287757631083,
+   "best_score": 1436.3595594317626,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -135,7 +135,7 @@
    "source": "lmarena",
    "name": "glm-5v-turbo",
    "count": 1,
-   "best_score": 1433.4849052234497,
+   "best_score": 1433.4811265156945,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -145,7 +145,7 @@
    "source": "lmarena",
    "name": "mimo-v2-omni",
    "count": 1,
-   "best_score": 1431.0374477681287,
+   "best_score": 1430.7839549630044,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -168,7 +168,7 @@
    "source": "lmarena",
    "name": "kimi-k2.5-instant",
    "count": 1,
-   "best_score": 1430.5581023398563,
+   "best_score": 1430.378427137835,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -178,11 +178,34 @@
      "similarity": 0.75
     },
     {
-     "model_id": "kimi-k2-sep-2025",
+     "model_id": "kimi-k2-jul-2025",
      "similarity": 0.5
     },
     {
-     "model_id": "kimi-k2-jul-2025",
+     "model_id": "kimi-k2-sep-2025",
+     "similarity": 0.5
+    }
+   ]
+  },
+  {
+   "source": "lmarena",
+   "name": "mistral-large-4",
+   "count": 1,
+   "best_score": 1429.257417234147,
+   "benchmarks": [
+    "lmarena-text"
+   ],
+   "suggestions": [
+    {
+     "model_id": "mistral-large",
+     "similarity": 0.667
+    },
+    {
+     "model_id": "mistral-large-2-jul-2024",
+     "similarity": 0.5
+    },
+    {
+     "model_id": "mistral-large-2-nov-2024",
      "similarity": 0.5
     }
    ]
@@ -191,7 +214,7 @@
    "source": "lmarena",
    "name": "amazon-nova-experimental-chat-26-02-10",
    "count": 1,
-   "best_score": 1426.5848021625438,
+   "best_score": 1426.4926714582853,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -214,7 +237,7 @@
    "source": "lmarena",
    "name": "nvidia-nemotron-3-ultra-550b-a55b-nvfp4",
    "count": 1,
-   "best_score": 1426.217526026591,
+   "best_score": 1426.0854260977617,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -224,7 +247,7 @@
    "source": "lmarena",
    "name": "deepseek-v3.2-exp-thinking",
    "count": 1,
-   "best_score": 1424.929628242865,
+   "best_score": 1424.8013705067287,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -247,7 +270,7 @@
    "source": "lmarena",
    "name": "deepseek-v3.2-thinking",
    "count": 1,
-   "best_score": 1422.742946224598,
+   "best_score": 1422.6305035016485,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -270,7 +293,7 @@
    "source": "lmarena",
    "name": "ernie-5.0-preview-1022",
    "count": 1,
-   "best_score": 1418.7331157388837,
+   "best_score": 1418.5390453381979,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -280,7 +303,7 @@
    "source": "lmarena",
    "name": "qwen3-vl-235b-a22b-instruct",
    "count": 1,
-   "best_score": 1413.425390030167,
+   "best_score": 1413.4503192331522,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -303,7 +326,7 @@
    "source": "lmarena",
    "name": "amazon-nova-experimental-chat-26-01-10",
    "count": 1,
-   "best_score": 1413.1001264078836,
+   "best_score": 1412.832030909196,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -326,7 +349,7 @@
    "source": "lmarena",
    "name": "hunyuan-hy3-preview",
    "count": 1,
-   "best_score": 1408.8317281566883,
+   "best_score": 1408.8764513819997,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -336,7 +359,7 @@
    "source": "lmarena",
    "name": "longcat-flash-chat",
    "count": 1,
-   "best_score": 1401.1771914291319,
+   "best_score": 1400.9727117231992,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -346,7 +369,7 @@
    "source": "lmarena",
    "name": "qwen3-next-80b-a3b-instruct",
    "count": 1,
-   "best_score": 1398.9867401275228,
+   "best_score": 1398.6580275354004,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -365,7 +388,7 @@
    "source": "lmarena",
    "name": "qwen3-vl-235b-a22b-thinking",
    "count": 1,
-   "best_score": 1395.0299632600863,
+   "best_score": 1394.7141741264263,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -388,7 +411,7 @@
    "source": "lmarena",
    "name": "hunyuan-vision-1.5-thinking",
    "count": 1,
-   "best_score": 1394.932401875583,
+   "best_score": 1393.8026866405573,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -398,7 +421,7 @@
    "source": "lmarena",
    "name": "amazon-nova-experimental-chat-12-10",
    "count": 1,
-   "best_score": 1393.9465838088968,
+   "best_score": 1393.063169627463,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -421,7 +444,7 @@
    "source": "lmarena",
    "name": "hunyuan-t1-20250711",
    "count": 1,
-   "best_score": 1387.186771149455,
+   "best_score": 1387.2419978512376,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -431,7 +454,7 @@
    "source": "lmarena",
    "name": "solar-pro4",
    "count": 1,
-   "best_score": 1386.2405738006394,
+   "best_score": 1386.1515674113475,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -441,7 +464,7 @@
    "source": "lmarena",
    "name": "hunyuan-turbos-20250416",
    "count": 1,
-   "best_score": 1382.718061165907,
+   "best_score": 1383.1458135570224,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -451,7 +474,7 @@
    "source": "lmarena",
    "name": "glm-4.6v",
    "count": 1,
-   "best_score": 1378.6706109242448,
+   "best_score": 1378.7394406423932,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -474,7 +497,7 @@
    "source": "lmarena",
    "name": "trinity-large-preview",
    "count": 1,
-   "best_score": 1378.572343519039,
+   "best_score": 1378.6956701621748,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -489,7 +512,7 @@
    "source": "lmarena",
    "name": "qwen3-next-80b-a3b-thinking",
    "count": 1,
-   "best_score": 1369.3537739688854,
+   "best_score": 1369.2893448203986,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -512,7 +535,7 @@
    "source": "lmarena",
    "name": "amazon-nova-experimental-chat-11-10",
    "count": 1,
-   "best_score": 1364.2631026210165,
+   "best_score": 1363.974042475777,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -535,7 +558,7 @@
    "source": "lmarena",
    "name": "nvidia-nemotron-3-super-120b-a12b",
    "count": 1,
-   "best_score": 1360.4603673875238,
+   "best_score": 1360.3124423437298,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -550,7 +573,7 @@
    "source": "lmarena",
    "name": "intellect-3",
    "count": 1,
-   "best_score": 1355.781338488142,
+   "best_score": 1355.8616880860773,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -560,7 +583,7 @@
    "source": "lmarena",
    "name": "glm-4.5v",
    "count": 1,
-   "best_score": 1352.39406585147,
+   "best_score": 1352.0249659086953,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -583,7 +606,7 @@
    "source": "lmarena",
    "name": "nvidia-nemotron-3.5-lightning-30b-a3b-nvfp4",
    "count": 1,
-   "best_score": 1349.5095733298415,
+   "best_score": 1349.3958953177205,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -593,7 +616,7 @@
    "source": "lmarena",
    "name": "step-3",
    "count": 1,
-   "best_score": 1349.3958690323122,
+   "best_score": 1349.096931594353,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -612,7 +635,7 @@
    "source": "lmarena",
    "name": "hunyuan-turbos-20250226",
    "count": 1,
-   "best_score": 1348.8872845806413,
+   "best_score": 1348.8539513887054,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -622,7 +645,7 @@
    "source": "lmarena",
    "name": "amazon-nova-experimental-chat-10-20",
    "count": 1,
-   "best_score": 1348.2191550046919,
+   "best_score": 1348.0179843665064,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -645,7 +668,7 @@
    "source": "lmarena",
    "name": "llama-3.1-nemotron-ultra-253b-v1",
    "count": 1,
-   "best_score": 1347.622305137077,
+   "best_score": 1347.5930796170437,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -660,7 +683,7 @@
    "source": "lmarena",
    "name": "amazon-nova-experimental-chat-10-09",
    "count": 1,
-   "best_score": 1346.9774869543428,
+   "best_score": 1346.2910330390632,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -683,7 +706,7 @@
    "source": "lmarena",
    "name": "ling-flash-2.0",
    "count": 1,
-   "best_score": 1343.783896577042,
+   "best_score": 1343.555100041403,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -706,7 +729,7 @@
    "source": "lmarena",
    "name": "nvidia-llama-3.3-nemotron-super-49b-v1.5",
    "count": 1,
-   "best_score": 1342.8971648613976,
+   "best_score": 1343.125340765463,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -716,7 +739,7 @@
    "source": "lmarena",
    "name": "glm-4-plus-0111",
    "count": 1,
-   "best_score": 1342.691583457156,
+   "best_score": 1342.7637458628092,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -739,7 +762,7 @@
    "source": "lmarena",
    "name": "hunyuan-turbo-0110",
    "count": 1,
-   "best_score": 1340.7145792853066,
+   "best_score": 1340.6800570227933,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -749,7 +772,7 @@
    "source": "lmarena",
    "name": "granite-4.2-30b",
    "count": 1,
-   "best_score": 1339.550750915539,
+   "best_score": 1339.6670872414086,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -764,7 +787,7 @@
    "source": "lmarena",
    "name": "gemini-advanced-0514",
    "count": 1,
-   "best_score": 1335.894394071986,
+   "best_score": 1335.9257873520035,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -779,7 +802,7 @@
    "source": "lmarena",
    "name": "llama-3.1-405b-instruct-bf16",
    "count": 1,
-   "best_score": 1335.3678614785697,
+   "best_score": 1335.4114848842821,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -802,7 +825,7 @@
    "source": "lmarena",
    "name": "nova-2-lite",
    "count": 1,
-   "best_score": 1334.9828621512352,
+   "best_score": 1334.8013109762146,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -817,7 +840,7 @@
    "source": "lmarena",
    "name": "step-2-16k-exp-202412",
    "count": 1,
-   "best_score": 1333.5555967502899,
+   "best_score": 1333.5519140130655,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -827,7 +850,7 @@
    "source": "lmarena",
    "name": "olmo-3.1-32b-instruct",
    "count": 1,
-   "best_score": 1329.1936212123942,
+   "best_score": 1329.2698959729228,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -837,7 +860,7 @@
    "source": "lmarena",
    "name": "llama-3.3-nemotron-49b-super-v1",
    "count": 1,
-   "best_score": 1327.794106135701,
+   "best_score": 1327.7700662393304,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -852,7 +875,7 @@
    "source": "lmarena",
    "name": "hunyuan-large-2025-02-10",
    "count": 1,
-   "best_score": 1326.3325419430544,
+   "best_score": 1326.3177534346905,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -862,7 +885,7 @@
    "source": "lmarena",
    "name": "ring-flash-2.0",
    "count": 1,
-   "best_score": 1322.5840283822454,
+   "best_score": 1322.7587918520626,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -885,7 +908,7 @@
    "source": "lmarena",
    "name": "molmo-2-8b",
    "count": 1,
-   "best_score": 1321.7649505351633,
+   "best_score": 1322.025748525692,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -895,7 +918,7 @@
    "source": "lmarena",
    "name": "step-1o-turbo-202506",
    "count": 1,
-   "best_score": 1319.9843737500478,
+   "best_score": 1319.8164132043357,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -905,7 +928,7 @@
    "source": "lmarena",
    "name": "glm-4-plus",
    "count": 1,
-   "best_score": 1319.353931643909,
+   "best_score": 1319.3658819959248,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -928,7 +951,7 @@
    "source": "lmarena",
    "name": "gemma-3n-e4b-it",
    "count": 1,
-   "best_score": 1317.4177455992144,
+   "best_score": 1317.51554658442,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -938,7 +961,7 @@
    "source": "lmarena",
    "name": "qwen2.5-plus-1127",
    "count": 1,
-   "best_score": 1314.6240314135669,
+   "best_score": 1314.6373460186117,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -961,7 +984,7 @@
    "source": "lmarena",
    "name": "athene-v2-chat",
    "count": 1,
-   "best_score": 1314.1440123565926,
+   "best_score": 1314.1520145172049,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -971,7 +994,7 @@
    "source": "lmarena",
    "name": "nvidia-nemotron-3-nano-30b-a3b-bf16",
    "count": 1,
-   "best_score": 1313.534004829241,
+   "best_score": 1313.6558152629373,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -981,7 +1004,7 @@
    "source": "lmarena",
    "name": "hunyuan-standard-2025-02-10",
    "count": 1,
-   "best_score": 1311.274868039543,
+   "best_score": 1311.262797524599,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -991,7 +1014,7 @@
    "source": "lmarena",
    "name": "athene-70b-0725",
    "count": 1,
-   "best_score": 1306.5926940999088,
+   "best_score": 1306.6260780784894,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1001,7 +1024,7 @@
    "source": "lmarena",
    "name": "olmo-3-32b-think",
    "count": 1,
-   "best_score": 1306.3523101053456,
+   "best_score": 1306.2721995331367,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1011,7 +1034,7 @@
    "source": "lmarena",
    "name": "mercury",
    "count": 1,
-   "best_score": 1305.2478630626624,
+   "best_score": 1305.8681602217011,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1026,7 +1049,7 @@
    "source": "lmarena",
    "name": "granite-4.1-8b",
    "count": 1,
-   "best_score": 1304.0675680601005,
+   "best_score": 1304.0235901375563,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1041,7 +1064,7 @@
    "source": "lmarena",
    "name": "mistral-small-3.1-24b-instruct-2503",
    "count": 1,
-   "best_score": 1303.1171215155173,
+   "best_score": 1302.8449961610618,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1064,27 +1087,7 @@
    "source": "lmarena",
    "name": "hunyuan-large-vision",
    "count": 1,
-   "best_score": 1293.9860028834876,
-   "benchmarks": [
-    "lmarena-text"
-   ],
-   "suggestions": []
-  },
-  {
-   "source": "lmarena",
-   "name": "granite-4.2-3b",
-   "count": 1,
-   "best_score": 1289.522494910676,
-   "benchmarks": [
-    "lmarena-text"
-   ],
-   "suggestions": []
-  },
-  {
-   "source": "lmarena",
-   "name": "jamba-1.5-large",
-   "count": 1,
-   "best_score": 1289.4245242383608,
+   "best_score": 1293.8858308774716,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1094,7 +1097,27 @@
    "source": "lmarena",
    "name": "granite-4.2-8b",
    "count": 1,
-   "best_score": 1288.1328935681895,
+   "best_score": 1290.2169764831547,
+   "benchmarks": [
+    "lmarena-text"
+   ],
+   "suggestions": []
+  },
+  {
+   "source": "lmarena",
+   "name": "granite-4.2-3b",
+   "count": 1,
+   "best_score": 1289.5789367061657,
+   "benchmarks": [
+    "lmarena-text"
+   ],
+   "suggestions": []
+  },
+  {
+   "source": "lmarena",
+   "name": "jamba-1.5-large",
+   "count": 1,
+   "best_score": 1289.4295459161503,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1104,7 +1127,7 @@
    "source": "lmarena",
    "name": "reka-core-20240904",
    "count": 1,
-   "best_score": 1287.9876086464446,
+   "best_score": 1288.0295649109275,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1114,7 +1137,17 @@
    "source": "lmarena",
    "name": "ibm-granite-h-small",
    "count": 1,
-   "best_score": 1286.9588237756034,
+   "best_score": 1287.249834797396,
+   "benchmarks": [
+    "lmarena-text"
+   ],
+   "suggestions": []
+  },
+  {
+   "source": "lmarena",
+   "name": "olmo-3.1-32b-think",
+   "count": 1,
+   "best_score": 1286.813447310703,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1124,7 +1157,7 @@
    "source": "lmarena",
    "name": "llama-3.1-nemotron-51b-instruct",
    "count": 1,
-   "best_score": 1286.562353098289,
+   "best_score": 1286.6100357928149,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1145,19 +1178,9 @@
   },
   {
    "source": "lmarena",
-   "name": "olmo-3.1-32b-think",
-   "count": 1,
-   "best_score": 1286.4486096854528,
-   "benchmarks": [
-    "lmarena-text"
-   ],
-   "suggestions": []
-  },
-  {
-   "source": "lmarena",
    "name": "llama-3.1-tulu-3-70b",
    "count": 1,
-   "best_score": 1286.0638105555372,
+   "best_score": 1286.1194613950688,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1180,7 +1203,7 @@
    "source": "lmarena",
    "name": "gemma-2-9b-it-simpo",
    "count": 1,
-   "best_score": 1280.3462523795156,
+   "best_score": 1280.3585585820147,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1195,7 +1218,7 @@
    "source": "lmarena",
    "name": "command-r-plus-08-2024",
    "count": 1,
-   "best_score": 1276.2588921220718,
+   "best_score": 1276.312069635339,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1218,7 +1241,7 @@
    "source": "lmarena",
    "name": "mistral-small-24b-instruct-2501",
    "count": 1,
-   "best_score": 1274.3743654752177,
+   "best_score": 1274.3694516024707,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1233,7 +1256,7 @@
    "source": "lmarena",
    "name": "reka-flash-20240904",
    "count": 1,
-   "best_score": 1272.3577426936615,
+   "best_score": 1272.4069276375224,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1248,7 +1271,7 @@
    "source": "lmarena",
    "name": "c4ai-aya-expanse-32b",
    "count": 1,
-   "best_score": 1267.2085531388082,
+   "best_score": 1267.255037008777,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1258,7 +1281,7 @@
    "source": "lmarena",
    "name": "command-r-plus",
    "count": 1,
-   "best_score": 1261.7252525257713,
+   "best_score": 1261.776442730933,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1281,7 +1304,7 @@
    "source": "lmarena",
    "name": "olmo-2-0325-32b-instruct",
    "count": 1,
-   "best_score": 1251.6465529597192,
+   "best_score": 1251.6690317927882,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1291,7 +1314,7 @@
    "source": "lmarena",
    "name": "jamba-1.5-mini",
    "count": 1,
-   "best_score": 1239.7418955635399,
+   "best_score": 1239.7589472746135,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1306,7 +1329,7 @@
    "source": "lmarena",
    "name": "gemini-pro-dev-api",
    "count": 1,
-   "best_score": 1236.7660304198218,
+   "best_score": 1236.779415961355,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1316,7 +1339,7 @@
    "source": "lmarena",
    "name": "reka-flash-21b-20240226-online",
    "count": 1,
-   "best_score": 1233.490469178276,
+   "best_score": 1233.549669482797,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1326,7 +1349,7 @@
    "source": "lmarena",
    "name": "hunyuan-standard-256k",
    "count": 1,
-   "best_score": 1233.2053107966574,
+   "best_score": 1233.1992091783932,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1336,7 +1359,7 @@
    "source": "lmarena",
    "name": "reka-flash-21b-20240226",
    "count": 1,
-   "best_score": 1226.7468678551268,
+   "best_score": 1226.8083234772048,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1351,7 +1374,7 @@
    "source": "lmarena",
    "name": "gemini-pro",
    "count": 1,
-   "best_score": 1223.5429047468165,
+   "best_score": 1223.5555619766578,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1374,7 +1397,7 @@
    "source": "lmarena",
    "name": "c4ai-aya-expanse-8b",
    "count": 1,
-   "best_score": 1223.0252600265542,
+   "best_score": 1223.0748838551012,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1384,7 +1407,7 @@
    "source": "lmarena",
    "name": "llama-3.1-tulu-3-8b",
    "count": 1,
-   "best_score": 1220.4693962687488,
+   "best_score": 1220.519477642192,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1407,7 +1430,7 @@
    "source": "lmarena",
    "name": "zephyr-orpo-141b-A35b-v0.1",
    "count": 1,
-   "best_score": 1212.9625337754874,
+   "best_score": 1213.0100153123542,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1417,7 +1440,7 @@
    "source": "lmarena",
    "name": "granite-3.1-8b-instruct",
    "count": 1,
-   "best_score": 1208.456303687424,
+   "best_score": 1208.520002049767,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1432,7 +1455,7 @@
    "source": "lmarena",
    "name": "gemma-2-2b-it",
    "count": 1,
-   "best_score": 1200.047156476676,
+   "best_score": 1200.0823248628972,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1455,7 +1478,7 @@
    "source": "lmarena",
    "name": "dbrx-instruct-preview",
    "count": 1,
-   "best_score": 1195.4651992803565,
+   "best_score": 1195.4997339329695,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1470,7 +1493,7 @@
    "source": "lmarena",
    "name": "internlm2_5-20b-chat",
    "count": 1,
-   "best_score": 1190.7213551262244,
+   "best_score": 1190.7852098681699,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1480,7 +1503,7 @@
    "source": "lmarena",
    "name": "wizardlm-70b",
    "count": 1,
-   "best_score": 1184.6867001301798,
+   "best_score": 1184.7402004491173,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1490,7 +1513,7 @@
    "source": "lmarena",
    "name": "granite-3.0-8b-instruct",
    "count": 1,
-   "best_score": 1183.069719751941,
+   "best_score": 1183.098732727753,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1500,7 +1523,7 @@
    "source": "lmarena",
    "name": "openchat-3.5",
    "count": 1,
-   "best_score": 1182.9807100116839,
+   "best_score": 1183.0077556686133,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1519,7 +1542,7 @@
    "source": "lmarena",
    "name": "openchat-3.5-0106",
    "count": 1,
-   "best_score": 1182.6813656452416,
+   "best_score": 1182.7227311617212,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1538,7 +1561,7 @@
    "source": "lmarena",
    "name": "gemma-1.1-7b-it",
    "count": 1,
-   "best_score": 1182.506489579367,
+   "best_score": 1182.5040078842671,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1557,7 +1580,7 @@
    "source": "lmarena",
    "name": "snowflake-arctic-instruct",
    "count": 1,
-   "best_score": 1179.9867950391135,
+   "best_score": 1180.0241838619372,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1567,7 +1590,7 @@
    "source": "lmarena",
    "name": "granite-3.1-2b-instruct",
    "count": 1,
-   "best_score": 1178.8131472179005,
+   "best_score": 1178.8845615710425,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1577,7 +1600,7 @@
    "source": "lmarena",
    "name": "tulu-2-dpo-70b",
    "count": 1,
-   "best_score": 1177.6160893298543,
+   "best_score": 1177.6761700642633,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1587,7 +1610,7 @@
    "source": "lmarena",
    "name": "openhermes-2.5-mistral-7b",
    "count": 1,
-   "best_score": 1175.889883914665,
+   "best_score": 1175.9228275420296,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1602,7 +1625,7 @@
    "source": "lmarena",
    "name": "vicuna-33b",
    "count": 1,
-   "best_score": 1172.8685716719099,
+   "best_score": 1172.9208965157752,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1612,7 +1635,7 @@
    "source": "lmarena",
    "name": "starling-lm-7b-beta",
    "count": 1,
-   "best_score": 1170.90272013249,
+   "best_score": 1171.000274622691,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1622,7 +1645,7 @@
    "source": "lmarena",
    "name": "starling-lm-7b-alpha",
    "count": 1,
-   "best_score": 1167.352296747548,
+   "best_score": 1167.413584107437,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1632,7 +1655,7 @@
    "source": "lmarena",
    "name": "nous-hermes-2-mixtral-8x7b-dpo",
    "count": 1,
-   "best_score": 1164.343898882683,
+   "best_score": 1164.4109706121487,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1642,7 +1665,7 @@
    "source": "lmarena",
    "name": "granite-3.0-2b-instruct",
    "count": 1,
-   "best_score": 1156.5919259450445,
+   "best_score": 1156.6332082171944,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1652,7 +1675,7 @@
    "source": "lmarena",
    "name": "llama2-70b-steerlm-chat",
    "count": 1,
-   "best_score": 1154.6688849432203,
+   "best_score": 1154.7183823044352,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1662,7 +1685,7 @@
    "source": "lmarena",
    "name": "solar-10.7b-instruct-v1.0",
    "count": 1,
-   "best_score": 1152.3744138051532,
+   "best_score": 1152.4182702565522,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1672,7 +1695,7 @@
    "source": "lmarena",
    "name": "dolphin-2.2.1-mistral-7b",
    "count": 1,
-   "best_score": 1152.2153646729844,
+   "best_score": 1152.2610787704207,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1691,7 +1714,7 @@
    "source": "lmarena",
    "name": "wizardlm-13b",
    "count": 1,
-   "best_score": 1149.4635195008013,
+   "best_score": 1149.5085072215543,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1701,7 +1724,7 @@
    "source": "lmarena",
    "name": "phi-3-mini-4k-instruct-june-2024",
    "count": 1,
-   "best_score": 1143.0708977097388,
+   "best_score": 1143.1169909549935,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1724,7 +1747,7 @@
    "source": "lmarena",
    "name": "vicuna-13b",
    "count": 1,
-   "best_score": 1141.5061281280614,
+   "best_score": 1141.534848370228,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1747,7 +1770,7 @@
    "source": "lmarena",
    "name": "palm-2",
    "count": 1,
-   "best_score": 1139.0992045946095,
+   "best_score": 1139.0924224319783,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1770,7 +1793,7 @@
    "source": "lmarena",
    "name": "codellama-34b-instruct",
    "count": 1,
-   "best_score": 1136.7977187749973,
+   "best_score": 1136.8469325596388,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1780,7 +1803,7 @@
    "source": "lmarena",
    "name": "zephyr-7b-beta",
    "count": 1,
-   "best_score": 1130.7557469270284,
+   "best_score": 1130.8115516965368,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1790,7 +1813,7 @@
    "source": "lmarena",
    "name": "guanaco-33b",
    "count": 1,
-   "best_score": 1127.4439180512966,
+   "best_score": 1127.4795663963737,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1800,7 +1823,7 @@
    "source": "lmarena",
    "name": "zephyr-7b-alpha",
    "count": 1,
-   "best_score": 1126.8829920313713,
+   "best_score": 1126.9291322707995,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1810,7 +1833,7 @@
    "source": "lmarena",
    "name": "stripedhyena-nous-7b",
    "count": 1,
-   "best_score": 1121.5503423727112,
+   "best_score": 1121.5810818232244,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1820,7 +1843,7 @@
    "source": "lmarena",
    "name": "codellama-70b-instruct",
    "count": 1,
-   "best_score": 1119.11837001925,
+   "best_score": 1119.1660066309582,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1830,7 +1853,7 @@
    "source": "lmarena",
    "name": "gemma-1.1-2b-it",
    "count": 1,
-   "best_score": 1116.588271680483,
+   "best_score": 1116.5945200522233,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1845,7 +1868,7 @@
    "source": "lmarena",
    "name": "vicuna-7b",
    "count": 1,
-   "best_score": 1115.247301605616,
+   "best_score": 1115.276766985227,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1860,7 +1883,7 @@
    "source": "lmarena",
    "name": "smollm2-1.7b-instruct",
    "count": 1,
-   "best_score": 1114.6395731711402,
+   "best_score": 1114.6848440827255,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1875,7 +1898,7 @@
    "source": "lmarena",
    "name": "mistral-7b-instruct",
    "count": 1,
-   "best_score": 1110.2987788537553,
+   "best_score": 1110.324123567318,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1898,7 +1921,7 @@
    "source": "lmarena",
    "name": "qwen1.5-4b-chat",
    "count": 1,
-   "best_score": 1091.0715992373296,
+   "best_score": 1091.088241320796,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1921,7 +1944,7 @@
    "source": "lmarena",
    "name": "olmo-7b-instruct",
    "count": 1,
-   "best_score": 1073.5689699869918,
+   "best_score": 1073.6508890791047,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1931,7 +1954,7 @@
    "source": "lmarena",
    "name": "koala-13b",
    "count": 1,
-   "best_score": 1070.8640251416093,
+   "best_score": 1070.899979170712,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1941,7 +1964,7 @@
    "source": "lmarena",
    "name": "alpaca-13b",
    "count": 1,
-   "best_score": 1070.1340047680878,
+   "best_score": 1070.101284387255,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1951,7 +1974,7 @@
    "source": "lmarena",
    "name": "gpt4all-13b-snoozy",
    "count": 1,
-   "best_score": 1067.6246665335761,
+   "best_score": 1067.624670294893,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1961,7 +1984,7 @@
    "source": "lmarena",
    "name": "chatglm3-6b",
    "count": 1,
-   "best_score": 1056.5111456323157,
+   "best_score": 1056.5365079612866,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1971,7 +1994,7 @@
    "source": "lmarena",
    "name": "RWKV-4-Raven-14B",
    "count": 1,
-   "best_score": 1042.2626827316565,
+   "best_score": 1042.2857406283397,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1981,7 +2004,7 @@
    "source": "lmarena",
    "name": "oasst-pythia-12b",
    "count": 1,
-   "best_score": 1023.450000128857,
+   "best_score": 1023.4540150973369,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -1991,7 +2014,7 @@
    "source": "lmarena",
    "name": "chatglm-6b",
    "count": 1,
-   "best_score": 995.7618433901987,
+   "best_score": 995.8029648280213,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -2001,7 +2024,7 @@
    "source": "lmarena",
    "name": "fastchat-t5-3b",
    "count": 1,
-   "best_score": 992.4789855757126,
+   "best_score": 992.5030939561772,
    "benchmarks": [
     "lmarena-text"
    ],
@@ -2200,11 +2223,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "deepseek-v4-flash-0731",
+     "model_id": "deepseek-v4-flash",
      "similarity": 0.75
     },
     {
-     "model_id": "deepseek-v4-flash",
+     "model_id": "deepseek-v4-flash-0731",
      "similarity": 0.75
     },
     {
@@ -2334,11 +2357,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "qwen3-30b-a3b",
+     "model_id": "qwen3-30b-a3b-instruct-jul-2025",
      "similarity": 0.75
     },
     {
-     "model_id": "qwen3-30b-a3b-instruct-jul-2025",
+     "model_id": "qwen3-30b-a3b",
      "similarity": 0.75
     },
     {
@@ -2419,11 +2442,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "baichuan2-13b-chat",
+     "model_id": "baichuan2-13b",
      "similarity": 1.0
     },
     {
-     "model_id": "baichuan2-13b",
+     "model_id": "baichuan2-13b-chat",
      "similarity": 1.0
     }
    ]
@@ -2600,15 +2623,15 @@
    ],
    "suggestions": [
     {
-     "model_id": "gpt-4o-aug-2024",
-     "similarity": 1.0
-    },
-    {
-     "model_id": "gpt-4o-may-2024",
+     "model_id": "gpt-4o-mar-2025",
      "similarity": 1.0
     },
     {
      "model_id": "gpt-4o-nov-2024",
+     "similarity": 1.0
+    },
+    {
+     "model_id": "gpt-4o-may-2024",
      "similarity": 1.0
     }
    ]
@@ -2776,11 +2799,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "gpt-4-jun-2023",
+     "model_id": "gpt-4-mar-2023",
      "similarity": 1.0
     },
     {
-     "model_id": "gpt-4-mar-2023",
+     "model_id": "gpt-4-jun-2023",
      "similarity": 1.0
     },
     {
@@ -2799,15 +2822,15 @@
    ],
    "suggestions": [
     {
-     "model_id": "gpt-4o-aug-2024",
-     "similarity": 1.0
-    },
-    {
-     "model_id": "gpt-4o-may-2024",
+     "model_id": "gpt-4o-mar-2025",
      "similarity": 1.0
     },
     {
      "model_id": "gpt-4o-nov-2024",
+     "similarity": 1.0
+    },
+    {
+     "model_id": "gpt-4o-may-2024",
      "similarity": 1.0
     }
    ]
@@ -3235,15 +3258,15 @@
    ],
    "suggestions": [
     {
-     "model_id": "gpt-3-5-turbo-jan-2024",
-     "similarity": 0.75
-    },
-    {
-     "model_id": "gpt-3-5-turbo-instruct",
-     "similarity": 0.75
-    },
-    {
      "model_id": "gpt-3-5-turbo-jun-2023",
+     "similarity": 0.75
+    },
+    {
+     "model_id": "gpt-3-5-turbo-mar-2023",
+     "similarity": 0.75
+    },
+    {
+     "model_id": "gpt-3-5-turbo-nov-2023",
      "similarity": 0.75
     }
    ]
