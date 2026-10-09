@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T06:20:06Z",
+ "generated_at": "2026-10-09T15:21:57Z",
  "models": [
   {
    "source": "lmarena",
@@ -88,15 +88,15 @@
    ],
    "suggestions": [
     {
-     "model_id": "gpt-3-5-turbo-jun-2023",
-     "similarity": 0.75
-    },
-    {
      "model_id": "gpt-3-5-turbo-mar-2023",
      "similarity": 0.75
     },
     {
-     "model_id": "gpt-3-5-turbo-nov-2023",
+     "model_id": "gpt-3-5-turbo-jan-2024",
+     "similarity": 0.75
+    },
+    {
+     "model_id": "gpt-3-5-turbo-instruct",
      "similarity": 0.75
     }
    ]
@@ -178,34 +178,11 @@
      "similarity": 0.75
     },
     {
-     "model_id": "kimi-k2-jul-2025",
-     "similarity": 0.5
-    },
-    {
      "model_id": "kimi-k2-sep-2025",
      "similarity": 0.5
-    }
-   ]
-  },
-  {
-   "source": "lmarena",
-   "name": "mistral-large-4",
-   "count": 1,
-   "best_score": 1429.257417234147,
-   "benchmarks": [
-    "lmarena-text"
-   ],
-   "suggestions": [
-    {
-     "model_id": "mistral-large",
-     "similarity": 0.667
     },
     {
-     "model_id": "mistral-large-2-jul-2024",
-     "similarity": 0.5
-    },
-    {
-     "model_id": "mistral-large-2-nov-2024",
+     "model_id": "kimi-k2-jul-2025",
      "similarity": 0.5
     }
    ]
@@ -2252,29 +2229,6 @@
    ]
   },
   {
-   "source": "livebench",
-   "name": "mistral-large-4-high",
-   "count": 1,
-   "best_score": 71.83741666666667,
-   "benchmarks": [
-    "livebench"
-   ],
-   "suggestions": [
-    {
-     "model_id": "mistral-large",
-     "similarity": 0.667
-    },
-    {
-     "model_id": "mistral-large-2-jul-2024",
-     "similarity": 0.5
-    },
-    {
-     "model_id": "mistral-large-2-nov-2024",
-     "similarity": 0.5
-    }
-   ]
-  },
-  {
    "source": "swebench",
    "name": "Undisclosed",
    "count": 24,
@@ -2304,11 +2258,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "claude-3-5-sonnet-october-2024",
+     "model_id": "claude-3-5-sonnet",
      "similarity": 0.667
     },
     {
-     "model_id": "claude-3-5-sonnet",
+     "model_id": "claude-3-5-sonnet-october-2024",
      "similarity": 0.667
     },
     {
@@ -2623,7 +2577,7 @@
    ],
    "suggestions": [
     {
-     "model_id": "gpt-4o-mar-2025",
+     "model_id": "gpt-4o-jan-2025",
      "similarity": 1.0
     },
     {
@@ -2822,7 +2776,7 @@
    ],
    "suggestions": [
     {
-     "model_id": "gpt-4o-mar-2025",
+     "model_id": "gpt-4o-jan-2025",
      "similarity": 1.0
     },
     {
@@ -3258,15 +3212,15 @@
    ],
    "suggestions": [
     {
-     "model_id": "gpt-3-5-turbo-jun-2023",
-     "similarity": 0.75
-    },
-    {
      "model_id": "gpt-3-5-turbo-mar-2023",
      "similarity": 0.75
     },
     {
-     "model_id": "gpt-3-5-turbo-nov-2023",
+     "model_id": "gpt-3-5-turbo-jan-2024",
+     "similarity": 0.75
+    },
+    {
+     "model_id": "gpt-3-5-turbo-instruct",
      "similarity": 0.75
     }
    ]
