@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T13:31:38Z",
+ "generated_at": "2026-10-15T17:10:40Z",
  "models": [
   {
    "source": "lmarena",
@@ -88,7 +88,7 @@
    ],
    "suggestions": [
     {
-     "model_id": "gpt-3-5-turbo-instruct",
+     "model_id": "gpt-3-5-turbo-jan-2024",
      "similarity": 0.75
     },
     {
@@ -96,7 +96,7 @@
      "similarity": 0.75
     },
     {
-     "model_id": "gpt-3-5-turbo-jan-2024",
+     "model_id": "gpt-3-5-turbo-instruct",
      "similarity": 0.75
     }
    ]
@@ -178,11 +178,11 @@
      "similarity": 0.75
     },
     {
-     "model_id": "kimi-k2-sep-2025",
+     "model_id": "kimi-k2-jul-2025",
      "similarity": 0.5
     },
     {
-     "model_id": "kimi-k2-jul-2025",
+     "model_id": "kimi-k2-sep-2025",
      "similarity": 0.5
     }
    ]
@@ -286,11 +286,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "qwen3-235b-a22b",
+     "model_id": "qwen3-235b-a22b-instruct-jul-2025",
      "similarity": 0.75
     },
     {
-     "model_id": "qwen3-235b-a22b-instruct-jul-2025",
+     "model_id": "qwen3-235b-a22b",
      "similarity": 0.75
     },
     {
@@ -352,11 +352,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "chutes-qwen3-next-80b-a3b-instruct",
+     "model_id": "deepinfra-qwen3-next-80b-a3b-instruct",
      "similarity": 1.0
     },
     {
-     "model_id": "deepinfra-qwen3-next-80b-a3b-instruct",
+     "model_id": "chutes-qwen3-next-80b-a3b-instruct",
      "similarity": 1.0
     }
    ]
@@ -375,11 +375,11 @@
      "similarity": 0.8
     },
     {
-     "model_id": "qwen3-235b-a22b",
+     "model_id": "qwen3-235b-a22b-instruct-jul-2025",
      "similarity": 0.6
     },
     {
-     "model_id": "qwen3-235b-a22b-instruct-jul-2025",
+     "model_id": "qwen3-235b-a22b",
      "similarity": 0.6
     }
    ]
@@ -472,11 +472,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "glm-4",
+     "model_id": "glm-4-0520",
      "similarity": 0.667
     },
     {
-     "model_id": "glm-4-0520",
+     "model_id": "glm-4",
      "similarity": 0.667
     },
     {
@@ -495,11 +495,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "chutes-qwen3-next-80b-a3b-instruct",
+     "model_id": "deepinfra-qwen3-next-80b-a3b-instruct",
      "similarity": 0.8
     },
     {
-     "model_id": "deepinfra-qwen3-next-80b-a3b-instruct",
+     "model_id": "chutes-qwen3-next-80b-a3b-instruct",
      "similarity": 0.8
     },
     {
@@ -566,11 +566,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "glm-4",
+     "model_id": "glm-4-0520",
      "similarity": 0.667
     },
     {
-     "model_id": "glm-4-0520",
+     "model_id": "glm-4",
      "similarity": 0.667
     },
     {
@@ -722,11 +722,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "glm-4",
+     "model_id": "glm-4-0520",
      "similarity": 0.667
     },
     {
-     "model_id": "glm-4-0520",
+     "model_id": "glm-4",
      "similarity": 0.667
     },
     {
@@ -911,11 +911,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "glm-4",
+     "model_id": "glm-4-0520",
      "similarity": 0.667
     },
     {
-     "model_id": "glm-4-0520",
+     "model_id": "glm-4",
      "similarity": 0.667
     },
     {
@@ -1365,7 +1365,7 @@
      "similarity": 0.5
     },
     {
-     "model_id": "gemini-1-5-pro-sept-2024",
+     "model_id": "gemini-1-5-pro-may-2024",
      "similarity": 0.5
     }
    ]
@@ -2014,6 +2014,51 @@
   },
   {
    "source": "arcprize",
+   "name": "Gemini 4 Argon - Provider Adapter (Low)",
+   "count": 1,
+   "best_score": 97.4591718377776,
+   "benchmarks": [
+    "arc-agi-3"
+   ],
+   "suggestions": [
+    {
+     "model_id": "gemini-4-argon",
+     "similarity": 0.6
+    }
+   ]
+  },
+  {
+   "source": "arcprize",
+   "name": "Gemini 4 Argon - Provider Adapter (Medium)",
+   "count": 1,
+   "best_score": 97.3448904168153,
+   "benchmarks": [
+    "arc-agi-3"
+   ],
+   "suggestions": [
+    {
+     "model_id": "gemini-4-argon",
+     "similarity": 0.6
+    }
+   ]
+  },
+  {
+   "source": "arcprize",
+   "name": "Gemini 4 Argon - Provider Adapter (High)",
+   "count": 1,
+   "best_score": 97.30432688837199,
+   "benchmarks": [
+    "arc-agi-3"
+   ],
+   "suggestions": [
+    {
+     "model_id": "gemini-4-argon",
+     "similarity": 0.6
+    }
+   ]
+  },
+  {
+   "source": "arcprize",
    "name": "GPT-6.1 Sol - Provider Adapter (XHigh)",
    "count": 1,
    "best_score": 96.37493342875182,
@@ -2365,11 +2410,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "chutes-qwen3-next-80b-a3b-instruct",
+     "model_id": "deepinfra-qwen3-next-80b-a3b-instruct",
      "similarity": 1.0
     },
     {
-     "model_id": "deepinfra-qwen3-next-80b-a3b-instruct",
+     "model_id": "chutes-qwen3-next-80b-a3b-instruct",
      "similarity": 1.0
     }
    ]
@@ -2538,11 +2583,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "chutes-qwen3-next-80b-a3b-instruct",
+     "model_id": "deepinfra-qwen3-next-80b-a3b-instruct",
      "similarity": 1.0
     },
     {
-     "model_id": "deepinfra-qwen3-next-80b-a3b-instruct",
+     "model_id": "chutes-qwen3-next-80b-a3b-instruct",
      "similarity": 1.0
     }
    ]
@@ -2577,15 +2622,15 @@
    ],
    "suggestions": [
     {
-     "model_id": "gpt-4o-jan-2025",
-     "similarity": 1.0
-    },
-    {
      "model_id": "gpt-4o-aug-2024",
      "similarity": 1.0
     },
     {
-     "model_id": "gpt-4o-nov-2024",
+     "model_id": "gpt-4o-may-2024",
+     "similarity": 1.0
+    },
+    {
+     "model_id": "gpt-4o-mar-2025",
      "similarity": 1.0
     }
    ]
@@ -2776,15 +2821,15 @@
    ],
    "suggestions": [
     {
-     "model_id": "gpt-4o-jan-2025",
-     "similarity": 1.0
-    },
-    {
      "model_id": "gpt-4o-aug-2024",
      "similarity": 1.0
     },
     {
-     "model_id": "gpt-4o-nov-2024",
+     "model_id": "gpt-4o-may-2024",
+     "similarity": 1.0
+    },
+    {
+     "model_id": "gpt-4o-mar-2025",
      "similarity": 1.0
     }
    ]
@@ -3217,11 +3262,11 @@
      "similarity": 1.0
     },
     {
-     "model_id": "gemini-1-5-pro-sept-2024",
+     "model_id": "gemini-1-5-pro-feb-2024",
      "similarity": 1.0
     },
     {
-     "model_id": "gemini-1-5-pro-feb-2024",
+     "model_id": "gemini-1-5-pro-sept-2024",
      "similarity": 1.0
     }
    ]
@@ -3327,7 +3372,7 @@
    ],
    "suggestions": [
     {
-     "model_id": "gpt-3-5-turbo-instruct",
+     "model_id": "gpt-3-5-turbo-jan-2024",
      "similarity": 0.75
     },
     {
@@ -3335,7 +3380,7 @@
      "similarity": 0.75
     },
     {
-     "model_id": "gpt-3-5-turbo-jan-2024",
+     "model_id": "gpt-3-5-turbo-instruct",
      "similarity": 0.75
     }
    ]
