@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T04:53:33Z",
+ "generated_at": "2026-10-19T15:43:22Z",
  "models": [
   {
    "source": "lmarena",
@@ -88,7 +88,7 @@
    ],
    "suggestions": [
     {
-     "model_id": "gpt-3-5-turbo-jun-2023",
+     "model_id": "gpt-3-5-turbo-jan-2024",
      "similarity": 0.75
     },
     {
@@ -178,11 +178,11 @@
      "similarity": 0.75
     },
     {
-     "model_id": "kimi-k2-sep-2025",
+     "model_id": "kimi-k2-jul-2025",
      "similarity": 0.5
     },
     {
-     "model_id": "kimi-k2-jul-2025",
+     "model_id": "kimi-k2-sep-2025",
      "similarity": 0.5
     }
    ]
@@ -296,11 +296,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "qwen3-235b-a22b-instruct-jul-2025",
+     "model_id": "qwen3-235b-a22b",
      "similarity": 0.75
     },
     {
-     "model_id": "qwen3-235b-a22b",
+     "model_id": "qwen3-235b-a22b-instruct-jul-2025",
      "similarity": 0.75
     },
     {
@@ -385,11 +385,11 @@
      "similarity": 0.8
     },
     {
-     "model_id": "qwen3-235b-a22b-instruct-jul-2025",
+     "model_id": "qwen3-235b-a22b",
      "similarity": 0.6
     },
     {
-     "model_id": "qwen3-235b-a22b",
+     "model_id": "qwen3-235b-a22b-instruct-jul-2025",
      "similarity": 0.6
     }
    ]
@@ -2313,11 +2313,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "claude-3-5-sonnet-october-2024",
+     "model_id": "claude-3-5-sonnet",
      "similarity": 0.667
     },
     {
-     "model_id": "claude-3-5-sonnet",
+     "model_id": "claude-3-5-sonnet-october-2024",
      "similarity": 0.667
     },
     {
@@ -2366,11 +2366,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "qwen3-30b-a3b",
+     "model_id": "qwen3-30b-a3b-instruct-jul-2025",
      "similarity": 0.75
     },
     {
-     "model_id": "qwen3-30b-a3b-instruct-jul-2025",
+     "model_id": "qwen3-30b-a3b",
      "similarity": 0.75
     },
     {
@@ -2640,7 +2640,7 @@
      "similarity": 1.0
     },
     {
-     "model_id": "gpt-4o-may-2024",
+     "model_id": "gpt-4o-mar-2025",
      "similarity": 1.0
     }
    ]
@@ -2808,11 +2808,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "gpt-4-mar-2023",
+     "model_id": "gpt-4-jun-2023",
      "similarity": 1.0
     },
     {
-     "model_id": "gpt-4-jun-2023",
+     "model_id": "gpt-4-mar-2023",
      "similarity": 1.0
     },
     {
@@ -2839,7 +2839,7 @@
      "similarity": 1.0
     },
     {
-     "model_id": "gpt-4o-may-2024",
+     "model_id": "gpt-4o-mar-2025",
      "similarity": 1.0
     }
    ]
@@ -3382,7 +3382,7 @@
    ],
    "suggestions": [
     {
-     "model_id": "gpt-3-5-turbo-jun-2023",
+     "model_id": "gpt-3-5-turbo-jan-2024",
      "similarity": 0.75
     },
     {
