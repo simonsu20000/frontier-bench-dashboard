@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T18:05:55Z",
+ "generated_at": "2026-10-27T20:47:28Z",
  "sources": [
   {
    "id": "epoch",
@@ -7,9 +7,9 @@
    "url": "https://epoch.ai/benchmarks",
    "license": "CC BY 4.0",
    "status": "ok",
-   "fetched_at": "2026-10-27T18:05:51Z",
+   "fetched_at": "2026-10-27T20:47:12Z",
    "upstream_updated_at": "2026-10-27",
-   "records": 6613,
+   "records": 6621,
    "consecutive_failures": 0,
    "error": "",
    "stale": false,
@@ -22,7 +22,7 @@
    "url": "https://lmarena.ai/leaderboard/text",
    "license": "CC BY 4.0",
    "status": "ok",
-   "fetched_at": "2026-10-27T18:05:53Z",
+   "fetched_at": "2026-10-27T20:47:27Z",
    "upstream_updated_at": "2026-10-22",
    "records": 418,
    "consecutive_failures": 0,
@@ -37,7 +37,7 @@
    "url": "https://www.swebench.com/",
    "license": "CC BY-NC 4.0",
    "status": "ok",
-   "fetched_at": "2026-10-27T18:05:54Z",
+   "fetched_at": "2026-10-27T20:47:27Z",
    "upstream_updated_at": "2026-02-26",
    "records": 180,
    "consecutive_failures": 0,
@@ -52,7 +52,7 @@
    "url": "https://arcprize.org/leaderboard",
    "license": "ARC Prize Foundation (attribution)",
    "status": "ok",
-   "fetched_at": "2026-10-27T18:05:54Z",
+   "fetched_at": "2026-10-27T20:47:27Z",
    "upstream_updated_at": "2026-10-21",
    "records": 689,
    "consecutive_failures": 0,
@@ -70,7 +70,7 @@
    "fetched_at": "2026-10-18T18:42:34Z",
    "upstream_updated_at": "2026-06-25",
    "records": 70,
-   "consecutive_failures": 42,
+   "consecutive_failures": 43,
    "error": "HTTPError: 404 Client Error: Not Found for url: https://livebench.ai/table_2026_06_25.csv",
    "stale": true,
    "stale_after_days": 120,
@@ -82,7 +82,7 @@
    "url": "https://aider.chat/docs/leaderboards/",
    "license": "Apache-2.0 (aider repo)",
    "status": "ok",
-   "fetched_at": "2026-10-27T18:05:55Z",
+   "fetched_at": "2026-10-27T20:47:27Z",
    "upstream_updated_at": "2025-10-03",
    "records": 69,
    "consecutive_failures": 0,
@@ -93,8 +93,8 @@
   }
  ],
  "build": {
-  "records_in": 8039,
-  "kept": 6973,
+  "records_in": 8047,
+  "kept": 6981,
   "dropped": {
    "vendor_reported": 892,
    "superseded": 173,
@@ -104,7 +104,7 @@
    "vendor_reported": 892,
    "third_party": 1046,
    "official_leaderboard": 4478,
-   "epoch_run": 1449,
+   "epoch_run": 1457,
    "unclassified": 1
   },
   "unmatched_models": 288,
@@ -112,7 +112,8 @@
   "unknown_domains": 1
  },
  "http_log": [
-  "200 https://epoch.ai/data/benchmark_data.zip (2356918 bytes)",
+  "200 https://epoch.ai/data/benchmark_data.zip (2357341 bytes)",
+  "attempt 1 failed for https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset/resolve/main/text_style_control/latest-00000-of-00001.parquet: HTTPSConnectionPool(host='us.aws.cdn.hf.co', port=443): Max retries exceeded with url: /xet-bridge-us/69cec888d6ad2ec885b60a97/3213d293f345935a8cc16219c1d39e2479dacf565a919cc841b641576b42d34c?xip=opWUdV1FZ_o&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27latest-00000-of-00001.parquet%3B+filename%3D%22latest-00000-of-00001.parquet%22%3B&X-Xet-Cas-Uid=public&user_id=public&Expires=1793137632&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly91cy5hd3MuY2RuLmhmLmNvL3hldC1icmlkZ2UtdXMvNjljZWM4ODhkNmFkMmVjODg1YjYwYTk3LzMyMTNkMjkzZjM0NTkzNWE4Y2MxNjIxOWMxZDM5ZTI0NzlkYWNmNTY1YTkxOWNjODQxYjY0MTU3NmI0MmQzNGNcXD94aXA9b3BXVWRWMUZaX28mcmVzcG9uc2UtY29udGVudC1kaXNwb3NpdGlvbj1pbmxpbmUlM0IrZmlsZW5hbWUlMkElM0RVVEYtOCUyNyUyN2xhdGVzdC0wMDAwMC1vZi0wMDAwMS5wYXJxdWV0JTNCK2ZpbGVuYW1lJTNEJTIybGF0ZXN0LTAwMDAwLW9mLTAwMDAxLnBhcnF1ZXQlMjIlM0ImWC1YZXQtQ2FzLVVpZD1wdWJsaWMmdXNlcl9pZD1wdWJsaWMiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkVwb2NoVGltZSI6MTc5MzEzNzYzMn19fV19&Signature=MEUCIDW8QZOTMD-ltG02Zhk4UQO7~5Suo-EXGer3qznyQGvGAiEA~X4olUqxeEkFK2cnFtYPVSYfSQm4BiwSrrg93el1ivE_&Key-Pair-Id=01KXEF4KZ1B6FV465MAWR4M21F&Hash-Algorithm=SHA256 (Caused by ResponseError('too many 429 error responses'))",
   "200 https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset/resolve/main/text_style_control/latest-00000-of-00001.parquet (621495 bytes)",
   "304 https://raw.githubusercontent.com/swe-bench/swe-bench.github.io/master/data/leaderboards.json",
   "200 https://arcprize.org/media/data/leaderboard/v1.json (159831 bytes)",
