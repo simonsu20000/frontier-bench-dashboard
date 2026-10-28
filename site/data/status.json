@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T15:12:41Z",
+ "generated_at": "2026-10-28T18:23:23Z",
  "sources": [
   {
    "id": "epoch",
@@ -7,9 +7,9 @@
    "url": "https://epoch.ai/benchmarks",
    "license": "CC BY 4.0",
    "status": "ok",
-   "fetched_at": "2026-10-28T15:12:38Z",
+   "fetched_at": "2026-10-28T18:23:20Z",
    "upstream_updated_at": "2026-10-28",
-   "records": 6621,
+   "records": 6626,
    "consecutive_failures": 0,
    "error": "",
    "stale": false,
@@ -22,7 +22,7 @@
    "url": "https://lmarena.ai/leaderboard/text",
    "license": "CC BY 4.0",
    "status": "ok",
-   "fetched_at": "2026-10-28T15:12:40Z",
+   "fetched_at": "2026-10-28T18:23:21Z",
    "upstream_updated_at": "2026-10-22",
    "records": 418,
    "consecutive_failures": 0,
@@ -37,7 +37,7 @@
    "url": "https://www.swebench.com/",
    "license": "CC BY-NC 4.0",
    "status": "ok",
-   "fetched_at": "2026-10-28T15:12:40Z",
+   "fetched_at": "2026-10-28T18:23:21Z",
    "upstream_updated_at": "2026-02-26",
    "records": 180,
    "consecutive_failures": 0,
@@ -52,9 +52,9 @@
    "url": "https://arcprize.org/leaderboard",
    "license": "ARC Prize Foundation (attribution)",
    "status": "ok",
-   "fetched_at": "2026-10-28T15:12:41Z",
-   "upstream_updated_at": "2026-10-21",
-   "records": 689,
+   "fetched_at": "2026-10-28T18:23:22Z",
+   "upstream_updated_at": "2026-10-28",
+   "records": 691,
    "consecutive_failures": 0,
    "error": "",
    "stale": false,
@@ -70,8 +70,8 @@
    "fetched_at": "2026-10-18T18:42:34Z",
    "upstream_updated_at": "2026-06-25",
    "records": 70,
-   "consecutive_failures": 45,
-   "error": "HTTPError: 404 Client Error: Not Found for url: https://livebench.ai/table_2026_06_25.csv",
+   "consecutive_failures": 46,
+   "error": "HTTPError: 403 Client Error: rate limit exceeded for url: https://api.github.com/repos/LiveBench/livebench.github.io/contents/public",
    "stale": true,
    "stale_after_days": 120,
    "not_modified": false
@@ -82,7 +82,7 @@
    "url": "https://aider.chat/docs/leaderboards/",
    "license": "Apache-2.0 (aider repo)",
    "status": "ok",
-   "fetched_at": "2026-10-28T15:12:41Z",
+   "fetched_at": "2026-10-28T18:23:22Z",
    "upstream_updated_at": "2025-10-03",
    "records": 69,
    "consecutive_failures": 0,
@@ -93,8 +93,8 @@
   }
  ],
  "build": {
-  "records_in": 8047,
-  "kept": 6981,
+  "records_in": 8054,
+  "kept": 6988,
   "dropped": {
    "vendor_reported": 892,
    "superseded": 173,
@@ -103,24 +103,23 @@
   "provenance_counts": {
    "vendor_reported": 892,
    "third_party": 1046,
-   "official_leaderboard": 4478,
-   "epoch_run": 1457,
+   "official_leaderboard": 4480,
+   "epoch_run": 1462,
    "unclassified": 1
   },
-  "unmatched_models": 288,
+  "unmatched_models": 289,
   "ambiguous_models": 49,
   "unknown_domains": 1
  },
  "http_log": [
-  "200 https://epoch.ai/data/benchmark_data.zip (2357384 bytes)",
+  "200 https://epoch.ai/data/benchmark_data.zip (2357798 bytes)",
   "200 https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset/resolve/main/text_style_control/latest-00000-of-00001.parquet (621495 bytes)",
   "304 https://raw.githubusercontent.com/swe-bench/swe-bench.github.io/master/data/leaderboards.json",
   "200 https://arcprize.org/media/data/leaderboard/v1.json (159831 bytes)",
   "200 https://arcprize.org/media/data/leaderboard/v2.json (160701 bytes)",
-  "200 https://arcprize.org/media/data/leaderboard/v3.json (75930 bytes)",
-  "200 https://arcprize.org/media/data/models.json (157794 bytes)",
-  "200 https://api.github.com/repos/LiveBench/livebench.github.io/contents/public (27055 bytes)",
-  "attempt 1 failed for https://livebench.ai/table_2026_06_25.csv: 404 Client Error: Not Found for url: https://livebench.ai/table_2026_06_25.csv",
+  "200 https://arcprize.org/media/data/leaderboard/v3.json (66464 bytes)",
+  "200 https://arcprize.org/media/data/models.json (158336 bytes)",
+  "attempt 1 failed for https://api.github.com/repos/LiveBench/livebench.github.io/contents/public: 403 Client Error: rate limit exceeded for url: https://api.github.com/repos/LiveBench/livebench.github.io/contents/public",
   "304 https://raw.githubusercontent.com/Aider-AI/aider/main/aider/website/_data/polyglot_leaderboard.yml"
  ]
 }
