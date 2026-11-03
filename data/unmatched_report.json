@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03T12:03:56Z",
+ "generated_at": "2026-11-03T19:38:19Z",
  "models": [
   {
    "source": "lmarena",
@@ -11,11 +11,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "qwen3-8-max-0902",
+     "model_id": "qwen-3-8-max",
      "similarity": 1.0
     },
     {
-     "model_id": "qwen-3-8-max",
+     "model_id": "qwen3-8-max-0902",
      "similarity": 1.0
     },
     {
@@ -107,11 +107,11 @@
      "similarity": 0.6
     },
     {
-     "model_id": "grok-4",
+     "model_id": "grok-4-20",
      "similarity": 0.5
     },
     {
-     "model_id": "grok-4-20",
+     "model_id": "grok-4",
      "similarity": 0.5
     }
    ]
@@ -226,15 +226,15 @@
    ],
    "suggestions": [
     {
-     "model_id": "gpt-3-5-turbo-jun-2023",
-     "similarity": 0.75
-    },
-    {
-     "model_id": "gpt-3-5-turbo-jan-2024",
+     "model_id": "gpt-3-5-turbo-instruct",
      "similarity": 0.75
     },
     {
      "model_id": "gpt-3-5-turbo-nov-2023",
+     "similarity": 0.75
+    },
+    {
+     "model_id": "gpt-3-5-turbo-jun-2023",
      "similarity": 0.75
     }
    ]
@@ -269,11 +269,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "gpt-4o-mar-2025",
+     "model_id": "gpt-4o-nov-2024",
      "similarity": 1.0
     },
     {
-     "model_id": "gpt-4o-nov-2024",
+     "model_id": "gpt-4o-mar-2025",
      "similarity": 1.0
     },
     {
@@ -526,11 +526,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "qwen3-235b-a22b",
+     "model_id": "qwen3-235b-a22b-instruct-jul-2025",
      "similarity": 1.0
     },
     {
-     "model_id": "qwen3-235b-a22b-instruct-jul-2025",
+     "model_id": "qwen3-235b-a22b",
      "similarity": 1.0
     },
     {
@@ -595,11 +595,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "kimi-k2-sep-2025",
+     "model_id": "kimi-k2-jul-2025",
      "similarity": 0.75
     },
     {
-     "model_id": "kimi-k2-jul-2025",
+     "model_id": "kimi-k2-sep-2025",
      "similarity": 0.75
     },
     {
@@ -628,11 +628,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "kimi-k2-sep-2025",
+     "model_id": "kimi-k2-jul-2025",
      "similarity": 0.75
     },
     {
-     "model_id": "kimi-k2-jul-2025",
+     "model_id": "kimi-k2-sep-2025",
      "similarity": 0.75
     },
     {
@@ -651,11 +651,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "qwen3-235b-a22b",
+     "model_id": "qwen3-235b-a22b-instruct-jul-2025",
      "similarity": 0.75
     },
     {
-     "model_id": "qwen3-235b-a22b-instruct-jul-2025",
+     "model_id": "qwen3-235b-a22b",
      "similarity": 0.75
     },
     {
@@ -740,11 +740,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "qwen3-235b-a22b",
+     "model_id": "qwen3-235b-a22b-instruct-jul-2025",
      "similarity": 1.0
     },
     {
-     "model_id": "qwen3-235b-a22b-instruct-jul-2025",
+     "model_id": "qwen3-235b-a22b",
      "similarity": 1.0
     },
     {
@@ -773,11 +773,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "chutes-qwen3-next-80b-a3b-instruct",
+     "model_id": "deepinfra-qwen3-next-80b-a3b-instruct",
      "similarity": 1.0
     },
     {
-     "model_id": "deepinfra-qwen3-next-80b-a3b-instruct",
+     "model_id": "chutes-qwen3-next-80b-a3b-instruct",
      "similarity": 1.0
     }
    ]
@@ -842,11 +842,11 @@
      "similarity": 0.8
     },
     {
-     "model_id": "qwen3-235b-a22b",
+     "model_id": "qwen3-235b-a22b-instruct-jul-2025",
      "similarity": 0.6
     },
     {
-     "model_id": "qwen3-235b-a22b-instruct-jul-2025",
+     "model_id": "qwen3-235b-a22b",
      "similarity": 0.6
     }
    ]
@@ -971,15 +971,15 @@
    ],
    "suggestions": [
     {
-     "model_id": "gemini-2-5-flash-lite-sep-2025",
-     "similarity": 1.0
-    },
-    {
      "model_id": "gemini-2-5-flash-lite-jun-2025",
      "similarity": 1.0
     },
     {
-     "model_id": "gemini-2-5-flash-may-2025",
+     "model_id": "gemini-2-5-flash-lite-sep-2025",
+     "similarity": 1.0
+    },
+    {
+     "model_id": "gemini-2-5-flash-sep-2025",
      "similarity": 0.833
     }
    ]
@@ -1032,11 +1032,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "qwen3-235b-a22b",
+     "model_id": "qwen3-235b-a22b-instruct-jul-2025",
      "similarity": 1.0
     },
     {
-     "model_id": "qwen3-235b-a22b-instruct-jul-2025",
+     "model_id": "qwen3-235b-a22b",
      "similarity": 1.0
     },
     {
@@ -1055,15 +1055,15 @@
    ],
    "suggestions": [
     {
-     "model_id": "gemini-2-5-flash-lite-sep-2025",
-     "similarity": 1.0
-    },
-    {
      "model_id": "gemini-2-5-flash-lite-jun-2025",
      "similarity": 1.0
     },
     {
-     "model_id": "gemini-2-5-flash-may-2025",
+     "model_id": "gemini-2-5-flash-lite-sep-2025",
+     "similarity": 1.0
+    },
+    {
+     "model_id": "gemini-2-5-flash-sep-2025",
      "similarity": 0.833
     }
    ]
@@ -1101,11 +1101,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "chutes-qwen3-next-80b-a3b-instruct",
+     "model_id": "deepinfra-qwen3-next-80b-a3b-instruct",
      "similarity": 0.8
     },
     {
-     "model_id": "deepinfra-qwen3-next-80b-a3b-instruct",
+     "model_id": "chutes-qwen3-next-80b-a3b-instruct",
      "similarity": 0.8
     },
     {
@@ -1278,11 +1278,11 @@
      "similarity": 1.0
     },
     {
-     "model_id": "gemini-1-5-pro-sept-2024",
+     "model_id": "gemini-1-5-pro-feb-2024",
      "similarity": 1.0
     },
     {
-     "model_id": "gemini-1-5-pro-feb-2024",
+     "model_id": "gemini-1-5-pro-sept-2024",
      "similarity": 1.0
     }
    ]
@@ -1387,15 +1387,15 @@
    ],
    "suggestions": [
     {
+     "model_id": "gpt-4o-nov-2024",
+     "similarity": 1.0
+    },
+    {
+     "model_id": "gpt-4o-aug-2024",
+     "similarity": 1.0
+    },
+    {
      "model_id": "gpt-4o-may-2024",
-     "similarity": 1.0
-    },
-    {
-     "model_id": "gpt-4o-mar-2025",
-     "similarity": 1.0
-    },
-    {
-     "model_id": "gpt-4o-jan-2025",
      "similarity": 1.0
     }
    ]
@@ -1410,11 +1410,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "qwen-plus-apr-2025",
+     "model_id": "qwen-plus-jan-2025",
      "similarity": 1.0
     },
     {
-     "model_id": "qwen-plus-jan-2025",
+     "model_id": "qwen-plus-apr-2025",
      "similarity": 1.0
     },
     {
@@ -1552,11 +1552,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "grok-2-dec-2024",
+     "model_id": "grok-2-aug-2024",
      "similarity": 1.0
     },
     {
-     "model_id": "grok-2-aug-2024",
+     "model_id": "grok-2-dec-2024",
      "similarity": 1.0
     },
     {
@@ -1575,15 +1575,15 @@
    ],
    "suggestions": [
     {
+     "model_id": "gpt-4o-nov-2024",
+     "similarity": 1.0
+    },
+    {
+     "model_id": "gpt-4o-aug-2024",
+     "similarity": 1.0
+    },
+    {
      "model_id": "gpt-4o-may-2024",
-     "similarity": 1.0
-    },
-    {
-     "model_id": "gpt-4o-mar-2025",
-     "similarity": 1.0
-    },
-    {
-     "model_id": "gpt-4o-jan-2025",
      "similarity": 1.0
     }
    ]
@@ -1708,11 +1708,11 @@
      "similarity": 1.0
     },
     {
-     "model_id": "gemini-1-5-pro-sept-2024",
+     "model_id": "gemini-1-5-pro-feb-2024",
      "similarity": 1.0
     },
     {
-     "model_id": "gemini-1-5-pro-feb-2024",
+     "model_id": "gemini-1-5-pro-sept-2024",
      "similarity": 1.0
     }
    ]
@@ -2406,7 +2406,7 @@
      "similarity": 0.5
     },
     {
-     "model_id": "gemini-1-5-pro-may-2024",
+     "model_id": "gemini-1-5-pro-feb-2024",
      "similarity": 0.5
     }
    ]
@@ -2461,15 +2461,15 @@
    ],
    "suggestions": [
     {
-     "model_id": "gpt-3-5-turbo-jun-2023",
-     "similarity": 1.0
-    },
-    {
-     "model_id": "gpt-3-5-turbo-jan-2024",
+     "model_id": "gpt-3-5-turbo-instruct",
      "similarity": 1.0
     },
     {
      "model_id": "gpt-3-5-turbo-nov-2023",
+     "similarity": 1.0
+    },
+    {
+     "model_id": "gpt-3-5-turbo-jun-2023",
      "similarity": 1.0
     }
    ]
@@ -2492,7 +2492,7 @@
      "similarity": 0.5
     },
     {
-     "model_id": "gemini-1-5-pro-may-2024",
+     "model_id": "gemini-1-5-pro-feb-2024",
      "similarity": 0.5
     }
    ]
@@ -2565,15 +2565,15 @@
    ],
    "suggestions": [
     {
-     "model_id": "gpt-3-5-turbo-jun-2023",
-     "similarity": 1.0
-    },
-    {
-     "model_id": "gpt-3-5-turbo-jan-2024",
+     "model_id": "gpt-3-5-turbo-instruct",
      "similarity": 1.0
     },
     {
      "model_id": "gpt-3-5-turbo-nov-2023",
+     "similarity": 1.0
+    },
+    {
+     "model_id": "gpt-3-5-turbo-jun-2023",
      "similarity": 1.0
     }
    ]
@@ -3583,11 +3583,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "chutes-qwen3-next-80b-a3b-instruct",
+     "model_id": "deepinfra-qwen3-next-80b-a3b-instruct",
      "similarity": 1.0
     },
     {
-     "model_id": "deepinfra-qwen3-next-80b-a3b-instruct",
+     "model_id": "chutes-qwen3-next-80b-a3b-instruct",
      "similarity": 1.0
     }
    ]
@@ -3614,11 +3614,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "baichuan2-13b",
+     "model_id": "baichuan2-13b-chat",
      "similarity": 1.0
     },
     {
-     "model_id": "baichuan2-13b-chat",
+     "model_id": "baichuan2-13b",
      "similarity": 1.0
     }
    ]
@@ -3756,11 +3756,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "chutes-qwen3-next-80b-a3b-instruct",
+     "model_id": "deepinfra-qwen3-next-80b-a3b-instruct",
      "similarity": 1.0
     },
     {
-     "model_id": "deepinfra-qwen3-next-80b-a3b-instruct",
+     "model_id": "chutes-qwen3-next-80b-a3b-instruct",
      "similarity": 1.0
     }
    ]
@@ -3795,15 +3795,15 @@
    ],
    "suggestions": [
     {
+     "model_id": "gpt-4o-nov-2024",
+     "similarity": 1.0
+    },
+    {
+     "model_id": "gpt-4o-aug-2024",
+     "similarity": 1.0
+    },
+    {
      "model_id": "gpt-4o-may-2024",
-     "similarity": 1.0
-    },
-    {
-     "model_id": "gpt-4o-mar-2025",
-     "similarity": 1.0
-    },
-    {
-     "model_id": "gpt-4o-jan-2025",
      "similarity": 1.0
     }
    ]
@@ -4033,15 +4033,15 @@
    ],
    "suggestions": [
     {
+     "model_id": "gpt-4o-nov-2024",
+     "similarity": 1.0
+    },
+    {
+     "model_id": "gpt-4o-aug-2024",
+     "similarity": 1.0
+    },
+    {
      "model_id": "gpt-4o-may-2024",
-     "similarity": 1.0
-    },
-    {
-     "model_id": "gpt-4o-mar-2025",
-     "similarity": 1.0
-    },
-    {
-     "model_id": "gpt-4o-jan-2025",
      "similarity": 1.0
     }
    ]
@@ -4548,11 +4548,11 @@
      "similarity": 1.0
     },
     {
-     "model_id": "gemini-1-5-pro-sept-2024",
+     "model_id": "gemini-1-5-pro-feb-2024",
      "similarity": 1.0
     },
     {
-     "model_id": "gemini-1-5-pro-feb-2024",
+     "model_id": "gemini-1-5-pro-sept-2024",
      "similarity": 1.0
     }
    ]
@@ -4704,15 +4704,15 @@
    ],
    "suggestions": [
     {
-     "model_id": "gpt-3-5-turbo-jun-2023",
-     "similarity": 0.75
-    },
-    {
-     "model_id": "gpt-3-5-turbo-jan-2024",
+     "model_id": "gpt-3-5-turbo-instruct",
      "similarity": 0.75
     },
     {
      "model_id": "gpt-3-5-turbo-nov-2023",
+     "similarity": 0.75
+    },
+    {
+     "model_id": "gpt-3-5-turbo-jun-2023",
      "similarity": 0.75
     }
    ]
