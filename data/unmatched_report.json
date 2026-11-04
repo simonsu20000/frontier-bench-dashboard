@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03T21:51:04Z",
+ "generated_at": "2026-11-04T06:40:29Z",
  "models": [
   {
    "source": "lmarena",
@@ -11,11 +11,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "qwen-3-8-max",
+     "model_id": "qwen3-8-max-0902",
      "similarity": 1.0
     },
     {
-     "model_id": "qwen3-8-max-0902",
+     "model_id": "qwen-3-8-max",
      "similarity": 1.0
     },
     {
@@ -34,11 +34,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "deepseek-v4-1-flash-1017",
+     "model_id": "deepseek-v4-1-flash",
      "similarity": 1.0
     },
     {
-     "model_id": "deepseek-v4-1-flash",
+     "model_id": "deepseek-v4-1-flash-1017",
      "similarity": 1.0
     },
     {
@@ -197,11 +197,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "deepseek-v4-pro",
+     "model_id": "deepseek-v4-pro-0813",
      "similarity": 0.75
     },
     {
-     "model_id": "deepseek-v4-pro-0813",
+     "model_id": "deepseek-v4-pro",
      "similarity": 0.75
     },
     {
@@ -230,15 +230,15 @@
    ],
    "suggestions": [
     {
-     "model_id": "gpt-3-5-turbo-instruct",
-     "similarity": 0.75
-    },
-    {
-     "model_id": "gpt-3-5-turbo-jan-2024",
+     "model_id": "gpt-3-5-turbo-jun-2023",
      "similarity": 0.75
     },
     {
      "model_id": "gpt-3-5-turbo-nov-2023",
+     "similarity": 0.75
+    },
+    {
+     "model_id": "gpt-3-5-turbo-jan-2024",
      "similarity": 0.75
     }
    ]
@@ -304,7 +304,7 @@
      "similarity": 0.75
     },
     {
-     "model_id": "deepseek-v4-1-flash-1017",
+     "model_id": "deepseek-v4-1-flash",
      "similarity": 0.6
     }
    ]
@@ -461,11 +461,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "deepseek-v3-2-exp",
+     "model_id": "deepseek-v3-2",
      "similarity": 1.0
     },
     {
-     "model_id": "deepseek-v3-2",
+     "model_id": "deepseek-v3-2-exp",
      "similarity": 1.0
     },
     {
@@ -484,11 +484,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "deepseek-v3-2-exp",
+     "model_id": "deepseek-v3-2",
      "similarity": 1.0
     },
     {
-     "model_id": "deepseek-v3-2",
+     "model_id": "deepseek-v3-2-exp",
      "similarity": 1.0
     },
     {
@@ -507,11 +507,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "deepseek-v3-2-exp",
+     "model_id": "deepseek-v3-2",
      "similarity": 1.0
     },
     {
-     "model_id": "deepseek-v3-2",
+     "model_id": "deepseek-v3-2-exp",
      "similarity": 1.0
     },
     {
@@ -530,11 +530,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "qwen3-235b-a22b-instruct-jul-2025",
+     "model_id": "qwen3-235b-a22b",
      "similarity": 1.0
     },
     {
-     "model_id": "qwen3-235b-a22b",
+     "model_id": "qwen3-235b-a22b-instruct-jul-2025",
      "similarity": 1.0
     },
     {
@@ -553,11 +553,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "deepseek-v3-2-exp",
+     "model_id": "deepseek-v3-2",
      "similarity": 1.0
     },
     {
-     "model_id": "deepseek-v3-2",
+     "model_id": "deepseek-v3-2-exp",
      "similarity": 1.0
     },
     {
@@ -576,11 +576,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "deepseek-r1-may-2025",
+     "model_id": "deepseek-r1",
      "similarity": 1.0
     },
     {
-     "model_id": "deepseek-r1",
+     "model_id": "deepseek-r1-may-2025",
      "similarity": 1.0
     },
     {
@@ -599,11 +599,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "kimi-k2-jul-2025",
+     "model_id": "kimi-k2-sep-2025",
      "similarity": 0.75
     },
     {
-     "model_id": "kimi-k2-sep-2025",
+     "model_id": "kimi-k2-jul-2025",
      "similarity": 0.75
     },
     {
@@ -632,11 +632,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "kimi-k2-jul-2025",
+     "model_id": "kimi-k2-sep-2025",
      "similarity": 0.75
     },
     {
-     "model_id": "kimi-k2-sep-2025",
+     "model_id": "kimi-k2-jul-2025",
      "similarity": 0.75
     },
     {
@@ -655,11 +655,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "qwen3-235b-a22b-instruct-jul-2025",
+     "model_id": "qwen3-235b-a22b",
      "similarity": 0.75
     },
     {
-     "model_id": "qwen3-235b-a22b",
+     "model_id": "qwen3-235b-a22b-instruct-jul-2025",
      "similarity": 0.75
     },
     {
@@ -744,11 +744,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "qwen3-235b-a22b-instruct-jul-2025",
+     "model_id": "qwen3-235b-a22b",
      "similarity": 1.0
     },
     {
-     "model_id": "qwen3-235b-a22b",
+     "model_id": "qwen3-235b-a22b-instruct-jul-2025",
      "similarity": 1.0
     },
     {
@@ -777,11 +777,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "chutes-qwen3-next-80b-a3b-instruct",
+     "model_id": "deepinfra-qwen3-next-80b-a3b-instruct",
      "similarity": 1.0
     },
     {
-     "model_id": "deepinfra-qwen3-next-80b-a3b-instruct",
+     "model_id": "chutes-qwen3-next-80b-a3b-instruct",
      "similarity": 1.0
     }
    ]
@@ -796,11 +796,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "deepseek-r1-may-2025",
+     "model_id": "deepseek-r1",
      "similarity": 1.0
     },
     {
-     "model_id": "deepseek-r1",
+     "model_id": "deepseek-r1-may-2025",
      "similarity": 1.0
     },
     {
@@ -819,11 +819,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "deepseek-v3",
+     "model_id": "deepseek-v3-mar-2025",
      "similarity": 1.0
     },
     {
-     "model_id": "deepseek-v3-mar-2025",
+     "model_id": "deepseek-v3",
      "similarity": 1.0
     },
     {
@@ -846,11 +846,11 @@
      "similarity": 0.8
     },
     {
-     "model_id": "qwen3-235b-a22b-instruct-jul-2025",
+     "model_id": "qwen3-235b-a22b",
      "similarity": 0.6
     },
     {
-     "model_id": "qwen3-235b-a22b",
+     "model_id": "qwen3-235b-a22b-instruct-jul-2025",
      "similarity": 0.6
     }
    ]
@@ -952,11 +952,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "qwen3-30b-a3b",
+     "model_id": "qwen3-30b-a3b-instruct-jul-2025",
      "similarity": 1.0
     },
     {
-     "model_id": "qwen3-30b-a3b-instruct-jul-2025",
+     "model_id": "qwen3-30b-a3b",
      "similarity": 1.0
     },
     {
@@ -975,15 +975,15 @@
    ],
    "suggestions": [
     {
-     "model_id": "gemini-2-5-flash-lite-jun-2025",
-     "similarity": 1.0
-    },
-    {
      "model_id": "gemini-2-5-flash-lite-sep-2025",
      "similarity": 1.0
     },
     {
-     "model_id": "gemini-2-5-flash-apr-2025",
+     "model_id": "gemini-2-5-flash-lite-jun-2025",
+     "similarity": 1.0
+    },
+    {
+     "model_id": "gemini-2-5-flash-sep-2025",
      "similarity": 0.833
     }
    ]
@@ -1036,11 +1036,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "qwen3-235b-a22b-instruct-jul-2025",
+     "model_id": "qwen3-235b-a22b",
      "similarity": 1.0
     },
     {
-     "model_id": "qwen3-235b-a22b",
+     "model_id": "qwen3-235b-a22b-instruct-jul-2025",
      "similarity": 1.0
     },
     {
@@ -1059,15 +1059,15 @@
    ],
    "suggestions": [
     {
-     "model_id": "gemini-2-5-flash-lite-jun-2025",
-     "similarity": 1.0
-    },
-    {
      "model_id": "gemini-2-5-flash-lite-sep-2025",
      "similarity": 1.0
     },
     {
-     "model_id": "gemini-2-5-flash-apr-2025",
+     "model_id": "gemini-2-5-flash-lite-jun-2025",
+     "similarity": 1.0
+    },
+    {
+     "model_id": "gemini-2-5-flash-sep-2025",
      "similarity": 0.833
     }
    ]
@@ -1105,11 +1105,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "chutes-qwen3-next-80b-a3b-instruct",
+     "model_id": "deepinfra-qwen3-next-80b-a3b-instruct",
      "similarity": 0.8
     },
     {
-     "model_id": "deepinfra-qwen3-next-80b-a3b-instruct",
+     "model_id": "chutes-qwen3-next-80b-a3b-instruct",
      "similarity": 0.8
     },
     {
@@ -1212,11 +1212,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "deepseek-v3",
+     "model_id": "deepseek-v3-mar-2025",
      "similarity": 1.0
     },
     {
-     "model_id": "deepseek-v3-mar-2025",
+     "model_id": "deepseek-v3",
      "similarity": 1.0
     },
     {
@@ -1282,11 +1282,11 @@
      "similarity": 1.0
     },
     {
-     "model_id": "gemini-1-5-pro-sept-2024",
+     "model_id": "gemini-1-5-pro-feb-2024",
      "similarity": 1.0
     },
     {
-     "model_id": "gemini-1-5-pro-feb-2024",
+     "model_id": "gemini-1-5-pro-sept-2024",
      "similarity": 1.0
     }
    ]
@@ -1391,7 +1391,7 @@
    ],
    "suggestions": [
     {
-     "model_id": "gpt-4o-mar-2025",
+     "model_id": "gpt-4o-aug-2024",
      "similarity": 1.0
     },
     {
@@ -1399,7 +1399,7 @@
      "similarity": 1.0
     },
     {
-     "model_id": "gpt-4o-jan-2025",
+     "model_id": "gpt-4o-may-2024",
      "similarity": 1.0
     }
    ]
@@ -1556,11 +1556,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "grok-2-dec-2024",
+     "model_id": "grok-2-aug-2024",
      "similarity": 1.0
     },
     {
-     "model_id": "grok-2-aug-2024",
+     "model_id": "grok-2-dec-2024",
      "similarity": 1.0
     },
     {
@@ -1579,7 +1579,7 @@
    ],
    "suggestions": [
     {
-     "model_id": "gpt-4o-mar-2025",
+     "model_id": "gpt-4o-aug-2024",
      "similarity": 1.0
     },
     {
@@ -1587,7 +1587,7 @@
      "similarity": 1.0
     },
     {
-     "model_id": "gpt-4o-jan-2025",
+     "model_id": "gpt-4o-may-2024",
      "similarity": 1.0
     }
    ]
@@ -1652,11 +1652,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "qwen3-30b-a3b",
+     "model_id": "qwen3-30b-a3b-instruct-jul-2025",
      "similarity": 1.0
     },
     {
-     "model_id": "qwen3-30b-a3b-instruct-jul-2025",
+     "model_id": "qwen3-30b-a3b",
      "similarity": 1.0
     },
     {
@@ -1712,11 +1712,11 @@
      "similarity": 1.0
     },
     {
-     "model_id": "gemini-1-5-pro-sept-2024",
+     "model_id": "gemini-1-5-pro-feb-2024",
      "similarity": 1.0
     },
     {
-     "model_id": "gemini-1-5-pro-feb-2024",
+     "model_id": "gemini-1-5-pro-sept-2024",
      "similarity": 1.0
     }
    ]
@@ -1731,11 +1731,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "deepseek-v2-5-sep-2024",
+     "model_id": "deepseek-v2-5-dec-2024",
      "similarity": 1.0
     },
     {
-     "model_id": "deepseek-v2-5-dec-2024",
+     "model_id": "deepseek-v2-5-sep-2024",
      "similarity": 1.0
     },
     {
@@ -1929,11 +1929,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "deepseek-v2-5-sep-2024",
+     "model_id": "deepseek-v2-5-dec-2024",
      "similarity": 1.0
     },
     {
-     "model_id": "deepseek-v2-5-dec-2024",
+     "model_id": "deepseek-v2-5-sep-2024",
      "similarity": 1.0
     },
     {
@@ -2410,7 +2410,7 @@
      "similarity": 0.5
     },
     {
-     "model_id": "gemini-1-5-pro-sept-2024",
+     "model_id": "gemini-1-5-pro-feb-2024",
      "similarity": 0.5
     }
    ]
@@ -2465,15 +2465,15 @@
    ],
    "suggestions": [
     {
-     "model_id": "gpt-3-5-turbo-instruct",
-     "similarity": 1.0
-    },
-    {
-     "model_id": "gpt-3-5-turbo-jan-2024",
+     "model_id": "gpt-3-5-turbo-jun-2023",
      "similarity": 1.0
     },
     {
      "model_id": "gpt-3-5-turbo-nov-2023",
+     "similarity": 1.0
+    },
+    {
+     "model_id": "gpt-3-5-turbo-jan-2024",
      "similarity": 1.0
     }
    ]
@@ -2496,7 +2496,7 @@
      "similarity": 0.5
     },
     {
-     "model_id": "gemini-1-5-pro-sept-2024",
+     "model_id": "gemini-1-5-pro-feb-2024",
      "similarity": 0.5
     }
    ]
@@ -2569,15 +2569,15 @@
    ],
    "suggestions": [
     {
-     "model_id": "gpt-3-5-turbo-instruct",
-     "similarity": 1.0
-    },
-    {
-     "model_id": "gpt-3-5-turbo-jan-2024",
+     "model_id": "gpt-3-5-turbo-jun-2023",
      "similarity": 1.0
     },
     {
      "model_id": "gpt-3-5-turbo-nov-2023",
+     "similarity": 1.0
+    },
+    {
+     "model_id": "gpt-3-5-turbo-jan-2024",
      "similarity": 1.0
     }
    ]
@@ -3412,7 +3412,7 @@
      "similarity": 0.75
     },
     {
-     "model_id": "deepseek-v4-1-flash-1017",
+     "model_id": "deepseek-v4-1-flash",
      "similarity": 0.6
     }
    ]
@@ -3538,11 +3538,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "qwen3-30b-a3b",
+     "model_id": "qwen3-30b-a3b-instruct-jul-2025",
      "similarity": 0.75
     },
     {
-     "model_id": "qwen3-30b-a3b-instruct-jul-2025",
+     "model_id": "qwen3-30b-a3b",
      "similarity": 0.75
     },
     {
@@ -3592,11 +3592,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "chutes-qwen3-next-80b-a3b-instruct",
+     "model_id": "deepinfra-qwen3-next-80b-a3b-instruct",
      "similarity": 1.0
     },
     {
-     "model_id": "deepinfra-qwen3-next-80b-a3b-instruct",
+     "model_id": "chutes-qwen3-next-80b-a3b-instruct",
      "similarity": 1.0
     }
    ]
@@ -3623,11 +3623,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "baichuan2-13b",
+     "model_id": "baichuan2-13b-chat",
      "similarity": 1.0
     },
     {
-     "model_id": "baichuan2-13b-chat",
+     "model_id": "baichuan2-13b",
      "similarity": 1.0
     }
    ]
@@ -3765,11 +3765,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "chutes-qwen3-next-80b-a3b-instruct",
+     "model_id": "deepinfra-qwen3-next-80b-a3b-instruct",
      "similarity": 1.0
     },
     {
-     "model_id": "deepinfra-qwen3-next-80b-a3b-instruct",
+     "model_id": "chutes-qwen3-next-80b-a3b-instruct",
      "similarity": 1.0
     }
    ]
@@ -3804,7 +3804,7 @@
    ],
    "suggestions": [
     {
-     "model_id": "gpt-4o-mar-2025",
+     "model_id": "gpt-4o-aug-2024",
      "similarity": 1.0
     },
     {
@@ -3812,7 +3812,7 @@
      "similarity": 1.0
     },
     {
-     "model_id": "gpt-4o-jan-2025",
+     "model_id": "gpt-4o-may-2024",
      "similarity": 1.0
     }
    ]
@@ -4042,7 +4042,7 @@
    ],
    "suggestions": [
     {
-     "model_id": "gpt-4o-mar-2025",
+     "model_id": "gpt-4o-aug-2024",
      "similarity": 1.0
     },
     {
@@ -4050,7 +4050,7 @@
      "similarity": 1.0
     },
     {
-     "model_id": "gpt-4o-jan-2025",
+     "model_id": "gpt-4o-may-2024",
      "similarity": 1.0
     }
    ]
@@ -4272,11 +4272,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "deepseek-v4-1-flash-1017",
+     "model_id": "deepseek-v4-1-flash",
      "similarity": 0.571
     },
     {
-     "model_id": "deepseek-v4-1-flash",
+     "model_id": "deepseek-v4-1-flash-1017",
      "similarity": 0.571
     }
    ]
@@ -4357,11 +4357,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "deepseek-v4-1-flash-1017",
+     "model_id": "deepseek-v4-1-flash",
      "similarity": 0.667
     },
     {
-     "model_id": "deepseek-v4-1-flash",
+     "model_id": "deepseek-v4-1-flash-1017",
      "similarity": 0.667
     },
     {
@@ -4380,11 +4380,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "deepseek-v4-1-flash-1017",
+     "model_id": "deepseek-v4-1-flash",
      "similarity": 0.667
     },
     {
-     "model_id": "deepseek-v4-1-flash",
+     "model_id": "deepseek-v4-1-flash-1017",
      "similarity": 0.667
     },
     {
@@ -4426,11 +4426,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "deepseek-v4-1-flash-1017",
+     "model_id": "deepseek-v4-1-flash",
      "similarity": 0.667
     },
     {
-     "model_id": "deepseek-v4-1-flash",
+     "model_id": "deepseek-v4-1-flash-1017",
      "similarity": 0.667
     },
     {
@@ -4557,11 +4557,11 @@
      "similarity": 1.0
     },
     {
-     "model_id": "gemini-1-5-pro-sept-2024",
+     "model_id": "gemini-1-5-pro-feb-2024",
      "similarity": 1.0
     },
     {
-     "model_id": "gemini-1-5-pro-feb-2024",
+     "model_id": "gemini-1-5-pro-sept-2024",
      "similarity": 1.0
     }
    ]
@@ -4675,11 +4675,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "deepseek-v4-1-flash-1017",
+     "model_id": "deepseek-v4-1-flash",
      "similarity": 0.667
     },
     {
-     "model_id": "deepseek-v4-1-flash",
+     "model_id": "deepseek-v4-1-flash-1017",
      "similarity": 0.667
     },
     {
@@ -4713,15 +4713,15 @@
    ],
    "suggestions": [
     {
-     "model_id": "gpt-3-5-turbo-instruct",
-     "similarity": 0.75
-    },
-    {
-     "model_id": "gpt-3-5-turbo-jan-2024",
+     "model_id": "gpt-3-5-turbo-jun-2023",
      "similarity": 0.75
     },
     {
      "model_id": "gpt-3-5-turbo-nov-2023",
+     "similarity": 0.75
+    },
+    {
+     "model_id": "gpt-3-5-turbo-jan-2024",
      "similarity": 0.75
     }
    ]
