@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T16:00:20Z",
+ "generated_at": "2026-11-06T19:32:59Z",
  "sources": [
   {
    "id": "epoch",
@@ -7,7 +7,7 @@
    "url": "https://epoch.ai/benchmarks",
    "license": "CC BY 4.0",
    "status": "ok",
-   "fetched_at": "2026-11-06T16:00:18Z",
+   "fetched_at": "2026-11-06T19:32:56Z",
    "upstream_updated_at": "2026-11-06",
    "records": 6666,
    "consecutive_failures": 0,
@@ -22,7 +22,7 @@
    "url": "https://lmarena.ai/leaderboard/text",
    "license": "CC BY 4.0",
    "status": "ok",
-   "fetched_at": "2026-11-06T16:00:19Z",
+   "fetched_at": "2026-11-06T19:32:57Z",
    "upstream_updated_at": "2026-10-28",
    "records": 419,
    "consecutive_failures": 0,
@@ -37,7 +37,7 @@
    "url": "https://www.swebench.com/",
    "license": "CC BY-NC 4.0",
    "status": "ok",
-   "fetched_at": "2026-11-06T16:00:19Z",
+   "fetched_at": "2026-11-06T19:32:58Z",
    "upstream_updated_at": "2026-02-26",
    "records": 180,
    "consecutive_failures": 0,
@@ -52,9 +52,9 @@
    "url": "https://arcprize.org/leaderboard",
    "license": "ARC Prize Foundation (attribution)",
    "status": "ok",
-   "fetched_at": "2026-11-06T16:00:20Z",
-   "upstream_updated_at": "2026-11-02",
-   "records": 693,
+   "fetched_at": "2026-11-06T19:32:58Z",
+   "upstream_updated_at": "2026-11-06",
+   "records": 695,
    "consecutive_failures": 0,
    "error": "",
    "stale": false,
@@ -70,7 +70,7 @@
    "fetched_at": "2026-10-18T18:42:34Z",
    "upstream_updated_at": "2026-06-25",
    "records": 70,
-   "consecutive_failures": 80,
+   "consecutive_failures": 81,
    "error": "HTTPError: 404 Client Error: Not Found for url: https://livebench.ai/table_2026_06_25.csv",
    "stale": true,
    "stale_after_days": 120,
@@ -82,7 +82,7 @@
    "url": "https://aider.chat/docs/leaderboards/",
    "license": "Apache-2.0 (aider repo)",
    "status": "ok",
-   "fetched_at": "2026-11-06T16:00:20Z",
+   "fetched_at": "2026-11-06T19:32:59Z",
    "upstream_updated_at": "2025-10-03",
    "records": 69,
    "consecutive_failures": 0,
@@ -93,8 +93,8 @@
   }
  ],
  "build": {
-  "records_in": 8097,
-  "kept": 7031,
+  "records_in": 8099,
+  "kept": 7033,
   "dropped": {
    "vendor_reported": 892,
    "superseded": 173,
@@ -103,11 +103,11 @@
   "provenance_counts": {
    "vendor_reported": 892,
    "third_party": 1005,
-   "official_leaderboard": 4566,
+   "official_leaderboard": 4568,
    "epoch_run": 1460,
    "unclassified": 1
   },
-  "unmatched_models": 286,
+  "unmatched_models": 287,
   "ambiguous_models": 49,
   "unknown_domains": 1
  },
@@ -115,10 +115,10 @@
   "200 https://epoch.ai/data/benchmark_data.zip (2280748 bytes)",
   "200 https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset/resolve/main/text_style_control/latest-00000-of-00001.parquet (623963 bytes)",
   "304 https://raw.githubusercontent.com/swe-bench/swe-bench.github.io/master/data/leaderboards.json",
-  "200 https://arcprize.org/media/data/leaderboard/v1.json (159831 bytes)",
-  "200 https://arcprize.org/media/data/leaderboard/v2.json (160701 bytes)",
+  "200 https://arcprize.org/media/data/leaderboard/v1.json (160426 bytes)",
+  "200 https://arcprize.org/media/data/leaderboard/v2.json (161303 bytes)",
   "200 https://arcprize.org/media/data/leaderboard/v3.json (67748 bytes)",
-  "200 https://arcprize.org/media/data/models.json (158889 bytes)",
+  "200 https://arcprize.org/media/data/models.json (176895 bytes)",
   "200 https://api.github.com/repos/LiveBench/livebench.github.io/contents/public (27055 bytes)",
   "attempt 1 failed for https://livebench.ai/table_2026_06_25.csv: 404 Client Error: Not Found for url: https://livebench.ai/table_2026_06_25.csv",
   "304 https://raw.githubusercontent.com/Aider-AI/aider/main/aider/website/_data/polyglot_leaderboard.yml"
