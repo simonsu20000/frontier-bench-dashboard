@@ -90,3 +90,4 @@
 {"date": "2026-11-14", "run_at": "2026-11-14T06:43:09Z", "new_models": ["gemini-4-hydrogen"], "new_scores": [], "changed": [], "new_sota": []}
 {"date": "2026-11-14", "run_at": "2026-11-14T15:11:05Z", "new_models": [], "new_scores": [], "changed": [{"model_id": "claude-fable-5-2", "benchmark_id": "spireclimb", "score": 15.333, "prev": 15.45}], "new_sota": []}
 {"date": "2026-11-16", "run_at": "2026-11-16T18:40:27Z", "new_models": ["claude-fable-5-2-claude-mythos-5-2"], "new_scores": [], "changed": [], "new_sota": []}
+{"date": "2026-11-16", "run_at": "2026-11-16T22:20:07Z", "new_models": [], "new_scores": [{"model_id": "inkling-2-small", "benchmark_id": "arc-agi-3", "score": 0.297}], "changed": [], "new_sota": []}
