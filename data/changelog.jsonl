@@ -89,3 +89,4 @@
 {"date": "2026-11-13", "run_at": "2026-11-13T22:01:35Z", "new_models": [], "new_scores": [], "changed": [{"model_id": "mistral-large-4-preview", "benchmark_id": "mirrorcode", "score": 40.0, "prev": 27.778}, {"model_id": "claude-opus-4-7", "benchmark_id": "mirrorcode", "score": 43.333, "prev": 31.111}, {"model_id": "claude-fable-5-2", "benchmark_id": "spireclimb", "score": 15.45, "prev": 19.617}], "new_sota": []}
 {"date": "2026-11-14", "run_at": "2026-11-14T06:43:09Z", "new_models": ["gemini-4-hydrogen"], "new_scores": [], "changed": [], "new_sota": []}
 {"date": "2026-11-14", "run_at": "2026-11-14T15:11:05Z", "new_models": [], "new_scores": [], "changed": [{"model_id": "claude-fable-5-2", "benchmark_id": "spireclimb", "score": 15.333, "prev": 15.45}], "new_sota": []}
+{"date": "2026-11-16", "run_at": "2026-11-16T18:40:27Z", "new_models": ["claude-fable-5-2-claude-mythos-5-2"], "new_scores": [], "changed": [], "new_sota": []}
