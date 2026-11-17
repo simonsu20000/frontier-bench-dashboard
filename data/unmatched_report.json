@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T13:37:46Z",
+ "generated_at": "2026-11-17T21:05:38Z",
  "models": [
   {
    "source": "lmarena",
@@ -34,11 +34,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "deepseek-v4-1-flash-1017",
+     "model_id": "deepseek-v4-1-flash",
      "similarity": 1.0
     },
     {
-     "model_id": "deepseek-v4-1-flash",
+     "model_id": "deepseek-v4-1-flash-1017",
      "similarity": 1.0
     },
     {
@@ -107,11 +107,11 @@
      "similarity": 0.6
     },
     {
-     "model_id": "grok-4",
+     "model_id": "grok-4-20",
      "similarity": 0.5
     },
     {
-     "model_id": "grok-4-20",
+     "model_id": "grok-4",
      "similarity": 0.5
     }
    ]
@@ -230,15 +230,15 @@
    ],
    "suggestions": [
     {
-     "model_id": "gpt-3-5-turbo-instruct",
-     "similarity": 0.75
-    },
-    {
      "model_id": "gpt-3-5-turbo-nov-2023",
      "similarity": 0.75
     },
     {
      "model_id": "gpt-3-5-turbo-jan-2024",
+     "similarity": 0.75
+    },
+    {
+     "model_id": "gpt-3-5-turbo-jun-2023",
      "similarity": 0.75
     }
    ]
@@ -277,11 +277,11 @@
      "similarity": 1.0
     },
     {
-     "model_id": "gpt-4o-nov-2024",
+     "model_id": "gpt-4o-jan-2025",
      "similarity": 1.0
     },
     {
-     "model_id": "gpt-4o-jan-2025",
+     "model_id": "gpt-4o-nov-2024",
      "similarity": 1.0
     }
    ]
@@ -304,7 +304,7 @@
      "similarity": 0.75
     },
     {
-     "model_id": "deepseek-v4-1-flash-1017",
+     "model_id": "deepseek-v4-1-flash",
      "similarity": 0.6
     }
    ]
@@ -451,11 +451,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "deepseek-v3-2-exp",
+     "model_id": "deepseek-v3-2",
      "similarity": 1.0
     },
     {
-     "model_id": "deepseek-v3-2",
+     "model_id": "deepseek-v3-2-exp",
      "similarity": 1.0
     },
     {
@@ -474,11 +474,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "deepseek-v3-2-exp",
+     "model_id": "deepseek-v3-2",
      "similarity": 1.0
     },
     {
-     "model_id": "deepseek-v3-2",
+     "model_id": "deepseek-v3-2-exp",
      "similarity": 1.0
     },
     {
@@ -497,11 +497,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "deepseek-v3-2-exp",
+     "model_id": "deepseek-v3-2",
      "similarity": 1.0
     },
     {
-     "model_id": "deepseek-v3-2",
+     "model_id": "deepseek-v3-2-exp",
      "similarity": 1.0
     },
     {
@@ -543,11 +543,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "deepseek-v3-2-exp",
+     "model_id": "deepseek-v3-2",
      "similarity": 1.0
     },
     {
-     "model_id": "deepseek-v3-2",
+     "model_id": "deepseek-v3-2-exp",
      "similarity": 1.0
     },
     {
@@ -589,11 +589,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "kimi-k2-jul-2025",
+     "model_id": "kimi-k2-sep-2025",
      "similarity": 0.75
     },
     {
-     "model_id": "kimi-k2-sep-2025",
+     "model_id": "kimi-k2-jul-2025",
      "similarity": 0.75
     },
     {
@@ -612,11 +612,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "kimi-k2-jul-2025",
+     "model_id": "kimi-k2-sep-2025",
      "similarity": 0.75
     },
     {
-     "model_id": "kimi-k2-sep-2025",
+     "model_id": "kimi-k2-jul-2025",
      "similarity": 0.75
     },
     {
@@ -767,11 +767,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "deepinfra-qwen3-next-80b-a3b-instruct",
+     "model_id": "chutes-qwen3-next-80b-a3b-instruct",
      "similarity": 1.0
     },
     {
-     "model_id": "chutes-qwen3-next-80b-a3b-instruct",
+     "model_id": "deepinfra-qwen3-next-80b-a3b-instruct",
      "similarity": 1.0
     }
    ]
@@ -973,7 +973,7 @@
      "similarity": 1.0
     },
     {
-     "model_id": "gemini-2-5-flash-sep-2025",
+     "model_id": "gemini-2-5-flash-apr-2025",
      "similarity": 0.833
     }
    ]
@@ -1003,11 +1003,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "glm-4-0520",
+     "model_id": "glm-4",
      "similarity": 0.667
     },
     {
-     "model_id": "glm-4",
+     "model_id": "glm-4-0520",
      "similarity": 0.667
     },
     {
@@ -1057,7 +1057,7 @@
      "similarity": 1.0
     },
     {
-     "model_id": "gemini-2-5-flash-sep-2025",
+     "model_id": "gemini-2-5-flash-apr-2025",
      "similarity": 0.833
     }
    ]
@@ -1072,11 +1072,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "claude-3-5-sonnet",
+     "model_id": "claude-3-5-sonnet-october-2024",
      "similarity": 1.0
     },
     {
-     "model_id": "claude-3-5-sonnet-october-2024",
+     "model_id": "claude-3-5-sonnet",
      "similarity": 1.0
     },
     {
@@ -1095,11 +1095,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "deepinfra-qwen3-next-80b-a3b-instruct",
+     "model_id": "chutes-qwen3-next-80b-a3b-instruct",
      "similarity": 0.8
     },
     {
-     "model_id": "chutes-qwen3-next-80b-a3b-instruct",
+     "model_id": "deepinfra-qwen3-next-80b-a3b-instruct",
      "similarity": 0.8
     },
     {
@@ -1235,11 +1235,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "glm-4-0520",
+     "model_id": "glm-4",
      "similarity": 0.667
     },
     {
-     "model_id": "glm-4",
+     "model_id": "glm-4-0520",
      "similarity": 0.667
     },
     {
@@ -1358,15 +1358,15 @@
    ],
    "suggestions": [
     {
-     "model_id": "gpt-4o-aug-2024",
-     "similarity": 1.0
-    },
-    {
-     "model_id": "gpt-4o-may-2024",
-     "similarity": 1.0
-    },
-    {
      "model_id": "gpt-4o-mar-2025",
+     "similarity": 1.0
+    },
+    {
+     "model_id": "gpt-4o-nov-2024",
+     "similarity": 1.0
+    },
+    {
+     "model_id": "gpt-4o-aug-2024",
      "similarity": 1.0
     }
    ]
@@ -1404,11 +1404,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "qwen-plus-apr-2025",
+     "model_id": "qwen-plus-jan-2025",
      "similarity": 1.0
     },
     {
-     "model_id": "qwen-plus-jan-2025",
+     "model_id": "qwen-plus-apr-2025",
      "similarity": 1.0
     },
     {
@@ -1427,11 +1427,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "claude-3-5-sonnet",
+     "model_id": "claude-3-5-sonnet-october-2024",
      "similarity": 1.0
     },
     {
-     "model_id": "claude-3-5-sonnet-october-2024",
+     "model_id": "claude-3-5-sonnet",
      "similarity": 1.0
     },
     {
@@ -1483,11 +1483,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "glm-4-0520",
+     "model_id": "glm-4",
      "similarity": 0.667
     },
     {
-     "model_id": "glm-4",
+     "model_id": "glm-4-0520",
      "similarity": 0.667
     },
     {
@@ -1569,15 +1569,15 @@
    ],
    "suggestions": [
     {
-     "model_id": "gpt-4o-aug-2024",
-     "similarity": 1.0
-    },
-    {
-     "model_id": "gpt-4o-may-2024",
-     "similarity": 1.0
-    },
-    {
      "model_id": "gpt-4o-mar-2025",
+     "similarity": 1.0
+    },
+    {
+     "model_id": "gpt-4o-nov-2024",
+     "similarity": 1.0
+    },
+    {
+     "model_id": "gpt-4o-aug-2024",
      "similarity": 1.0
     }
    ]
@@ -1721,15 +1721,15 @@
    ],
    "suggestions": [
     {
-     "model_id": "deepseek-v2-5-sep-2024",
-     "similarity": 1.0
-    },
-    {
      "model_id": "deepseek-v2-5-dec-2024",
      "similarity": 1.0
     },
     {
-     "model_id": "deepseek-v2-moe-236b-jun-2024",
+     "model_id": "deepseek-v2-5-sep-2024",
+     "similarity": 1.0
+    },
+    {
+     "model_id": "deepseek-v2-moe-236b-may-2024",
      "similarity": 0.667
     }
    ]
@@ -1787,11 +1787,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "glm-4-0520",
+     "model_id": "glm-4",
      "similarity": 0.667
     },
     {
-     "model_id": "glm-4",
+     "model_id": "glm-4-0520",
      "similarity": 0.667
     },
     {
@@ -1919,15 +1919,15 @@
    ],
    "suggestions": [
     {
-     "model_id": "deepseek-v2-5-sep-2024",
-     "similarity": 1.0
-    },
-    {
      "model_id": "deepseek-v2-5-dec-2024",
      "similarity": 1.0
     },
     {
-     "model_id": "deepseek-v2-moe-236b-jun-2024",
+     "model_id": "deepseek-v2-5-sep-2024",
+     "similarity": 1.0
+    },
+    {
+     "model_id": "deepseek-v2-moe-236b-may-2024",
      "similarity": 0.667
     }
    ]
@@ -2289,11 +2289,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "glm-4-0520",
+     "model_id": "glm-4",
      "similarity": 1.0
     },
     {
-     "model_id": "glm-4",
+     "model_id": "glm-4-0520",
      "similarity": 1.0
     },
     {
@@ -2455,15 +2455,15 @@
    ],
    "suggestions": [
     {
-     "model_id": "gpt-3-5-turbo-instruct",
-     "similarity": 1.0
-    },
-    {
      "model_id": "gpt-3-5-turbo-nov-2023",
      "similarity": 1.0
     },
     {
      "model_id": "gpt-3-5-turbo-jan-2024",
+     "similarity": 1.0
+    },
+    {
+     "model_id": "gpt-3-5-turbo-jun-2023",
      "similarity": 1.0
     }
    ]
@@ -2559,15 +2559,15 @@
    ],
    "suggestions": [
     {
-     "model_id": "gpt-3-5-turbo-instruct",
-     "similarity": 1.0
-    },
-    {
      "model_id": "gpt-3-5-turbo-nov-2023",
      "similarity": 1.0
     },
     {
      "model_id": "gpt-3-5-turbo-jan-2024",
+     "similarity": 1.0
+    },
+    {
+     "model_id": "gpt-3-5-turbo-jun-2023",
      "similarity": 1.0
     }
    ]
@@ -3158,6 +3158,63 @@
   },
   {
    "source": "arcprize",
+   "name": "GPT-6.2 Astra - Provider Adapter (XHigh)",
+   "count": 1,
+   "best_score": 100.0,
+   "benchmarks": [
+    "arc-agi-3"
+   ],
+   "suggestions": [
+    {
+     "model_id": "gpt-6-2-astra",
+     "similarity": 0.667
+    },
+    {
+     "model_id": "gpt-6-astra",
+     "similarity": 0.5
+    }
+   ]
+  },
+  {
+   "source": "arcprize",
+   "name": "GPT-6.2 Astra - Provider Adapter (Max)",
+   "count": 1,
+   "best_score": 99.80414425292128,
+   "benchmarks": [
+    "arc-agi-3"
+   ],
+   "suggestions": [
+    {
+     "model_id": "gpt-6-2-astra",
+     "similarity": 0.667
+    },
+    {
+     "model_id": "gpt-6-astra",
+     "similarity": 0.5
+    }
+   ]
+  },
+  {
+   "source": "arcprize",
+   "name": "GPT-6.2 Astra - Provider Adapter (High)",
+   "count": 1,
+   "best_score": 99.79754933183767,
+   "benchmarks": [
+    "arc-agi-3"
+   ],
+   "suggestions": [
+    {
+     "model_id": "gpt-6-2-astra",
+     "similarity": 0.667
+    },
+    {
+     "model_id": "gpt-6-astra",
+     "similarity": 0.5
+    }
+   ]
+  },
+  {
+   "source": "arcprize",
    "name": "Gemini 4 Carbon - Provider Adapter (Medium)",
    "count": 1,
    "best_score": 99.08609363503959,
@@ -3173,6 +3230,40 @@
   },
   {
    "source": "arcprize",
+   "name": "GPT-6.2 Sol - Provider Adapter (Max)",
+   "count": 1,
+   "best_score": 98.20880465421105,
+   "benchmarks": [
+    "arc-agi-3"
+   ],
+   "suggestions": [
+    {
+     "model_id": "gpt-6-sol",
+     "similarity": 0.5
+    }
+   ]
+  },
+  {
+   "source": "arcprize",
+   "name": "GPT-6.2 Astra - Provider Adapter (Medium)",
+   "count": 1,
+   "best_score": 97.79171387477072,
+   "benchmarks": [
+    "arc-agi-3"
+   ],
+   "suggestions": [
+    {
+     "model_id": "gpt-6-2-astra",
+     "similarity": 0.667
+    },
+    {
+     "model_id": "gpt-6-astra",
+     "similarity": 0.5
+    }
+   ]
+  },
+  {
+   "source": "arcprize",
    "name": "Claude Fable 5.2 - Provider Adapter (High)",
    "count": 1,
    "best_score": 97.7223543562379,
@@ -3181,7 +3272,7 @@
    ],
    "suggestions": [
     {
-     "model_id": "claude-fable-5-2-claude-mythos-5-2",
+     "model_id": "claude-fable-5-2",
      "similarity": 0.667
     },
     {
@@ -3207,6 +3298,56 @@
   },
   {
    "source": "arcprize",
+   "name": "GPT-6.2 Sol (High)",
+   "count": 3,
+   "best_score": 97.5,
+   "benchmarks": [
+    "arc-agi-1",
+    "arc-agi-2",
+    "arc-agi-3"
+   ],
+   "suggestions": [
+    {
+     "model_id": "gpt-6-sol",
+     "similarity": 0.75
+    },
+    {
+     "model_id": "gpt-5-6-sol",
+     "similarity": 0.6
+    },
+    {
+     "model_id": "gpt-6-1-sol",
+     "similarity": 0.6
+    }
+   ]
+  },
+  {
+   "source": "arcprize",
+   "name": "GPT-6.2 Sol (Max)",
+   "count": 3,
+   "best_score": 97.5,
+   "benchmarks": [
+    "arc-agi-1",
+    "arc-agi-2",
+    "arc-agi-3"
+   ],
+   "suggestions": [
+    {
+     "model_id": "gpt-6-sol",
+     "similarity": 0.75
+    },
+    {
+     "model_id": "gpt-5-6-sol",
+     "similarity": 0.6
+    },
+    {
+     "model_id": "gpt-6-1-sol",
+     "similarity": 0.6
+    }
+   ]
+  },
+  {
+   "source": "arcprize",
    "name": "Gemini 4 Argon - Provider Adapter (Low)",
    "count": 1,
    "best_score": 97.4591718377776,
@@ -3217,6 +3358,21 @@
     {
      "model_id": "gemini-4-argon",
      "similarity": 0.6
+    }
+   ]
+  },
+  {
+   "source": "arcprize",
+   "name": "GPT-6.2 Sol - Provider Adapter (XHigh)",
+   "count": 1,
+   "best_score": 97.3711845954669,
+   "benchmarks": [
+    "arc-agi-3"
+   ],
+   "suggestions": [
+    {
+     "model_id": "gpt-6-sol",
+     "similarity": 0.5
     }
    ]
   },
@@ -3260,12 +3416,37 @@
    ],
    "suggestions": [
     {
-     "model_id": "claude-fable-5-2-claude-mythos-5-2",
+     "model_id": "claude-fable-5-2",
      "similarity": 0.667
     },
     {
      "model_id": "claude-fable-5",
      "similarity": 0.5
+    }
+   ]
+  },
+  {
+   "source": "arcprize",
+   "name": "GPT-6.2 Sol (XHigh)",
+   "count": 3,
+   "best_score": 97.0,
+   "benchmarks": [
+    "arc-agi-1",
+    "arc-agi-2",
+    "arc-agi-3"
+   ],
+   "suggestions": [
+    {
+     "model_id": "gpt-6-sol",
+     "similarity": 0.75
+    },
+    {
+     "model_id": "gpt-5-6-sol",
+     "similarity": 0.6
+    },
+    {
+     "model_id": "gpt-6-1-sol",
+     "similarity": 0.6
     }
    ]
   },
@@ -3294,7 +3475,7 @@
    ],
    "suggestions": [
     {
-     "model_id": "claude-fable-5-2-claude-mythos-5-2",
+     "model_id": "claude-fable-5-2",
      "similarity": 0.667
     },
     {
@@ -3343,6 +3524,25 @@
   },
   {
    "source": "arcprize",
+   "name": "GPT-6.2 Astra - Provider Adapter (Low)",
+   "count": 1,
+   "best_score": 95.09489790948221,
+   "benchmarks": [
+    "arc-agi-3"
+   ],
+   "suggestions": [
+    {
+     "model_id": "gpt-6-2-astra",
+     "similarity": 0.667
+    },
+    {
+     "model_id": "gpt-6-astra",
+     "similarity": 0.5
+    }
+   ]
+  },
+  {
+   "source": "arcprize",
    "name": "GPT-6.1 Sol - Provider Adapter (High)",
    "count": 1,
    "best_score": 94.99362560053225,
@@ -3370,12 +3570,37 @@
    ],
    "suggestions": [
     {
-     "model_id": "claude-fable-5-2-claude-mythos-5-2",
+     "model_id": "claude-fable-5-2",
      "similarity": 0.667
     },
     {
      "model_id": "claude-fable-5",
      "similarity": 0.5
+    }
+   ]
+  },
+  {
+   "source": "arcprize",
+   "name": "GPT-6.2 Sol (Medium)",
+   "count": 3,
+   "best_score": 94.5,
+   "benchmarks": [
+    "arc-agi-1",
+    "arc-agi-2",
+    "arc-agi-3"
+   ],
+   "suggestions": [
+    {
+     "model_id": "gpt-6-sol",
+     "similarity": 0.75
+    },
+    {
+     "model_id": "gpt-5-6-sol",
+     "similarity": 0.6
+    },
+    {
+     "model_id": "gpt-6-1-sol",
+     "similarity": 0.6
     }
    ]
   },
@@ -3389,7 +3614,7 @@
    ],
    "suggestions": [
     {
-     "model_id": "claude-fable-5-2-claude-mythos-5-2",
+     "model_id": "claude-fable-5-2",
      "similarity": 0.667
     },
     {
@@ -3419,6 +3644,21 @@
   },
   {
    "source": "arcprize",
+   "name": "GPT-6.2 Sol - Provider Adapter (High)",
+   "count": 1,
+   "best_score": 90.06104570787178,
+   "benchmarks": [
+    "arc-agi-3"
+   ],
+   "suggestions": [
+    {
+     "model_id": "gpt-6-sol",
+     "similarity": 0.5
+    }
+   ]
+  },
+  {
+   "source": "arcprize",
    "name": "Mercury 3 Preview (High)",
    "count": 3,
    "best_score": 88.5,
@@ -3431,6 +3671,21 @@
   },
   {
    "source": "arcprize",
+   "name": "GPT-6.2 Sol - Provider Adapter (Medium)",
+   "count": 1,
+   "best_score": 84.75988070307785,
+   "benchmarks": [
+    "arc-agi-3"
+   ],
+   "suggestions": [
+    {
+     "model_id": "gpt-6-sol",
+     "similarity": 0.5
+    }
+   ]
+  },
+  {
+   "source": "arcprize",
    "name": "Mercury 3 Preview (Medium)",
    "count": 2,
    "best_score": 84.66666666666666,
@@ -3439,6 +3694,31 @@
     "arc-agi-2"
    ],
    "suggestions": []
+  },
+  {
+   "source": "arcprize",
+   "name": "GPT-6.2 Sol (Low)",
+   "count": 3,
+   "best_score": 84.0,
+   "benchmarks": [
+    "arc-agi-1",
+    "arc-agi-2",
+    "arc-agi-3"
+   ],
+   "suggestions": [
+    {
+     "model_id": "gpt-6-sol",
+     "similarity": 0.75
+    },
+    {
+     "model_id": "gpt-5-6-sol",
+     "similarity": 0.6
+    },
+    {
+     "model_id": "gpt-6-1-sol",
+     "similarity": 0.6
+    }
+   ]
   },
   {
    "source": "arcprize",
@@ -3576,7 +3856,7 @@
      "similarity": 0.75
     },
     {
-     "model_id": "deepseek-v4-1-flash-1017",
+     "model_id": "deepseek-v4-1-flash",
      "similarity": 0.6
     }
    ]
@@ -3614,7 +3894,7 @@
      "similarity": 0.6
     },
     {
-     "model_id": "claude-3-5-sonnet",
+     "model_id": "claude-3-5-sonnet-october-2024",
      "similarity": 0.5
     }
    ]
@@ -3649,11 +3929,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "claude-3-5-sonnet",
+     "model_id": "claude-3-5-sonnet-october-2024",
      "similarity": 0.667
     },
     {
-     "model_id": "claude-3-5-sonnet-october-2024",
+     "model_id": "claude-3-5-sonnet",
      "similarity": 0.667
     },
     {
@@ -3756,11 +4036,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "deepinfra-qwen3-next-80b-a3b-instruct",
+     "model_id": "chutes-qwen3-next-80b-a3b-instruct",
      "similarity": 1.0
     },
     {
-     "model_id": "chutes-qwen3-next-80b-a3b-instruct",
+     "model_id": "deepinfra-qwen3-next-80b-a3b-instruct",
      "similarity": 1.0
     }
    ]
@@ -3787,11 +4067,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "baichuan2-13b-chat",
+     "model_id": "baichuan2-13b",
      "similarity": 1.0
     },
     {
-     "model_id": "baichuan2-13b",
+     "model_id": "baichuan2-13b-chat",
      "similarity": 1.0
     }
    ]
@@ -3805,6 +4085,21 @@
     "aider-polyglot"
    ],
    "suggestions": []
+  },
+  {
+   "source": "arcprize",
+   "name": "GPT-6.2 Sol - Provider Adapter (Low)",
+   "count": 1,
+   "best_score": 54.41425541900783,
+   "benchmarks": [
+    "arc-agi-3"
+   ],
+   "suggestions": [
+    {
+     "model_id": "gpt-6-sol",
+     "similarity": 0.5
+    }
+   ]
   },
   {
    "source": "swebench",
@@ -3929,11 +4224,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "deepinfra-qwen3-next-80b-a3b-instruct",
+     "model_id": "chutes-qwen3-next-80b-a3b-instruct",
      "similarity": 1.0
     },
     {
-     "model_id": "chutes-qwen3-next-80b-a3b-instruct",
+     "model_id": "deepinfra-qwen3-next-80b-a3b-instruct",
      "similarity": 1.0
     }
    ]
@@ -3968,15 +4263,15 @@
    ],
    "suggestions": [
     {
-     "model_id": "gpt-4o-aug-2024",
-     "similarity": 1.0
-    },
-    {
-     "model_id": "gpt-4o-may-2024",
-     "similarity": 1.0
-    },
-    {
      "model_id": "gpt-4o-mar-2025",
+     "similarity": 1.0
+    },
+    {
+     "model_id": "gpt-4o-nov-2024",
+     "similarity": 1.0
+    },
+    {
+     "model_id": "gpt-4o-aug-2024",
      "similarity": 1.0
     }
    ]
@@ -4018,7 +4313,7 @@
      "similarity": 0.6
     },
     {
-     "model_id": "claude-3-5-sonnet",
+     "model_id": "claude-3-5-sonnet-october-2024",
      "similarity": 0.5
     }
    ]
@@ -4206,15 +4501,15 @@
    ],
    "suggestions": [
     {
-     "model_id": "gpt-4o-aug-2024",
-     "similarity": 1.0
-    },
-    {
-     "model_id": "gpt-4o-may-2024",
-     "similarity": 1.0
-    },
-    {
      "model_id": "gpt-4o-mar-2025",
+     "similarity": 1.0
+    },
+    {
+     "model_id": "gpt-4o-nov-2024",
+     "similarity": 1.0
+    },
+    {
+     "model_id": "gpt-4o-aug-2024",
      "similarity": 1.0
     }
    ]
@@ -4447,11 +4742,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "deepseek-v4-1-flash-1017",
+     "model_id": "deepseek-v4-1-flash",
      "similarity": 0.571
     },
     {
-     "model_id": "deepseek-v4-1-flash",
+     "model_id": "deepseek-v4-1-flash-1017",
      "similarity": 0.571
     }
    ]
@@ -4517,7 +4812,7 @@
      "similarity": 0.6
     },
     {
-     "model_id": "claude-3-5-sonnet",
+     "model_id": "claude-3-5-sonnet-october-2024",
      "similarity": 0.5
     }
    ]
@@ -4532,11 +4827,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "deepseek-v4-1-flash-1017",
+     "model_id": "deepseek-v4-1-flash",
      "similarity": 0.667
     },
     {
-     "model_id": "deepseek-v4-1-flash",
+     "model_id": "deepseek-v4-1-flash-1017",
      "similarity": 0.667
     },
     {
@@ -4555,11 +4850,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "deepseek-v4-1-flash-1017",
+     "model_id": "deepseek-v4-1-flash",
      "similarity": 0.667
     },
     {
-     "model_id": "deepseek-v4-1-flash",
+     "model_id": "deepseek-v4-1-flash-1017",
      "similarity": 0.667
     },
     {
@@ -4601,11 +4896,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "deepseek-v4-1-flash-1017",
+     "model_id": "deepseek-v4-1-flash",
      "similarity": 0.667
     },
     {
-     "model_id": "deepseek-v4-1-flash",
+     "model_id": "deepseek-v4-1-flash-1017",
      "similarity": 0.667
     },
     {
@@ -4789,7 +5084,7 @@
      "similarity": 0.6
     },
     {
-     "model_id": "claude-3-5-sonnet",
+     "model_id": "claude-3-5-sonnet-october-2024",
      "similarity": 0.5
     }
    ]
@@ -4865,11 +5160,11 @@
    ],
    "suggestions": [
     {
-     "model_id": "deepseek-v4-1-flash-1017",
+     "model_id": "deepseek-v4-1-flash",
      "similarity": 0.667
     },
     {
-     "model_id": "deepseek-v4-1-flash",
+     "model_id": "deepseek-v4-1-flash-1017",
      "similarity": 0.667
     },
     {
@@ -4903,15 +5198,15 @@
    ],
    "suggestions": [
     {
-     "model_id": "gpt-3-5-turbo-instruct",
-     "similarity": 0.75
-    },
-    {
      "model_id": "gpt-3-5-turbo-nov-2023",
      "similarity": 0.75
     },
     {
      "model_id": "gpt-3-5-turbo-jan-2024",
+     "similarity": 0.75
+    },
+    {
+     "model_id": "gpt-3-5-turbo-jun-2023",
      "similarity": 0.75
     }
    ]
